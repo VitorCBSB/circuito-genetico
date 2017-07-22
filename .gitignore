@@ -1,0 +1,17 @@
+incremental_db/
+output_files/
+simulation/
+qar_info.json
+resultado.txt
+*.bak
+*.qws
+*.fit.*
+*.map.*
+*.asm.*
+*.sta.*
+*.jdi
+*.pin
+*.pof
+*.sof
+*.done
+*.flow.*

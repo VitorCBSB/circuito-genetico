@@ -1,0 +1,182 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst testeio.hps_0.i2c3 -pg 1
+preplace inst testeio.hps_0.f2s_periph_ref_clk -pg 1
+preplace inst testeio.done_processing_chrom -pg 1 -lvl 3 -y 2130
+preplace inst testeio.hps_0.arm_a9_0 -pg 1
+preplace inst testeio.done_processing_feedback -pg 1 -lvl 3 -y 1830
+preplace inst testeio.hps_0.arm_a9_1 -pg 1
+preplace inst testeio.hps_0.rstmgr -pg 1
+preplace inst testeio.hps_0.hps_io -pg 1
+preplace inst testeio.input_sequence_0 -pg 1 -lvl 3 -y 930
+preplace inst testeio.chrom_seg_0 -pg 1 -lvl 3 -y 3130
+preplace inst testeio.hps_0.f2s_sdram_ref_clk -pg 1
+preplace inst testeio.input_sequence_1 -pg 1 -lvl 3 -y 1030
+preplace inst testeio.hps_0.spim0 -pg 1
+preplace inst testeio.chrom_seg_1 -pg 1 -lvl 3 -y 1530
+preplace inst testeio -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst testeio.input_sequence_2 -pg 1 -lvl 3 -y 1730
+preplace inst testeio.hps_0.spim1 -pg 1
+preplace inst testeio.chrom_seg_2 -pg 1 -lvl 3 -y 3230
+preplace inst testeio.input_sequence_3 -pg 1 -lvl 3 -y 3930
+preplace inst testeio.chrom_seg_3 -pg 1 -lvl 3 -y 3330
+preplace inst testeio.chrom_seg_4 -pg 1 -lvl 3 -y 3430
+preplace inst testeio.hps_0.sdrctl -pg 1
+preplace inst testeio.chrom_seg_5 -pg 1 -lvl 3 -y 3530
+preplace inst testeio.chrom_seg_20 -pg 1 -lvl 3 -y 4230
+preplace inst testeio.chrom_seg_6 -pg 1 -lvl 3 -y 3630
+preplace inst testeio.start_processing_chrom -pg 1 -lvl 3 -y 2430
+preplace inst testeio.hps_0.arm_gic_0 -pg 1
+preplace inst testeio.chrom_seg_7 -pg 1 -lvl 3 -y 5530
+preplace inst testeio.error_sum_0 -pg 1 -lvl 3 -y 130
+preplace inst testeio.chrom_seg_21 -pg 1 -lvl 3 -y 4330
+preplace inst testeio.hps_0.usb0 -pg 1
+preplace inst testeio.chrom_seg_8 -pg 1 -lvl 3 -y 5330
+preplace inst testeio.error_sum_1 -pg 1 -lvl 3 -y 330
+preplace inst testeio.chrom_seg_22 -pg 1 -lvl 3 -y 4430
+preplace inst testeio.hps_0.usb1 -pg 1
+preplace inst testeio.hps_0.nand0 -pg 1
+preplace inst testeio.hps_0.uart0 -pg 1
+preplace inst testeio.hps_0.hps_io.border -pg 1
+preplace inst testeio.error_sum_2 -pg 1 -lvl 3 -y 530
+preplace inst testeio.chrom_seg_23 -pg 1 -lvl 3 -y 4530
+preplace inst testeio.chrom_seg_9 -pg 1 -lvl 3 -y 5430
+preplace inst testeio.hps_0.uart1 -pg 1
+preplace inst testeio.hps_0.sysmgr -pg 1
+preplace inst testeio.error_sum_3 -pg 1 -lvl 3 -y 1230
+preplace inst testeio.chrom_seg_24 -pg 1 -lvl 3 -y 4630
+preplace inst testeio.hps_0.sdmmc -pg 1
+preplace inst testeio.hps_0.wd_timer0 -pg 1
+preplace inst testeio.error_sum_4 -pg 1 -lvl 3 -y 1330
+preplace inst testeio.chrom_seg_25 -pg 1 -lvl 3 -y 4730
+preplace inst testeio.hps_0.fpga_interfaces -pg 1
+preplace inst testeio.hps_0.wd_timer1 -pg 1
+preplace inst testeio.error_sum_5 -pg 1 -lvl 3 -y 5630
+preplace inst testeio.chrom_seg_26 -pg 1 -lvl 3 -y 4830
+preplace inst testeio.hps_0.dma -pg 1
+preplace inst testeio.chrom_seg_30 -pg 1 -lvl 3 -y 5230
+preplace inst testeio.error_sum_6 -pg 1 -lvl 3 -y 5730
+preplace inst testeio.chrom_seg_27 -pg 1 -lvl 3 -y 4930
+preplace inst testeio.hps_0.fpgamgr -pg 1
+preplace inst testeio.error_sum_7 -pg 1 -lvl 3 -y 5830
+preplace inst testeio.chrom_seg_28 -pg 1 -lvl 3 -y 5030
+preplace inst testeio.expected_result_0 -pg 1 -lvl 3 -y 730
+preplace inst testeio.chrom_seg_29 -pg 1 -lvl 3 -y 5130
+preplace inst testeio.hps_0.scu -pg 1
+preplace inst testeio.hps_0.gmac0 -pg 1
+preplace inst testeio.expected_result_1 -pg 1 -lvl 3 -y 830
+preplace inst testeio.hps_0.gmac1 -pg 1
+preplace inst testeio.expected_result_2 -pg 1 -lvl 3 -y 1130
+preplace inst testeio.hps_0.axi_sdram -pg 1
+preplace inst testeio.hps_0 -pg 1 -lvl 2 -y 1740
+preplace inst testeio.expected_result_3 -pg 1 -lvl 3 -y 1430
+preplace inst testeio.hps_0.qspi -pg 1
+preplace inst testeio.expected_result_4 -pg 1 -lvl 3 -y 1930
+preplace inst testeio.expected_result_5 -pg 1 -lvl 3 -y 2230
+preplace inst testeio.hps_0.timer0 -pg 1
+preplace inst testeio.expected_result_6 -pg 1 -lvl 3 -y 2930
+preplace inst testeio.chrom_seg_10 -pg 1 -lvl 3 -y 1630
+preplace inst testeio.hps_0.axi_ocram -pg 1
+preplace inst testeio.hps_0.timer1 -pg 1
+preplace inst testeio.expected_result_7 -pg 1 -lvl 3 -y 3030
+preplace inst testeio.chrom_seg_11 -pg 1 -lvl 3 -y 2330
+preplace inst testeio.hps_0.timer2 -pg 1
+preplace inst testeio.chrom_seg_12 -pg 1 -lvl 3 -y 2530
+preplace inst testeio.hps_0.timer3 -pg 1
+preplace inst testeio.hps_0.L2 -pg 1
+preplace inst testeio.chrom_seg_13 -pg 1 -lvl 3 -y 2630
+preplace inst testeio.chrom_seg_14 -pg 1 -lvl 3 -y 2730
+preplace inst testeio.chrom_seg_15 -pg 1 -lvl 3 -y 2830
+preplace inst testeio.chrom_seg_16 -pg 1 -lvl 3 -y 3730
+preplace inst testeio.hps_0.l3regs -pg 1
+preplace inst testeio.expected_output_0 -pg 1 -lvl 3 -y 30
+preplace inst testeio.chrom_seg_17 -pg 1 -lvl 3 -y 3830
+preplace inst testeio.ready_to_process -pg 1 -lvl 3 -y 2030
+preplace inst testeio.hps_0.gpio0 -pg 1
+preplace inst testeio.expected_output_1 -pg 1 -lvl 3 -y 230
+preplace inst testeio.chrom_seg_18 -pg 1 -lvl 3 -y 4030
+preplace inst testeio.hps_0.clk_0 -pg 1
+preplace inst testeio.hps_0.timer -pg 1
+preplace inst testeio.hps_0.gpio1 -pg 1
+preplace inst testeio.expected_output_2 -pg 1 -lvl 3 -y 430
+preplace inst testeio.chrom_seg_19 -pg 1 -lvl 3 -y 4130
+preplace inst testeio.hps_0.bridges -pg 1
+preplace inst testeio.hps_0.dcan0 -pg 1
+preplace inst testeio.hps_0.gpio2 -pg 1
+preplace inst testeio.expected_output_3 -pg 1 -lvl 3 -y 630
+preplace inst testeio.hps_0.dcan1 -pg 1
+preplace inst testeio.hps_0.i2c0 -pg 1
+preplace inst testeio.hps_0.eosc1 -pg 1
+preplace inst testeio.hps_0.i2c1 -pg 1
+preplace inst testeio.hps_0.eosc2 -pg 1
+preplace inst testeio.hps_0.i2c2 -pg 1
+preplace inst testeio.hps_0.clkmgr -pg 1
+preplace inst testeio.clk_0 -pg 1 -lvl 1 -y 1710
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.start_processing_chrom,(SLAVE)start_processing_chrom.external_connection) 1 0 3 NJ 2460 NJ 2460 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_28.external_connection,(SLAVE)testeio.chrom_seg_28) 1 0 3 NJ 4980 NJ 4980 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_3.external_connection,(SLAVE)testeio.chrom_seg_3) 1 0 3 NJ 3280 NJ 3280 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.expected_result_4,(SLAVE)expected_result_4.external_connection) 1 0 3 NJ 1700 NJ 1700 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.error_sum_5,(SLAVE)error_sum_5.external_connection) 1 0 3 NJ 5660 NJ 5660 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)error_sum_1.external_connection,(SLAVE)testeio.error_sum_1) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_output_0.external_connection,(SLAVE)testeio.expected_output_0) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_30.external_connection,(SLAVE)testeio.chrom_seg_30) 1 0 3 NJ 5260 NJ 5260 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_0,(SLAVE)chrom_seg_0.external_connection) 1 0 3 NJ 3080 NJ 3080 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_output_2.external_connection,(SLAVE)testeio.expected_output_2) 1 0 3 NJ 460 NJ 460 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_14.external_connection,(SLAVE)testeio.chrom_seg_14) 1 0 3 NJ 2680 NJ 2680 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_11,(SLAVE)chrom_seg_11.external_connection) 1 0 3 NJ 2280 NJ 2280 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.expected_result_3,(SLAVE)expected_result_3.external_connection) 1 0 3 NJ 1460 NJ 1460 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_22.external_connection,(SLAVE)testeio.chrom_seg_22) 1 0 3 NJ 4380 NJ 4380 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_18,(SLAVE)chrom_seg_18.external_connection) 1 0 3 NJ 3740 NJ 3740 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.input_sequence_1,(SLAVE)input_sequence_1.external_connection) 1 0 3 NJ 1060 NJ 1060 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.expected_result_1,(SLAVE)expected_result_1.external_connection) 1 0 3 NJ 860 NJ 860 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)error_sum_3.external_connection,(SLAVE)testeio.error_sum_3) 1 0 3 NJ 1260 NJ 1260 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_5,(SLAVE)chrom_seg_5.external_connection) 1 0 3 NJ 3560 NJ 3560 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_23.external_connection,(SLAVE)testeio.chrom_seg_23) 1 0 3 NJ 4560 NJ 4560 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_output_3.external_connection,(SLAVE)testeio.expected_output_3) 1 0 3 NJ 660 NJ 660 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_2.external_connection,(SLAVE)testeio.chrom_seg_2) 1 0 3 NJ 3260 NJ 3260 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_result_6.external_connection,(SLAVE)testeio.expected_result_6) 1 0 3 NJ 2960 NJ 2960 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_15,(SLAVE)chrom_seg_15.external_connection) 1 0 3 NJ 2700 NJ 2700 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)hps_0.hps_io,(SLAVE)testeio.hps_io) 1 0 2 NJ 1800 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)done_processing_feedback.external_connection,(SLAVE)testeio.done_processing_feedback) 1 0 3 NJ 1820 NJ 1920 NJ
+preplace netloc FAN_OUT<net_container>testeio</net_container>(SLAVE)done_processing_chrom.clk,(SLAVE)expected_result_4.clk,(SLAVE)ready_to_process.clk,(SLAVE)chrom_seg_1.clk,(SLAVE)chrom_seg_14.clk,(SLAVE)chrom_seg_21.clk,(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)chrom_seg_17.clk,(SLAVE)error_sum_0.clk,(SLAVE)expected_result_7.clk,(SLAVE)start_processing_chrom.clk,(SLAVE)error_sum_3.clk,(SLAVE)done_processing_feedback.clk,(SLAVE)input_sequence_3.clk,(SLAVE)hps_0.f2h_axi_clock,(SLAVE)chrom_seg_25.clk,(SLAVE)chrom_seg_3.clk,(SLAVE)error_sum_4.clk,(MASTER)clk_0.clk,(SLAVE)chrom_seg_6.clk,(SLAVE)chrom_seg_27.clk,(SLAVE)input_sequence_2.clk,(SLAVE)expected_output_0.clk,(SLAVE)expected_result_2.clk,(SLAVE)chrom_seg_8.clk,(SLAVE)input_sequence_1.clk,(SLAVE)chrom_seg_29.clk,(SLAVE)expected_result_1.clk,(SLAVE)expected_result_5.clk,(SLAVE)expected_output_1.clk,(SLAVE)expected_result_6.clk,(SLAVE)chrom_seg_22.clk,(SLAVE)chrom_seg_20.clk,(SLAVE)input_sequence_0.clk,(SLAVE)chrom_seg_18.clk,(SLAVE)chrom_seg_15.clk,(SLAVE)expected_output_2.clk,(SLAVE)chrom_seg_2.clk,(SLAVE)chrom_seg_19.clk,(SLAVE)error_sum_7.clk,(SLAVE)chrom_seg_0.clk,(SLAVE)chrom_seg_24.clk,(SLAVE)expected_result_3.clk,(SLAVE)error_sum_6.clk,(SLAVE)chrom_seg_9.clk,(SLAVE)chrom_seg_26.clk,(SLAVE)chrom_seg_30.clk,(SLAVE)error_sum_2.clk,(SLAVE)chrom_seg_10.clk,(SLAVE)chrom_seg_5.clk,(SLAVE)error_sum_1.clk,(SLAVE)chrom_seg_12.clk,(SLAVE)expected_result_0.clk,(SLAVE)chrom_seg_7.clk,(SLAVE)chrom_seg_11.clk,(SLAVE)chrom_seg_28.clk,(SLAVE)error_sum_5.clk,(SLAVE)chrom_seg_23.clk,(SLAVE)expected_output_3.clk,(SLAVE)chrom_seg_16.clk,(SLAVE)chrom_seg_13.clk,(SLAVE)hps_0.h2f_axi_clock,(SLAVE)chrom_seg_4.clk) 1 1 2 450 1900 860
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)input_sequence_3.external_connection,(SLAVE)testeio.input_sequence_3) 1 0 3 NJ 3720 NJ 3720 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.error_sum_7,(SLAVE)error_sum_7.external_connection) 1 0 3 NJ 5860 NJ 5860 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)ready_to_process.external_connection,(SLAVE)testeio.ready_to_process) 1 0 3 NJ 1940 NJ 1940 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_25,(SLAVE)chrom_seg_25.external_connection) 1 0 3 NJ 4680 NJ 4680 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_29,(SLAVE)chrom_seg_29.external_connection) 1 0 3 NJ 5160 NJ 5160 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_10.external_connection,(SLAVE)testeio.chrom_seg_10) 1 0 3 NJ 1660 NJ 1660 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.error_sum_2,(SLAVE)error_sum_2.external_connection) 1 0 3 NJ 560 NJ 560 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_9.external_connection,(SLAVE)testeio.chrom_seg_9) 1 0 3 NJ 5460 NJ 5460 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.input_sequence_2,(SLAVE)input_sequence_2.external_connection) 1 0 3 NJ 1680 NJ 1680 NJ
+preplace netloc FAN_OUT<net_container>testeio</net_container>(SLAVE)chrom_seg_0.reset,(SLAVE)chrom_seg_5.reset,(SLAVE)chrom_seg_8.reset,(SLAVE)done_processing_chrom.reset,(SLAVE)chrom_seg_16.reset,(SLAVE)chrom_seg_27.reset,(SLAVE)expected_result_5.reset,(SLAVE)expected_result_3.reset,(SLAVE)chrom_seg_28.reset,(SLAVE)chrom_seg_29.reset,(SLAVE)start_processing_chrom.reset,(SLAVE)ready_to_process.reset,(SLAVE)chrom_seg_14.reset,(SLAVE)error_sum_3.reset,(SLAVE)chrom_seg_12.reset,(SLAVE)expected_result_1.reset,(SLAVE)chrom_seg_18.reset,(SLAVE)input_sequence_3.reset,(SLAVE)chrom_seg_1.reset,(SLAVE)chrom_seg_7.reset,(SLAVE)expected_result_6.reset,(SLAVE)expected_output_3.reset,(SLAVE)input_sequence_1.reset,(SLAVE)chrom_seg_10.reset,(SLAVE)chrom_seg_30.reset,(SLAVE)chrom_seg_25.reset,(SLAVE)chrom_seg_9.reset,(SLAVE)chrom_seg_24.reset,(SLAVE)chrom_seg_2.reset,(SLAVE)expected_output_1.reset,(SLAVE)chrom_seg_15.reset,(SLAVE)expected_result_4.reset,(SLAVE)expected_result_7.reset,(MASTER)hps_0.h2f_reset,(SLAVE)expected_result_2.reset,(SLAVE)error_sum_6.reset,(SLAVE)chrom_seg_26.reset,(SLAVE)chrom_seg_4.reset,(SLAVE)expected_output_2.reset,(SLAVE)input_sequence_2.reset,(SLAVE)chrom_seg_13.reset,(SLAVE)expected_result_0.reset,(SLAVE)error_sum_1.reset,(SLAVE)chrom_seg_20.reset,(SLAVE)chrom_seg_11.reset,(SLAVE)chrom_seg_21.reset,(SLAVE)chrom_seg_3.reset,(SLAVE)chrom_seg_23.reset,(SLAVE)expected_output_0.reset,(SLAVE)error_sum_2.reset,(SLAVE)input_sequence_0.reset,(SLAVE)chrom_seg_6.reset,(SLAVE)chrom_seg_22.reset,(SLAVE)error_sum_4.reset,(SLAVE)done_processing_feedback.reset,(SLAVE)chrom_seg_17.reset,(SLAVE)chrom_seg_19.reset,(SLAVE)error_sum_0.reset,(SLAVE)error_sum_5.reset,(SLAVE)error_sum_7.reset) 1 2 1 920
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_result_5.external_connection,(SLAVE)testeio.expected_result_5) 1 0 3 NJ 2260 NJ 2260 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_result_2.external_connection,(SLAVE)testeio.expected_result_2) 1 0 3 NJ 1160 NJ 1160 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_result_0.external_connection,(SLAVE)testeio.expected_result_0) 1 0 3 NJ 760 NJ 760 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_26,(SLAVE)chrom_seg_26.external_connection) 1 0 3 NJ 4860 NJ 4860 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_24,(SLAVE)chrom_seg_24.external_connection) 1 0 3 NJ 4660 NJ 4660 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.input_sequence_0,(SLAVE)input_sequence_0.external_connection) 1 0 3 NJ 960 NJ 960 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_13,(SLAVE)chrom_seg_13.external_connection) 1 0 3 NJ 2660 NJ 2660 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)hps_0.memory,(SLAVE)testeio.memory) 1 0 2 NJ 1780 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)done_processing_chrom.external_connection,(SLAVE)testeio.done_processing_chrom) 1 0 3 NJ 1960 NJ 1960 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_6.external_connection,(SLAVE)testeio.chrom_seg_6) 1 0 3 NJ 3660 NJ 3660 NJ
+preplace netloc FAN_OUT<net_container>testeio</net_container>(SLAVE)chrom_seg_18.s1,(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)done_processing_chrom.s1,(SLAVE)error_sum_4.s1,(SLAVE)expected_result_1.s1,(SLAVE)error_sum_2.s1,(SLAVE)chrom_seg_15.s1,(SLAVE)chrom_seg_28.s1,(SLAVE)chrom_seg_12.s1,(SLAVE)chrom_seg_9.s1,(SLAVE)chrom_seg_1.s1,(SLAVE)chrom_seg_26.s1,(SLAVE)error_sum_3.s1,(SLAVE)expected_result_3.s1,(SLAVE)input_sequence_1.s1,(SLAVE)chrom_seg_2.s1,(SLAVE)chrom_seg_4.s1,(SLAVE)chrom_seg_14.s1,(SLAVE)chrom_seg_17.s1,(SLAVE)input_sequence_0.s1,(SLAVE)expected_output_3.s1,(SLAVE)chrom_seg_24.s1,(SLAVE)chrom_seg_25.s1,(SLAVE)ready_to_process.s1,(SLAVE)chrom_seg_23.s1,(SLAVE)chrom_seg_3.s1,(SLAVE)chrom_seg_5.s1,(SLAVE)chrom_seg_19.s1,(SLAVE)input_sequence_3.s1,(SLAVE)error_sum_0.s1,(SLAVE)chrom_seg_29.s1,(SLAVE)chrom_seg_16.s1,(SLAVE)expected_result_0.s1,(SLAVE)expected_output_2.s1,(SLAVE)expected_result_5.s1,(SLAVE)chrom_seg_22.s1,(SLAVE)chrom_seg_7.s1,(SLAVE)expected_result_2.s1,(SLAVE)expected_output_1.s1,(SLAVE)expected_result_7.s1,(SLAVE)chrom_seg_0.s1,(SLAVE)error_sum_5.s1,(SLAVE)chrom_seg_13.s1,(SLAVE)start_processing_chrom.s1,(SLAVE)error_sum_1.s1,(SLAVE)chrom_seg_30.s1,(SLAVE)chrom_seg_27.s1,(SLAVE)chrom_seg_11.s1,(SLAVE)chrom_seg_8.s1,(SLAVE)expected_result_6.s1,(SLAVE)error_sum_7.s1,(SLAVE)chrom_seg_6.s1,(SLAVE)expected_output_0.s1,(SLAVE)done_processing_feedback.s1,(SLAVE)expected_result_4.s1,(SLAVE)input_sequence_2.s1,(SLAVE)chrom_seg_10.s1,(SLAVE)chrom_seg_21.s1,(SLAVE)error_sum_6.s1,(SLAVE)chrom_seg_20.s1) 1 2 1 880
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)expected_output_1.external_connection,(SLAVE)testeio.exptected_output_1) 1 0 3 NJ 260 NJ 260 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_19,(SLAVE)chrom_seg_19.external_connection) 1 0 3 NJ 4160 NJ 4160 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_16.external_connection,(SLAVE)testeio.chrom_seg_16) 1 0 3 NJ 3680 NJ 3680 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_8,(SLAVE)chrom_seg_8.external_connection) 1 0 3 NJ 5360 NJ 5360 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_20,(SLAVE)chrom_seg_20.external_connection) 1 0 3 NJ 4260 NJ 4260 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.error_sum_6,(SLAVE)error_sum_6.external_connection) 1 0 3 NJ 5760 NJ 5760 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_17.external_connection,(SLAVE)testeio.chrom_seg_17) 1 0 3 NJ 3700 NJ 3700 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)error_sum_0.external_connection,(SLAVE)testeio.error_sum_0) 1 0 3 NJ 160 NJ 160 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_27.external_connection,(SLAVE)testeio.chrom_seg_27) 1 0 3 NJ 4960 NJ 4960 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_4.external_connection,(SLAVE)testeio.chrom_seg_4) 1 0 3 NJ 3300 NJ 3300 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.error_sum_4,(SLAVE)error_sum_4.external_connection) 1 0 3 NJ 1360 NJ 1360 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_21,(SLAVE)chrom_seg_21.external_connection) 1 0 3 NJ 4360 NJ 4360 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_1.external_connection,(SLAVE)testeio.chrom_seg_1) 1 0 3 NJ 1560 NJ 1560 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.expected_result_7,(SLAVE)expected_result_7.external_connection) 1 0 3 NJ 3060 NJ 3060 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)testeio.chrom_seg_12,(SLAVE)chrom_seg_12.external_connection) 1 0 3 NJ 2480 NJ 2480 NJ
+preplace netloc EXPORT<net_container>testeio</net_container>(SLAVE)chrom_seg_7.external_connection,(SLAVE)testeio.chrom_seg_7) 1 0 3 NJ 5560 NJ 5560 NJ
+levelinfo -pg 1 0 160 1150
+levelinfo -hier testeio 170 220 590 970 1130
