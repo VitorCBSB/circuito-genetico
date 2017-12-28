@@ -2,19 +2,24 @@ module chromosomeErrorSum
 	( input iClock
 	, input iProcessing
 	, input iKeepResult
-	, input iClockLevel
+	, input [31:0] iClockCycleCounter
 	, input [15:0][7:0] iExpectedSequence
 	, input [3:0] iCurrentSequence
 	, input [31:0] iChromosomeOutput
 	, output [7:0][31:0] oErrorSums
 	);
 	
-	parameter CYCLES_TO_IGNORE = 20;
+	parameter CYCLES_TO_IGNORE = 0;
 	reg [7:0][31:0] errorSums;
-	reg lastClockLevel = 0;
-	reg [31:0] currentCycle = 0;
 	
 	assign oErrorSums = errorSums;
+	integer i;
+	
+initial begin
+	for (i = 0; i < 8; i = i + 1) begin
+		errorSums[i] = 0;
+	end
+end
 	
 function [7:0][31:0] nextErrorSums
 	( input processing
@@ -54,27 +59,16 @@ function [7:0][31:0] nextErrorSums
 	
 endfunction
 
-function [31:0] nextCycle
-	( input processing
-	, input [31:0] curCycle
-	, input lastClockLevel
-	, input clockLevel
-	);
-	
-	if (processing)
-		if (lastClockLevel == 1'b1 && clockLevel == 1'b0)
-			nextCycle = 0;
-		else
-			nextCycle = curCycle + 1;
-	else
-		nextCycle = 0;
-	
-endfunction
-
 always @(posedge iClock) begin
-	errorSums <= nextErrorSums(iProcessing, iKeepResult, iExpectedSequence, iCurrentSequence, iChromosomeOutput, currentCycle, errorSums);
-	currentCycle <= nextCycle(iProcessing, currentCycle, lastClockLevel, iClockLevel);
-	lastClockLevel <= iClockLevel;
+	errorSums <= nextErrorSums
+		( iProcessing
+		, iKeepResult
+		, iExpectedSequence
+		, iCurrentSequence
+		, iChromosomeOutput
+		, iClockCycleCounter
+		, errorSums
+		);
 end
 
 

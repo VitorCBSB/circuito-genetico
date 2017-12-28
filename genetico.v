@@ -1,78 +1,43 @@
 module genetico(conf_les, conf_outs, chromIn, chromOut);
 
-	input [8:0][10:0] conf_les;
-	input [0:0][3:0] conf_outs;
+	input [3:0][8:0] conf_les;
+	input [1:0][2:0] conf_outs;
 	input [1:0] chromIn;
-	output [0:0] chromOut;
+	output [1:0] chromOut;
 	
-	wire [8:0] le_out;
-	wire [10:0] all_inputs;
+	wire [3:0] le_out;
+	wire [5:0] all_inputs;
 	
 	assign all_inputs = {le_out, chromIn};
 	
-	assign chromOut = {all_inputs[conf_outs[0]]};
+	assign chromOut = {all_inputs[conf_outs[1]], all_inputs[conf_outs[0]]};
 	
 logic_e le00(
-	.conf_func(conf_les[0][10:8]),
-	.conf_ins(conf_les[0][7:0]),
+	.conf_func(conf_les[0][8:6]),
+	.conf_ins(conf_les[0][5:0]),
 	.all_inputs(all_inputs),
 	.leOut(le_out[0])
 );
 
 logic_e le10(
-	.conf_func(conf_les[1][10:8]),
-	.conf_ins(conf_les[1][7:0]),
+	.conf_func(conf_les[1][8:6]),
+	.conf_ins(conf_les[1][5:0]),
 	.all_inputs(all_inputs),
 	.leOut(le_out[1])
 );
 
-logic_e le20(
-	.conf_func(conf_les[2][10:8]),
-	.conf_ins(conf_les[2][7:0]),
+logic_e le01(
+	.conf_func(conf_les[2][8:6]),
+	.conf_ins(conf_les[2][5:0]),
 	.all_inputs(all_inputs),
 	.leOut(le_out[2])
 );
 
-logic_e le01(
-	.conf_func(conf_les[3][10:8]),
-	.conf_ins(conf_les[3][7:0]),
+logic_e le11(
+	.conf_func(conf_les[3][8:6]),
+	.conf_ins(conf_les[3][5:0]),
 	.all_inputs(all_inputs),
 	.leOut(le_out[3])
-);
-
-logic_e le11(
-	.conf_func(conf_les[4][10:8]),
-	.conf_ins(conf_les[4][7:0]),
-	.all_inputs(all_inputs),
-	.leOut(le_out[4])
-);
-
-logic_e le21(
-	.conf_func(conf_les[5][10:8]),
-	.conf_ins(conf_les[5][7:0]),
-	.all_inputs(all_inputs),
-	.leOut(le_out[5])
-);
-
-logic_e le02(
-	.conf_func(conf_les[6][10:8]),
-	.conf_ins(conf_les[6][7:0]),
-	.all_inputs(all_inputs),
-	.leOut(le_out[6])
-);
-
-logic_e le12(
-	.conf_func(conf_les[7][10:8]),
-	.conf_ins(conf_les[7][7:0]),
-	.all_inputs(all_inputs),
-	.leOut(le_out[7])
-);
-
-logic_e le22(
-	.conf_func(conf_les[8][10:8]),
-	.conf_ins(conf_les[8][7:0]),
-	.all_inputs(all_inputs),
-	.leOut(le_out[8])
 );
 
 

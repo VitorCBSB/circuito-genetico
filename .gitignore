@@ -1,6 +1,9 @@
 incremental_db/
 output_files/
 simulation/
+db/
+.qsys_edit/
+greybox_tmp/
 qar_info.json
 resultado.txt
 *.bak

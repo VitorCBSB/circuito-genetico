@@ -3,6 +3,7 @@ module top(
 	input wire CLOCK_50,
 	output wire [9:0] LEDR,
 	input wire [9:0] SW,
+	input wire [3:0] KEY,
 	// HPS
 	inout wire HPS_CONV_USB_N,
 	output wire [14:0] HPS_DDR3_ADDR,
@@ -61,6 +62,9 @@ wire doneProcessingFeedback;
 wire doneProcessingChrom;
 
 wire doneFilling;
+
+assign LEDR[0] = chromOutput[0];
+assign LEDR[1] = chromOutput[1];
 
 assign concatedChromInput = {
 	rawChromInput[30],
@@ -226,10 +230,16 @@ chromosomeProcessingStateMachine cpsm
 	, .iConcatedChromDescription(concatedChromInput)
 	, .iInputSequence(inputSequences)
 	, .iExpectedOutput(expectedOutputs)
+	, .iHardCodedInput(SW[7:0])
+	, .iUseHardcodedInput(SW[8])
+	, .iHardStore(~KEY[0])
+	, .iClockChangeCyclesSelector(SW[7:6])
 	
 	// State machine control
 	, .iStartProcessing(startProcessingChrom)
 	, .iDoneProcessingFeedback(doneProcessingFeedback)
+	, .iStall(SW[9])
+	, .iStallIndex(SW[3:0])
 	, .oReadyToProcess(readyToProcess)
 	, .oDoneProcessing(doneProcessingChrom)
 	
