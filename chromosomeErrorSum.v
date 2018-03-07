@@ -9,7 +9,7 @@ module chromosomeErrorSum
 	, output [7:0][31:0] oErrorSums
 	);
 	
-	parameter CYCLES_TO_IGNORE = 0;
+	parameter CYCLES_TO_IGNORE = 5;
 	reg [7:0][31:0] errorSums;
 	
 	assign oErrorSums = errorSums;

@@ -43,6 +43,7 @@
 			error_sum_6_export              : in    std_logic_vector(31 downto 0) := (others => 'X'); -- export
 			error_sum_7_export              : in    std_logic_vector(31 downto 0) := (others => 'X'); -- export
 			expected_output_0_export        : out   std_logic_vector(31 downto 0);                    -- export
+			expected_output_1_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_output_2_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_output_3_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_result_0_export        : out   std_logic_vector(31 downto 0);                    -- export
@@ -53,7 +54,6 @@
 			expected_result_5_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_result_6_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_result_7_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_output_1_export        : out   std_logic_vector(31 downto 0);                    -- export
 			hps_io_hps_io_emac1_inst_TX_CLK : out   std_logic;                                        -- hps_io_emac1_inst_TX_CLK
 			hps_io_hps_io_emac1_inst_TXD0   : out   std_logic;                                        -- hps_io_emac1_inst_TXD0
 			hps_io_hps_io_emac1_inst_TXD1   : out   std_logic;                                        -- hps_io_emac1_inst_TXD1
@@ -110,7 +110,11 @@
 			memory_oct_rzqin                : in    std_logic                     := 'X';             -- oct_rzqin
 			ready_to_process_export         : in    std_logic                     := 'X';             -- export
 			reset_reset_n                   : in    std_logic                     := 'X';             -- reset_n
-			start_processing_chrom_export   : out   std_logic                                         -- export
+			start_processing_chrom_export   : out   std_logic;                                        -- export
+			valid_output_0_export           : out   std_logic_vector(31 downto 0);                    -- export
+			valid_output_1_export           : out   std_logic_vector(31 downto 0);                    -- export
+			valid_output_2_export           : out   std_logic_vector(31 downto 0);                    -- export
+			valid_output_3_export           : out   std_logic_vector(31 downto 0)                     -- export
 		);
 	end component testeio;
 
@@ -159,6 +163,7 @@
 			error_sum_6_export              => CONNECTED_TO_error_sum_6_export,              --              error_sum_6.export
 			error_sum_7_export              => CONNECTED_TO_error_sum_7_export,              --              error_sum_7.export
 			expected_output_0_export        => CONNECTED_TO_expected_output_0_export,        --        expected_output_0.export
+			expected_output_1_export        => CONNECTED_TO_expected_output_1_export,        --        expected_output_1.export
 			expected_output_2_export        => CONNECTED_TO_expected_output_2_export,        --        expected_output_2.export
 			expected_output_3_export        => CONNECTED_TO_expected_output_3_export,        --        expected_output_3.export
 			expected_result_0_export        => CONNECTED_TO_expected_result_0_export,        --        expected_result_0.export
@@ -169,7 +174,6 @@
 			expected_result_5_export        => CONNECTED_TO_expected_result_5_export,        --        expected_result_5.export
 			expected_result_6_export        => CONNECTED_TO_expected_result_6_export,        --        expected_result_6.export
 			expected_result_7_export        => CONNECTED_TO_expected_result_7_export,        --        expected_result_7.export
-			expected_output_1_export        => CONNECTED_TO_expected_output_1_export,        --        expected_output_1.export
 			hps_io_hps_io_emac1_inst_TX_CLK => CONNECTED_TO_hps_io_hps_io_emac1_inst_TX_CLK, --                   hps_io.hps_io_emac1_inst_TX_CLK
 			hps_io_hps_io_emac1_inst_TXD0   => CONNECTED_TO_hps_io_hps_io_emac1_inst_TXD0,   --                         .hps_io_emac1_inst_TXD0
 			hps_io_hps_io_emac1_inst_TXD1   => CONNECTED_TO_hps_io_hps_io_emac1_inst_TXD1,   --                         .hps_io_emac1_inst_TXD1
@@ -226,6 +230,10 @@
 			memory_oct_rzqin                => CONNECTED_TO_memory_oct_rzqin,                --                         .oct_rzqin
 			ready_to_process_export         => CONNECTED_TO_ready_to_process_export,         --         ready_to_process.export
 			reset_reset_n                   => CONNECTED_TO_reset_reset_n,                   --                    reset.reset_n
-			start_processing_chrom_export   => CONNECTED_TO_start_processing_chrom_export    --   start_processing_chrom.export
+			start_processing_chrom_export   => CONNECTED_TO_start_processing_chrom_export,   --   start_processing_chrom.export
+			valid_output_0_export           => CONNECTED_TO_valid_output_0_export,           --           valid_output_0.export
+			valid_output_1_export           => CONNECTED_TO_valid_output_1_export,           --           valid_output_1.export
+			valid_output_2_export           => CONNECTED_TO_valid_output_2_export,           --           valid_output_2.export
+			valid_output_3_export           => CONNECTED_TO_valid_output_3_export            --           valid_output_3.export
 		);
 

@@ -114,7 +114,11 @@ module testeio (
 		input  wire        memory_oct_rzqin,                //                         .oct_rzqin
 		input  wire        ready_to_process_export,         //         ready_to_process.export
 		input  wire        reset_reset_n,                   //                    reset.reset_n
-		output wire        start_processing_chrom_export    //   start_processing_chrom.export
+		output wire        start_processing_chrom_export,   //   start_processing_chrom.export
+		output wire [31:0] valid_output_0_export,           //           valid_output_0.export
+		output wire [31:0] valid_output_1_export,           //           valid_output_1.export
+		output wire [31:0] valid_output_2_export,           //           valid_output_2.export
+		output wire [31:0] valid_output_3_export            //           valid_output_3.export
 	);
 
 	wire   [1:0] hps_0_h2f_lw_axi_master_awburst;                          // hps_0:h2f_lw_AWBURST -> mm_interconnect_0:hps_0_h2f_lw_axi_master_awburst
@@ -418,7 +422,27 @@ module testeio (
 	wire   [1:0] mm_interconnect_0_expected_output_3_s1_address;           // mm_interconnect_0:expected_output_3_s1_address -> expected_output_3:address
 	wire         mm_interconnect_0_expected_output_3_s1_write;             // mm_interconnect_0:expected_output_3_s1_write -> expected_output_3:write_n
 	wire  [31:0] mm_interconnect_0_expected_output_3_s1_writedata;         // mm_interconnect_0:expected_output_3_s1_writedata -> expected_output_3:writedata
-	wire         rst_controller_reset_out_reset;                           // rst_controller:reset_out -> [chrom_seg_0:reset_n, chrom_seg_10:reset_n, chrom_seg_11:reset_n, chrom_seg_12:reset_n, chrom_seg_13:reset_n, chrom_seg_14:reset_n, chrom_seg_15:reset_n, chrom_seg_16:reset_n, chrom_seg_17:reset_n, chrom_seg_18:reset_n, chrom_seg_19:reset_n, chrom_seg_1:reset_n, chrom_seg_20:reset_n, chrom_seg_21:reset_n, chrom_seg_22:reset_n, chrom_seg_23:reset_n, chrom_seg_24:reset_n, chrom_seg_25:reset_n, chrom_seg_26:reset_n, chrom_seg_27:reset_n, chrom_seg_28:reset_n, chrom_seg_29:reset_n, chrom_seg_2:reset_n, chrom_seg_30:reset_n, chrom_seg_3:reset_n, chrom_seg_4:reset_n, chrom_seg_5:reset_n, chrom_seg_6:reset_n, chrom_seg_7:reset_n, chrom_seg_8:reset_n, chrom_seg_9:reset_n, done_processing_chrom:reset_n, done_processing_feedback:reset_n, error_sum_0:reset_n, error_sum_1:reset_n, error_sum_2:reset_n, error_sum_3:reset_n, error_sum_4:reset_n, error_sum_5:reset_n, error_sum_6:reset_n, error_sum_7:reset_n, expected_output_0:reset_n, expected_output_1:reset_n, expected_output_2:reset_n, expected_output_3:reset_n, expected_result_0:reset_n, expected_result_1:reset_n, expected_result_2:reset_n, expected_result_3:reset_n, expected_result_4:reset_n, expected_result_5:reset_n, expected_result_6:reset_n, expected_result_7:reset_n, input_sequence_0:reset_n, input_sequence_1:reset_n, input_sequence_2:reset_n, input_sequence_3:reset_n, mm_interconnect_0:chrom_seg_0_reset_reset_bridge_in_reset_reset, ready_to_process:reset_n, start_processing_chrom:reset_n]
+	wire         mm_interconnect_0_valid_output_0_s1_chipselect;           // mm_interconnect_0:valid_output_0_s1_chipselect -> valid_output_0:chipselect
+	wire  [31:0] mm_interconnect_0_valid_output_0_s1_readdata;             // valid_output_0:readdata -> mm_interconnect_0:valid_output_0_s1_readdata
+	wire   [1:0] mm_interconnect_0_valid_output_0_s1_address;              // mm_interconnect_0:valid_output_0_s1_address -> valid_output_0:address
+	wire         mm_interconnect_0_valid_output_0_s1_write;                // mm_interconnect_0:valid_output_0_s1_write -> valid_output_0:write_n
+	wire  [31:0] mm_interconnect_0_valid_output_0_s1_writedata;            // mm_interconnect_0:valid_output_0_s1_writedata -> valid_output_0:writedata
+	wire         mm_interconnect_0_valid_output_1_s1_chipselect;           // mm_interconnect_0:valid_output_1_s1_chipselect -> valid_output_1:chipselect
+	wire  [31:0] mm_interconnect_0_valid_output_1_s1_readdata;             // valid_output_1:readdata -> mm_interconnect_0:valid_output_1_s1_readdata
+	wire   [1:0] mm_interconnect_0_valid_output_1_s1_address;              // mm_interconnect_0:valid_output_1_s1_address -> valid_output_1:address
+	wire         mm_interconnect_0_valid_output_1_s1_write;                // mm_interconnect_0:valid_output_1_s1_write -> valid_output_1:write_n
+	wire  [31:0] mm_interconnect_0_valid_output_1_s1_writedata;            // mm_interconnect_0:valid_output_1_s1_writedata -> valid_output_1:writedata
+	wire         mm_interconnect_0_valid_output_2_s1_chipselect;           // mm_interconnect_0:valid_output_2_s1_chipselect -> valid_output_2:chipselect
+	wire  [31:0] mm_interconnect_0_valid_output_2_s1_readdata;             // valid_output_2:readdata -> mm_interconnect_0:valid_output_2_s1_readdata
+	wire   [1:0] mm_interconnect_0_valid_output_2_s1_address;              // mm_interconnect_0:valid_output_2_s1_address -> valid_output_2:address
+	wire         mm_interconnect_0_valid_output_2_s1_write;                // mm_interconnect_0:valid_output_2_s1_write -> valid_output_2:write_n
+	wire  [31:0] mm_interconnect_0_valid_output_2_s1_writedata;            // mm_interconnect_0:valid_output_2_s1_writedata -> valid_output_2:writedata
+	wire         mm_interconnect_0_valid_output_3_s1_chipselect;           // mm_interconnect_0:valid_output_3_s1_chipselect -> valid_output_3:chipselect
+	wire  [31:0] mm_interconnect_0_valid_output_3_s1_readdata;             // valid_output_3:readdata -> mm_interconnect_0:valid_output_3_s1_readdata
+	wire   [1:0] mm_interconnect_0_valid_output_3_s1_address;              // mm_interconnect_0:valid_output_3_s1_address -> valid_output_3:address
+	wire         mm_interconnect_0_valid_output_3_s1_write;                // mm_interconnect_0:valid_output_3_s1_write -> valid_output_3:write_n
+	wire  [31:0] mm_interconnect_0_valid_output_3_s1_writedata;            // mm_interconnect_0:valid_output_3_s1_writedata -> valid_output_3:writedata
+	wire         rst_controller_reset_out_reset;                           // rst_controller:reset_out -> [chrom_seg_0:reset_n, chrom_seg_10:reset_n, chrom_seg_11:reset_n, chrom_seg_12:reset_n, chrom_seg_13:reset_n, chrom_seg_14:reset_n, chrom_seg_15:reset_n, chrom_seg_16:reset_n, chrom_seg_17:reset_n, chrom_seg_18:reset_n, chrom_seg_19:reset_n, chrom_seg_1:reset_n, chrom_seg_20:reset_n, chrom_seg_21:reset_n, chrom_seg_22:reset_n, chrom_seg_23:reset_n, chrom_seg_24:reset_n, chrom_seg_25:reset_n, chrom_seg_26:reset_n, chrom_seg_27:reset_n, chrom_seg_28:reset_n, chrom_seg_29:reset_n, chrom_seg_2:reset_n, chrom_seg_30:reset_n, chrom_seg_3:reset_n, chrom_seg_4:reset_n, chrom_seg_5:reset_n, chrom_seg_6:reset_n, chrom_seg_7:reset_n, chrom_seg_8:reset_n, chrom_seg_9:reset_n, done_processing_chrom:reset_n, done_processing_feedback:reset_n, error_sum_0:reset_n, error_sum_1:reset_n, error_sum_2:reset_n, error_sum_3:reset_n, error_sum_4:reset_n, error_sum_5:reset_n, error_sum_6:reset_n, error_sum_7:reset_n, expected_output_0:reset_n, expected_output_1:reset_n, expected_output_2:reset_n, expected_output_3:reset_n, expected_result_0:reset_n, expected_result_1:reset_n, expected_result_2:reset_n, expected_result_3:reset_n, expected_result_4:reset_n, expected_result_5:reset_n, expected_result_6:reset_n, expected_result_7:reset_n, input_sequence_0:reset_n, input_sequence_1:reset_n, input_sequence_2:reset_n, input_sequence_3:reset_n, mm_interconnect_0:chrom_seg_0_reset_reset_bridge_in_reset_reset, ready_to_process:reset_n, start_processing_chrom:reset_n, valid_output_0:reset_n, valid_output_1:reset_n, valid_output_2:reset_n, valid_output_3:reset_n]
 	wire         hps_0_h2f_reset_reset;                                    // hps_0:h2f_rst_n -> rst_controller:reset_in0
 
 	testeio_chrom_seg_0 chrom_seg_0 (
@@ -1210,6 +1234,50 @@ module testeio (
 		.out_port   (start_processing_chrom_export)                           // external_connection.export
 	);
 
+	testeio_chrom_seg_0 valid_output_0 (
+		.clk        (clk_clk),                                        //                 clk.clk
+		.reset_n    (~rst_controller_reset_out_reset),                //               reset.reset_n
+		.address    (mm_interconnect_0_valid_output_0_s1_address),    //                  s1.address
+		.write_n    (~mm_interconnect_0_valid_output_0_s1_write),     //                    .write_n
+		.writedata  (mm_interconnect_0_valid_output_0_s1_writedata),  //                    .writedata
+		.chipselect (mm_interconnect_0_valid_output_0_s1_chipselect), //                    .chipselect
+		.readdata   (mm_interconnect_0_valid_output_0_s1_readdata),   //                    .readdata
+		.out_port   (valid_output_0_export)                           // external_connection.export
+	);
+
+	testeio_chrom_seg_0 valid_output_1 (
+		.clk        (clk_clk),                                        //                 clk.clk
+		.reset_n    (~rst_controller_reset_out_reset),                //               reset.reset_n
+		.address    (mm_interconnect_0_valid_output_1_s1_address),    //                  s1.address
+		.write_n    (~mm_interconnect_0_valid_output_1_s1_write),     //                    .write_n
+		.writedata  (mm_interconnect_0_valid_output_1_s1_writedata),  //                    .writedata
+		.chipselect (mm_interconnect_0_valid_output_1_s1_chipselect), //                    .chipselect
+		.readdata   (mm_interconnect_0_valid_output_1_s1_readdata),   //                    .readdata
+		.out_port   (valid_output_1_export)                           // external_connection.export
+	);
+
+	testeio_chrom_seg_0 valid_output_2 (
+		.clk        (clk_clk),                                        //                 clk.clk
+		.reset_n    (~rst_controller_reset_out_reset),                //               reset.reset_n
+		.address    (mm_interconnect_0_valid_output_2_s1_address),    //                  s1.address
+		.write_n    (~mm_interconnect_0_valid_output_2_s1_write),     //                    .write_n
+		.writedata  (mm_interconnect_0_valid_output_2_s1_writedata),  //                    .writedata
+		.chipselect (mm_interconnect_0_valid_output_2_s1_chipselect), //                    .chipselect
+		.readdata   (mm_interconnect_0_valid_output_2_s1_readdata),   //                    .readdata
+		.out_port   (valid_output_2_export)                           // external_connection.export
+	);
+
+	testeio_chrom_seg_0 valid_output_3 (
+		.clk        (clk_clk),                                        //                 clk.clk
+		.reset_n    (~rst_controller_reset_out_reset),                //               reset.reset_n
+		.address    (mm_interconnect_0_valid_output_3_s1_address),    //                  s1.address
+		.write_n    (~mm_interconnect_0_valid_output_3_s1_write),     //                    .write_n
+		.writedata  (mm_interconnect_0_valid_output_3_s1_writedata),  //                    .writedata
+		.chipselect (mm_interconnect_0_valid_output_3_s1_chipselect), //                    .chipselect
+		.readdata   (mm_interconnect_0_valid_output_3_s1_readdata),   //                    .readdata
+		.out_port   (valid_output_3_export)                           // external_connection.export
+	);
+
 	testeio_mm_interconnect_0 mm_interconnect_0 (
 		.hps_0_h2f_lw_axi_master_awid                  (hps_0_h2f_lw_axi_master_awid),                             //                 hps_0_h2f_lw_axi_master.awid
 		.hps_0_h2f_lw_axi_master_awaddr                (hps_0_h2f_lw_axi_master_awaddr),                           //                                        .awaddr
@@ -1513,7 +1581,27 @@ module testeio (
 		.start_processing_chrom_s1_write               (mm_interconnect_0_start_processing_chrom_s1_write),        //                                        .write
 		.start_processing_chrom_s1_readdata            (mm_interconnect_0_start_processing_chrom_s1_readdata),     //                                        .readdata
 		.start_processing_chrom_s1_writedata           (mm_interconnect_0_start_processing_chrom_s1_writedata),    //                                        .writedata
-		.start_processing_chrom_s1_chipselect          (mm_interconnect_0_start_processing_chrom_s1_chipselect)    //                                        .chipselect
+		.start_processing_chrom_s1_chipselect          (mm_interconnect_0_start_processing_chrom_s1_chipselect),   //                                        .chipselect
+		.valid_output_0_s1_address                     (mm_interconnect_0_valid_output_0_s1_address),              //                       valid_output_0_s1.address
+		.valid_output_0_s1_write                       (mm_interconnect_0_valid_output_0_s1_write),                //                                        .write
+		.valid_output_0_s1_readdata                    (mm_interconnect_0_valid_output_0_s1_readdata),             //                                        .readdata
+		.valid_output_0_s1_writedata                   (mm_interconnect_0_valid_output_0_s1_writedata),            //                                        .writedata
+		.valid_output_0_s1_chipselect                  (mm_interconnect_0_valid_output_0_s1_chipselect),           //                                        .chipselect
+		.valid_output_1_s1_address                     (mm_interconnect_0_valid_output_1_s1_address),              //                       valid_output_1_s1.address
+		.valid_output_1_s1_write                       (mm_interconnect_0_valid_output_1_s1_write),                //                                        .write
+		.valid_output_1_s1_readdata                    (mm_interconnect_0_valid_output_1_s1_readdata),             //                                        .readdata
+		.valid_output_1_s1_writedata                   (mm_interconnect_0_valid_output_1_s1_writedata),            //                                        .writedata
+		.valid_output_1_s1_chipselect                  (mm_interconnect_0_valid_output_1_s1_chipselect),           //                                        .chipselect
+		.valid_output_2_s1_address                     (mm_interconnect_0_valid_output_2_s1_address),              //                       valid_output_2_s1.address
+		.valid_output_2_s1_write                       (mm_interconnect_0_valid_output_2_s1_write),                //                                        .write
+		.valid_output_2_s1_readdata                    (mm_interconnect_0_valid_output_2_s1_readdata),             //                                        .readdata
+		.valid_output_2_s1_writedata                   (mm_interconnect_0_valid_output_2_s1_writedata),            //                                        .writedata
+		.valid_output_2_s1_chipselect                  (mm_interconnect_0_valid_output_2_s1_chipselect),           //                                        .chipselect
+		.valid_output_3_s1_address                     (mm_interconnect_0_valid_output_3_s1_address),              //                       valid_output_3_s1.address
+		.valid_output_3_s1_write                       (mm_interconnect_0_valid_output_3_s1_write),                //                                        .write
+		.valid_output_3_s1_readdata                    (mm_interconnect_0_valid_output_3_s1_readdata),             //                                        .readdata
+		.valid_output_3_s1_writedata                   (mm_interconnect_0_valid_output_3_s1_writedata),            //                                        .writedata
+		.valid_output_3_s1_chipselect                  (mm_interconnect_0_valid_output_3_s1_chipselect)            //                                        .chipselect
 	);
 
 	altera_reset_controller #(

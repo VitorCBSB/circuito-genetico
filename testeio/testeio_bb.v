@@ -43,6 +43,7 @@ module testeio (
 	error_sum_6_export,
 	error_sum_7_export,
 	expected_output_0_export,
+	expected_output_1_export,
 	expected_output_2_export,
 	expected_output_3_export,
 	expected_result_0_export,
@@ -53,7 +54,6 @@ module testeio (
 	expected_result_5_export,
 	expected_result_6_export,
 	expected_result_7_export,
-	expected_output_1_export,
 	hps_io_hps_io_emac1_inst_TX_CLK,
 	hps_io_hps_io_emac1_inst_TXD0,
 	hps_io_hps_io_emac1_inst_TXD1,
@@ -110,7 +110,11 @@ module testeio (
 	memory_oct_rzqin,
 	ready_to_process_export,
 	reset_reset_n,
-	start_processing_chrom_export);	
+	start_processing_chrom_export,
+	valid_output_0_export,
+	valid_output_1_export,
+	valid_output_2_export,
+	valid_output_3_export);	
 
 	output	[31:0]	chrom_seg_0_export;
 	output	[31:0]	chrom_seg_1_export;
@@ -155,6 +159,7 @@ module testeio (
 	input	[31:0]	error_sum_6_export;
 	input	[31:0]	error_sum_7_export;
 	output	[31:0]	expected_output_0_export;
+	output	[31:0]	expected_output_1_export;
 	output	[31:0]	expected_output_2_export;
 	output	[31:0]	expected_output_3_export;
 	output	[31:0]	expected_result_0_export;
@@ -165,7 +170,6 @@ module testeio (
 	output	[31:0]	expected_result_5_export;
 	output	[31:0]	expected_result_6_export;
 	output	[31:0]	expected_result_7_export;
-	output	[31:0]	expected_output_1_export;
 	output		hps_io_hps_io_emac1_inst_TX_CLK;
 	output		hps_io_hps_io_emac1_inst_TXD0;
 	output		hps_io_hps_io_emac1_inst_TXD1;
@@ -223,4 +227,8 @@ module testeio (
 	input		ready_to_process_export;
 	input		reset_reset_n;
 	output		start_processing_chrom_export;
+	output	[31:0]	valid_output_0_export;
+	output	[31:0]	valid_output_1_export;
+	output	[31:0]	valid_output_2_export;
+	output	[31:0]	valid_output_3_export;
 endmodule

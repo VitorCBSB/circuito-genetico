@@ -47,10 +47,10 @@ module top(
 wire [31:0] rawChromInput[30:0];
 wire [991:0] concatedChromInput;
 wire [31:0] rawExpectedResultInput[7:0];
-wire [255:0] concatedExpectedResultInput;
 wire [7:0][31:0] errorSumOutput;
 wire [15:0][7:0] inputSequences;
 wire [15:0][7:0] expectedOutputs;
+wire [15:0][7:0] validOutputs;
 wire [31:0] chromOutput;
 wire [15:0] chosenOutput;
 wire [7:0] outputToShow;
@@ -63,8 +63,8 @@ wire doneProcessingChrom;
 
 wire doneFilling;
 
-assign LEDR[0] = chromOutput[0];
-assign LEDR[1] = chromOutput[1];
+assign LEDR[6:0] = chromOutput[6:0];
+assign LEDR[9:7] = state;
 
 assign concatedChromInput = {
 	rawChromInput[30],
@@ -98,17 +98,6 @@ assign concatedChromInput = {
 	rawChromInput[2],
 	rawChromInput[1],
 	rawChromInput[0]
-};
-
-assign concatedExpectedResultInput = {
-	rawExpectedResultInput[7],
-	rawExpectedResultInput[6],
-	rawExpectedResultInput[5],
-	rawExpectedResultInput[4],
-	rawExpectedResultInput[3],
-	rawExpectedResultInput[2],
-	rawExpectedResultInput[1],
-	rawExpectedResultInput[0]
 };
 
 testeio u0 (
@@ -219,6 +208,10 @@ testeio u0 (
 		  .expected_output_1_export            ({ expectedOutputs[7], expectedOutputs[6], expectedOutputs[5], expectedOutputs[4] }),
 		  .expected_output_2_export            ({ expectedOutputs[11], expectedOutputs[10], expectedOutputs[9], expectedOutputs[8] }),
 		  .expected_output_3_export            ({ expectedOutputs[15], expectedOutputs[14], expectedOutputs[13], expectedOutputs[12] }),
+		  .valid_output_0_export               ({ validOutputs[3], validOutputs[2], validOutputs[1], validOutputs[0] }),
+		  .valid_output_1_export               ({ validOutputs[7], validOutputs[6], validOutputs[5], validOutputs[4] }),
+		  .valid_output_2_export               ({ validOutputs[11], validOutputs[10], validOutputs[9], validOutputs[8] }),
+		  .valid_output_3_export               ({ validOutputs[15], validOutputs[14], validOutputs[13], validOutputs[12] }),
 		  .start_processing_chrom_export       (startProcessingChrom),   // start_processing_chrom.export
         .done_processing_chrom_export        (doneProcessingChrom),     //  done_processing_chrom.export
 		  .ready_to_process_export             (readyToProcess),
@@ -230,6 +223,7 @@ chromosomeProcessingStateMachine cpsm
 	, .iConcatedChromDescription(concatedChromInput)
 	, .iInputSequence(inputSequences)
 	, .iExpectedOutput(expectedOutputs)
+	, .iValidOutput(validOutputs)
 	, .iHardCodedInput(SW[7:0])
 	, .iUseHardcodedInput(SW[8])
 	, .iHardStore(~KEY[0])
@@ -239,7 +233,6 @@ chromosomeProcessingStateMachine cpsm
 	, .iStartProcessing(startProcessingChrom)
 	, .iDoneProcessingFeedback(doneProcessingFeedback)
 	, .iStall(SW[9])
-	, .iStallIndex(SW[3:0])
 	, .oReadyToProcess(readyToProcess)
 	, .oDoneProcessing(doneProcessingChrom)
 	

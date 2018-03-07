@@ -3,6 +3,7 @@ module chromosomeProcessingStateMachine
 	, input wire [991:0] iConcatedChromDescription
 	, input wire [15:0][7:0] iInputSequence
 	, input wire [15:0][7:0] iExpectedOutput
+	, input wire [15:0][7:0] iValidOutput
 	, input wire [7:0] iHardCodedInput
 	, input wire iUseHardcodedInput
 	, input wire iHardStore
@@ -12,78 +13,82 @@ module chromosomeProcessingStateMachine
 	, input wire iStartProcessing
 	, input wire iDoneProcessingFeedback
 	, input wire iStall
-	, input wire [3:0] iStallIndex
 	, output wire oReadyToProcess
 	, output wire oDoneProcessing
 	
 	, output wire [31:0] oChromOutput
 	, output wire [7:0][31:0] oErrorSums
-	, output wire [1:0] oState
+	, output wire [2:0] oState
 	);
 	
 	/* Modelo semântico em Haskell
 	
 	data State = 
-	 Idle
-	 | Processing Int Int Bool -- current index, current clock cycle, current clock
-	 | Stalled Int -- current index
-	 | Done
-	 deriving (Show)
-		 
+    Idle
+    | Processing Int Int Bool -- current index, current clock cycle, current clock
+    | WaitingForInput Int -- current index
+    | Stalled
+    | Done
+    deriving (Show)
+    
 	maxIndex = 15
 	clockCyclesToChange = 1000
+	finalClockCycle = clockCyclesToChange - 1
 
-	checkForFinalIndex :: Int -> State
-	checkForFinalIndex i =
-		 if i >= maxIndex then
-			  Done
-		 else
-			  Processing (i + 1) 0 True
-
-	step :: Bool -> Maybe Int -> Bool -> State -> State
+	step :: Bool -> Bool -> Bool -> State -> State
 	step startSignal stallSignal doneSignal state =
 		 case state of
 			  Idle
-					| startSignal -> Processing 0 0 True
+					| startSignal -> WaitingForInput 0
 					| otherwise -> Idle
-			  Processing i cy cl 
-					| cy >= clockCyclesToChange && cl == False ->
-						 case stallSignal of
-							  Just stallI -> if i >= stallI then
-														Stalled i
-												  else
-														checkForFinalIndex i
-							  Nothing -> checkForFinalIndex i
-					| cy >= clockCyclesToChange -> Processing i 0 False
-					| otherwise -> Processing i (cy + 1) cl
-			  Stalled i -> case stallSignal of
-									 Just i' -> if i' > i then
-														 checkForFinalIndex i
-													else
-														 Stalled i
-									 Nothing -> 
-										  checkForFinalIndex i
+			  WaitingForInput i -> Processing i 0 True
+			  Processing i cy cl ->
+					if cy >= finalClockCycle then
+						 if not cl then
+							  if i >= maxIndex then
+									if stallSignal then
+										 Stalled
+									else
+										 Done
+							  else
+									WaitingForInput (i + 1)
+						 else
+							  Processing i 0 False
+					else
+						 Processing i (cy + 1) cl
+			  Stalled 
+					| stallSignal -> Stalled
+					| otherwise -> Done
 			  Done
 					| doneSignal -> Idle
 					| otherwise -> Done
+
 	*/
 	
-	parameter IDLE = 2'b00, PROCESSING = 2'b01, DONE = 2'b10, STALLED = 2'b11;
+	parameter IDLE = 3'b000, 
+				 PROCESSING = 3'b001, 
+				 DONE = 3'b010, 
+				 STALLED = 3'b011,
+				 INPUT_WAIT = 3'b100,
+				 ZEROING_VRC = 3'b101;
 	
-	reg [1:0] currentState = IDLE;
+	parameter CYCLES_TO_IGNORE = 5;
+	
+	reg [2:0] currentState = IDLE;
     
    reg [31:0] clockCycleCounter = 0;
    reg [3:0] currentInput = 4'b0;
-   reg clockLevel = 1'b1;
 	reg [15:0] currentAddress = 0;
+	reg [7:0] currentInputFromSequence = 0;
+	reg [7:0][31:0] currentErrorSums;
    
 	wire writeToMemory;
 	wire [7:0] inputToUse;
 	integer clockChangeCycles;
 	integer finalClockCycle;
-	
-   wire [7:0] inputAggregation;
+
 	wire [31:0] chromosomeOutput;
+	wire [991:0] chromDesc;
 
 assign oReadyToProcess =
 	currentState == IDLE;
@@ -94,6 +99,8 @@ assign oDoneProcessing =
 assign oChromOutput = chromosomeOutput;
 
 assign oState = currentState;
+
+assign oErrorSums = currentErrorSums;
 
 assign clockChangeCycles = 
 		iClockChangeCyclesSelector == 2'b00 ? 100 :
@@ -108,70 +115,61 @@ assign writeToMemory = currentState == PROCESSING || iHardStore;
 always@ (posedge iClock) begin
 	currentInput <= currentInput;
 	clockCycleCounter <= clockCycleCounter;
-	clockLevel <= clockLevel;
 	currentState <= currentState;
+	currentInputFromSequence <= iInputSequence[currentInput];
+	currentErrorSums <= currentErrorSums;
 	case (currentState)
 	IDLE: begin
 		if (iStartProcessing) begin
 			currentInput <= 0;
-			clockCycleCounter <= 0;
-			clockLevel <= 1;
-			currentState <= PROCESSING;
+			currentErrorSums[0] <= 0;
+			currentErrorSums[1] <= 0;
+			currentErrorSums[2] <= 0;
+			currentErrorSums[3] <= 0;
+			currentErrorSums[4] <= 0;
+			currentErrorSums[5] <= 0;
+			currentErrorSums[6] <= 0;
+			currentErrorSums[7] <= 0;
+			currentState <= ZEROING_VRC;
 		end
 	end
+	ZEROING_VRC: begin
+		currentState <= INPUT_WAIT;
+	end
+	INPUT_WAIT: begin
+		clockCycleCounter <= 0;
+		currentState <= PROCESSING;
+	end
 	PROCESSING: begin
-		if (clockCycleCounter >= finalClockCycle && clockLevel == 1'b0) begin
-			if (iStall) begin
-				if (currentInput >= iStallIndex) begin
+		if (clockCycleCounter >= finalClockCycle) begin
+			if (currentInput >= 4'hF) begin
+				if (iStall) begin
 					currentState <= STALLED;
 				end else begin
-					if (currentInput >= 4'hF) begin
-						currentState <= DONE;
-					end else begin
-						currentState <= PROCESSING;
-						currentInput <= currentInput + 4'b1;
-						clockCycleCounter <= 0;
-						clockLevel <= 1'b1;
-					end
+					currentState <= DONE;
 				end
 			end else begin
-				if (currentInput >= 4'hF) begin
-					currentState <= DONE;
-				end else begin
-					currentState <= PROCESSING;
-					currentInput <= currentInput + 4'b1;
-					clockCycleCounter <= 0;
-					clockLevel <= 1'b1;
-				end
+				currentInput <= currentInput + 4'b1;
+				currentState <= INPUT_WAIT;
 			end
-		end else if (clockCycleCounter >= finalClockCycle) begin
-			clockCycleCounter <= 0;
-			clockLevel <= 1'b0;
 		end else begin
 			clockCycleCounter <= clockCycleCounter + 1;
 		end
+		// Soma dos erros da saída do cromossomo
+		if (clockCycleCounter >= CYCLES_TO_IGNORE) begin
+			currentErrorSums[0] = currentErrorSums[0] + ((chromosomeOutput[0] ^ iExpectedOutput[currentInput][0]) && iValidOutput[currentInput][0]);
+			currentErrorSums[1] = currentErrorSums[1] + ((chromosomeOutput[1] ^ iExpectedOutput[currentInput][1]) && iValidOutput[currentInput][1]);
+			currentErrorSums[2] = currentErrorSums[2] + ((chromosomeOutput[2] ^ iExpectedOutput[currentInput][2]) && iValidOutput[currentInput][2]);
+			currentErrorSums[3] = currentErrorSums[3] + ((chromosomeOutput[3] ^ iExpectedOutput[currentInput][3]) && iValidOutput[currentInput][3]);
+			currentErrorSums[4] = currentErrorSums[4] + ((chromosomeOutput[4] ^ iExpectedOutput[currentInput][4]) && iValidOutput[currentInput][4]);
+			currentErrorSums[5] = currentErrorSums[5] + ((chromosomeOutput[5] ^ iExpectedOutput[currentInput][5]) && iValidOutput[currentInput][5]);
+			currentErrorSums[6] = currentErrorSums[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInput][6]) && iValidOutput[currentInput][6]);
+			currentErrorSums[7] = currentErrorSums[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInput][7]) && iValidOutput[currentInput][7]); 
+		end
 	end
 	STALLED: begin
-		if (iStall) begin
-			if (iStallIndex > currentInput) begin
-				if (currentInput >= 4'hF) begin
-					currentState <= DONE;
-				end else begin
-					currentState <= PROCESSING;
-					currentInput <= currentInput + 4'b1;
-					clockCycleCounter <= 0;
-					clockLevel <= 1'b1;
-				end
-			end
-		end else begin
-			if (currentInput >= 4'hF) begin
-				currentState <= DONE;
-			end else begin
-				currentState <= PROCESSING;
-				currentInput <= currentInput + 4'b1;
-				clockCycleCounter <= 0;
-				clockLevel <= 1'b1;
-			end
+		if (!iStall) begin
+			currentState <= DONE;
 		end
 	end
 	DONE: begin
@@ -184,31 +182,27 @@ always@ (posedge iClock) begin
 	currentAddress <= currentAddress;
 	if (writeToMemory) begin
 		currentAddress <= currentAddress + 16'b1;
-	end else if (currentState != STALLED) begin
+	end else if (currentState != STALLED && currentState != INPUT_WAIT) begin
 		currentAddress <= 16'b0;
 	end
 end
 
-assign inputAggregation = { iInputSequence[currentInput]/*, clockLevel*/ };
-assign inputToUse = iUseHardcodedInput ? iHardCodedInput : inputAggregation;
-
-chromosomeErrorSum chromErrorSum 
-	( .iClock(iClock)
-	, .iProcessing(currentState == PROCESSING)
-	, .iKeepResult(currentState == DONE || currentState == STALLED)
-	, .iClockCycleCounter(clockCycleCounter)
-	, .iExpectedSequence(iExpectedOutput)
-	, .iCurrentSequence(currentInput)
-	, .iChromosomeOutput(chromosomeOutput)
-	, .oErrorSums(oErrorSums)
-	);
+assign inputToUse = iUseHardcodedInput ? iHardCodedInput : { currentInputFromSequence };
+assign chromDesc = currentState == ZEROING_VRC ? 992'b0 : iConcatedChromDescription;
 
 fenotipo fenotipo 
-	( .cromossomo(iConcatedChromDescription)
+	( .cromossomo(chromDesc)
 	, .chromIn(inputToUse)
 	, .chromOut(chromosomeOutput)
 	);
 
+
+/*
+Circuito2x2manual circ
+	( .inp(inputToUse)
+	, .out(chromosomeOutput)
+	);
+*/
 
 mem memModule
 	( .address(currentAddress)

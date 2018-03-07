@@ -42,6 +42,7 @@
 		.error_sum_6_export              (<connected-to-error_sum_6_export>),              //              error_sum_6.export
 		.error_sum_7_export              (<connected-to-error_sum_7_export>),              //              error_sum_7.export
 		.expected_output_0_export        (<connected-to-expected_output_0_export>),        //        expected_output_0.export
+		.expected_output_1_export        (<connected-to-expected_output_1_export>),        //        expected_output_1.export
 		.expected_output_2_export        (<connected-to-expected_output_2_export>),        //        expected_output_2.export
 		.expected_output_3_export        (<connected-to-expected_output_3_export>),        //        expected_output_3.export
 		.expected_result_0_export        (<connected-to-expected_result_0_export>),        //        expected_result_0.export
@@ -52,7 +53,6 @@
 		.expected_result_5_export        (<connected-to-expected_result_5_export>),        //        expected_result_5.export
 		.expected_result_6_export        (<connected-to-expected_result_6_export>),        //        expected_result_6.export
 		.expected_result_7_export        (<connected-to-expected_result_7_export>),        //        expected_result_7.export
-		.expected_output_1_export        (<connected-to-expected_output_1_export>),        //        expected_output_1.export
 		.hps_io_hps_io_emac1_inst_TX_CLK (<connected-to-hps_io_hps_io_emac1_inst_TX_CLK>), //                   hps_io.hps_io_emac1_inst_TX_CLK
 		.hps_io_hps_io_emac1_inst_TXD0   (<connected-to-hps_io_hps_io_emac1_inst_TXD0>),   //                         .hps_io_emac1_inst_TXD0
 		.hps_io_hps_io_emac1_inst_TXD1   (<connected-to-hps_io_hps_io_emac1_inst_TXD1>),   //                         .hps_io_emac1_inst_TXD1
@@ -109,6 +109,10 @@
 		.memory_oct_rzqin                (<connected-to-memory_oct_rzqin>),                //                         .oct_rzqin
 		.ready_to_process_export         (<connected-to-ready_to_process_export>),         //         ready_to_process.export
 		.reset_reset_n                   (<connected-to-reset_reset_n>),                   //                    reset.reset_n
-		.start_processing_chrom_export   (<connected-to-start_processing_chrom_export>)    //   start_processing_chrom.export
+		.start_processing_chrom_export   (<connected-to-start_processing_chrom_export>),   //   start_processing_chrom.export
+		.valid_output_0_export           (<connected-to-valid_output_0_export>),           //           valid_output_0.export
+		.valid_output_1_export           (<connected-to-valid_output_1_export>),           //           valid_output_1.export
+		.valid_output_2_export           (<connected-to-valid_output_2_export>),           //           valid_output_2.export
+		.valid_output_3_export           (<connected-to-valid_output_3_export>)            //           valid_output_3.export
 	);
 
