@@ -21,7 +21,7 @@
    {
       datum baseAddress
       {
-         value = "992";
+         value = "66464";
          type = "String";
       }
    }
@@ -37,7 +37,7 @@
    {
       datum baseAddress
       {
-         value = "976";
+         value = "66448";
          type = "String";
       }
    }
@@ -53,7 +53,7 @@
    {
       datum baseAddress
       {
-         value = "832";
+         value = "66304";
          type = "String";
       }
    }
@@ -69,7 +69,7 @@
    {
       datum baseAddress
       {
-         value = "816";
+         value = "66288";
          type = "String";
       }
    }
@@ -85,7 +85,7 @@
    {
       datum baseAddress
       {
-         value = "800";
+         value = "66272";
          type = "String";
       }
    }
@@ -101,7 +101,7 @@
    {
       datum baseAddress
       {
-         value = "784";
+         value = "66256";
          type = "String";
       }
    }
@@ -117,7 +117,7 @@
    {
       datum baseAddress
       {
-         value = "768";
+         value = "66240";
          type = "String";
       }
    }
@@ -133,7 +133,7 @@
    {
       datum baseAddress
       {
-         value = "752";
+         value = "66224";
          type = "String";
       }
    }
@@ -149,7 +149,7 @@
    {
       datum baseAddress
       {
-         value = "736";
+         value = "66208";
          type = "String";
       }
    }
@@ -165,7 +165,7 @@
    {
       datum baseAddress
       {
-         value = "720";
+         value = "66192";
          type = "String";
       }
    }
@@ -181,7 +181,7 @@
    {
       datum baseAddress
       {
-         value = "704";
+         value = "66176";
          type = "String";
       }
    }
@@ -197,7 +197,7 @@
    {
       datum baseAddress
       {
-         value = "688";
+         value = "66160";
          type = "String";
       }
    }
@@ -213,7 +213,7 @@
    {
       datum baseAddress
       {
-         value = "960";
+         value = "66432";
          type = "String";
       }
    }
@@ -229,7 +229,7 @@
    {
       datum baseAddress
       {
-         value = "672";
+         value = "66144";
          type = "String";
       }
    }
@@ -245,7 +245,7 @@
    {
       datum baseAddress
       {
-         value = "656";
+         value = "66128";
          type = "String";
       }
    }
@@ -261,7 +261,7 @@
    {
       datum baseAddress
       {
-         value = "640";
+         value = "66112";
          type = "String";
       }
    }
@@ -277,7 +277,7 @@
    {
       datum baseAddress
       {
-         value = "624";
+         value = "66096";
          type = "String";
       }
    }
@@ -293,7 +293,7 @@
    {
       datum baseAddress
       {
-         value = "608";
+         value = "66080";
          type = "String";
       }
    }
@@ -309,7 +309,7 @@
    {
       datum baseAddress
       {
-         value = "592";
+         value = "66064";
          type = "String";
       }
    }
@@ -325,7 +325,7 @@
    {
       datum baseAddress
       {
-         value = "576";
+         value = "66048";
          type = "String";
       }
    }
@@ -341,7 +341,7 @@
    {
       datum baseAddress
       {
-         value = "560";
+         value = "66032";
          type = "String";
       }
    }
@@ -357,7 +357,7 @@
    {
       datum baseAddress
       {
-         value = "544";
+         value = "66016";
          type = "String";
       }
    }
@@ -373,7 +373,7 @@
    {
       datum baseAddress
       {
-         value = "528";
+         value = "66000";
          type = "String";
       }
    }
@@ -389,7 +389,7 @@
    {
       datum baseAddress
       {
-         value = "944";
+         value = "66416";
          type = "String";
       }
    }
@@ -405,7 +405,7 @@
    {
       datum baseAddress
       {
-         value = "512";
+         value = "65984";
          type = "String";
       }
    }
@@ -421,7 +421,7 @@
    {
       datum baseAddress
       {
-         value = "928";
+         value = "66400";
          type = "String";
       }
    }
@@ -437,7 +437,7 @@
    {
       datum baseAddress
       {
-         value = "912";
+         value = "66384";
          type = "String";
       }
    }
@@ -453,7 +453,7 @@
    {
       datum baseAddress
       {
-         value = "896";
+         value = "66368";
          type = "String";
       }
    }
@@ -469,7 +469,7 @@
    {
       datum baseAddress
       {
-         value = "880";
+         value = "66352";
          type = "String";
       }
    }
@@ -485,7 +485,7 @@
    {
       datum baseAddress
       {
-         value = "864";
+         value = "66336";
          type = "String";
       }
    }
@@ -501,7 +501,7 @@
    {
       datum baseAddress
       {
-         value = "848";
+         value = "66320";
          type = "String";
       }
    }
@@ -525,7 +525,7 @@
    {
       datum baseAddress
       {
-         value = "480";
+         value = "65952";
          type = "String";
       }
    }
@@ -541,7 +541,7 @@
    {
       datum baseAddress
       {
-         value = "448";
+         value = "65920";
          type = "String";
       }
    }
@@ -549,7 +549,7 @@
    {
       datum _sortIndex
       {
-         value = "45";
+         value = "37";
          type = "int";
       }
    }
@@ -557,7 +557,7 @@
    {
       datum baseAddress
       {
-         value = "304";
+         value = "65904";
          type = "String";
       }
    }
@@ -565,7 +565,7 @@
    {
       datum _sortIndex
       {
-         value = "46";
+         value = "38";
          type = "int";
       }
    }
@@ -573,7 +573,7 @@
    {
       datum baseAddress
       {
-         value = "288";
+         value = "65888";
          type = "String";
       }
    }
@@ -581,7 +581,7 @@
    {
       datum _sortIndex
       {
-         value = "47";
+         value = "39";
          type = "int";
       }
    }
@@ -589,7 +589,7 @@
    {
       datum baseAddress
       {
-         value = "272";
+         value = "65872";
          type = "String";
       }
    }
@@ -597,7 +597,7 @@
    {
       datum _sortIndex
       {
-         value = "48";
+         value = "40";
          type = "int";
       }
    }
@@ -605,7 +605,7 @@
    {
       datum baseAddress
       {
-         value = "256";
+         value = "65856";
          type = "String";
       }
    }
@@ -613,7 +613,7 @@
    {
       datum _sortIndex
       {
-         value = "49";
+         value = "41";
          type = "int";
       }
    }
@@ -621,7 +621,7 @@
    {
       datum baseAddress
       {
-         value = "240";
+         value = "65840";
          type = "String";
       }
    }
@@ -629,7 +629,7 @@
    {
       datum _sortIndex
       {
-         value = "50";
+         value = "42";
          type = "int";
       }
    }
@@ -637,7 +637,7 @@
    {
       datum baseAddress
       {
-         value = "224";
+         value = "65824";
          type = "String";
       }
    }
@@ -645,7 +645,7 @@
    {
       datum _sortIndex
       {
-         value = "51";
+         value = "43";
          type = "int";
       }
    }
@@ -653,7 +653,7 @@
    {
       datum baseAddress
       {
-         value = "208";
+         value = "65808";
          type = "String";
       }
    }
@@ -661,7 +661,7 @@
    {
       datum _sortIndex
       {
-         value = "52";
+         value = "44";
          type = "int";
       }
    }
@@ -669,7 +669,7 @@
    {
       datum baseAddress
       {
-         value = "192";
+         value = "65792";
          type = "String";
       }
    }
@@ -677,7 +677,7 @@
    {
       datum _sortIndex
       {
-         value = "57";
+         value = "49";
          type = "int";
       }
    }
@@ -685,7 +685,7 @@
    {
       datum baseAddress
       {
-         value = "112";
+         value = "65712";
          type = "String";
       }
    }
@@ -693,7 +693,7 @@
    {
       datum _sortIndex
       {
-         value = "58";
+         value = "50";
          type = "int";
       }
    }
@@ -701,7 +701,7 @@
    {
       datum baseAddress
       {
-         value = "96";
+         value = "65696";
          type = "String";
       }
    }
@@ -709,7 +709,7 @@
    {
       datum _sortIndex
       {
-         value = "59";
+         value = "51";
          type = "int";
       }
    }
@@ -717,7 +717,7 @@
    {
       datum baseAddress
       {
-         value = "80";
+         value = "65680";
          type = "String";
       }
    }
@@ -725,7 +725,7 @@
    {
       datum _sortIndex
       {
-         value = "60";
+         value = "52";
          type = "int";
       }
    }
@@ -733,135 +733,23 @@
    {
       datum baseAddress
       {
-         value = "64";
+         value = "65664";
          type = "String";
       }
    }
-   element expected_result_0
+   element expected_output_4
    {
       datum _sortIndex
       {
-         value = "37";
+         value = "58";
          type = "int";
       }
    }
-   element expected_result_0.s1
+   element expected_output_4.s1
    {
       datum baseAddress
       {
-         value = "432";
-         type = "String";
-      }
-   }
-   element expected_result_1
-   {
-      datum _sortIndex
-      {
-         value = "38";
-         type = "int";
-      }
-   }
-   element expected_result_1.s1
-   {
-      datum baseAddress
-      {
-         value = "416";
-         type = "String";
-      }
-   }
-   element expected_result_2
-   {
-      datum _sortIndex
-      {
-         value = "39";
-         type = "int";
-      }
-   }
-   element expected_result_2.s1
-   {
-      datum baseAddress
-      {
-         value = "400";
-         type = "String";
-      }
-   }
-   element expected_result_3
-   {
-      datum _sortIndex
-      {
-         value = "40";
-         type = "int";
-      }
-   }
-   element expected_result_3.s1
-   {
-      datum baseAddress
-      {
-         value = "384";
-         type = "String";
-      }
-   }
-   element expected_result_4
-   {
-      datum _sortIndex
-      {
-         value = "41";
-         type = "int";
-      }
-   }
-   element expected_result_4.s1
-   {
-      datum baseAddress
-      {
-         value = "368";
-         type = "String";
-      }
-   }
-   element expected_result_5
-   {
-      datum _sortIndex
-      {
-         value = "42";
-         type = "int";
-      }
-   }
-   element expected_result_5.s1
-   {
-      datum baseAddress
-      {
-         value = "352";
-         type = "String";
-      }
-   }
-   element expected_result_6
-   {
-      datum _sortIndex
-      {
-         value = "43";
-         type = "int";
-      }
-   }
-   element expected_result_6.s1
-   {
-      datum baseAddress
-      {
-         value = "336";
-         type = "String";
-      }
-   }
-   element expected_result_7
-   {
-      datum _sortIndex
-      {
-         value = "44";
-         type = "int";
-      }
-   }
-   element expected_result_7.s1
-   {
-      datum baseAddress
-      {
-         value = "320";
+         value = "65568";
          type = "String";
       }
    }
@@ -877,7 +765,7 @@
    {
       datum _sortIndex
       {
-         value = "53";
+         value = "45";
          type = "int";
       }
    }
@@ -885,7 +773,7 @@
    {
       datum baseAddress
       {
-         value = "176";
+         value = "65776";
          type = "String";
       }
    }
@@ -893,7 +781,7 @@
    {
       datum _sortIndex
       {
-         value = "54";
+         value = "46";
          type = "int";
       }
    }
@@ -901,7 +789,7 @@
    {
       datum baseAddress
       {
-         value = "160";
+         value = "65760";
          type = "String";
       }
    }
@@ -909,7 +797,7 @@
    {
       datum _sortIndex
       {
-         value = "55";
+         value = "47";
          type = "int";
       }
    }
@@ -917,7 +805,7 @@
    {
       datum baseAddress
       {
-         value = "144";
+         value = "65744";
          type = "String";
       }
    }
@@ -925,7 +813,7 @@
    {
       datum _sortIndex
       {
-         value = "56";
+         value = "48";
          type = "int";
       }
    }
@@ -933,7 +821,23 @@
    {
       datum baseAddress
       {
-         value = "128";
+         value = "65728";
+         type = "String";
+      }
+   }
+   element input_sequence_4
+   {
+      datum _sortIndex
+      {
+         value = "57";
+         type = "int";
+      }
+   }
+   element input_sequence_4.s1
+   {
+      datum baseAddress
+      {
+         value = "65584";
          type = "String";
       }
    }
@@ -949,7 +853,23 @@
    {
       datum baseAddress
       {
-         value = "464";
+         value = "65936";
+         type = "String";
+      }
+   }
+   element sequences_to_process
+   {
+      datum _sortIndex
+      {
+         value = "60";
+         type = "int";
+      }
+   }
+   element sequences_to_process.s1
+   {
+      datum baseAddress
+      {
+         value = "65536";
          type = "String";
       }
    }
@@ -965,11 +885,11 @@
    {
       datum baseAddress
       {
-         value = "496";
+         value = "65968";
          type = "String";
       }
    }
-   element valid_output_0
+   element two_port_mem
    {
       datum _sortIndex
       {
@@ -977,11 +897,27 @@
          type = "int";
       }
    }
+   element two_port_mem.s1
+   {
+      datum baseAddress
+      {
+         value = "0";
+         type = "String";
+      }
+   }
+   element valid_output_0
+   {
+      datum _sortIndex
+      {
+         value = "53";
+         type = "int";
+      }
+   }
    element valid_output_0.s1
    {
       datum baseAddress
       {
-         value = "48";
+         value = "65648";
          type = "String";
       }
    }
@@ -989,7 +925,7 @@
    {
       datum _sortIndex
       {
-         value = "62";
+         value = "54";
          type = "int";
       }
    }
@@ -997,7 +933,7 @@
    {
       datum baseAddress
       {
-         value = "32";
+         value = "65632";
          type = "String";
       }
    }
@@ -1005,7 +941,7 @@
    {
       datum _sortIndex
       {
-         value = "63";
+         value = "55";
          type = "int";
       }
    }
@@ -1013,7 +949,7 @@
    {
       datum baseAddress
       {
-         value = "16";
+         value = "65616";
          type = "String";
       }
    }
@@ -1021,7 +957,7 @@
    {
       datum _sortIndex
       {
-         value = "64";
+         value = "56";
          type = "int";
       }
    }
@@ -1029,7 +965,23 @@
    {
       datum baseAddress
       {
-         value = "0";
+         value = "65600";
+         type = "String";
+      }
+   }
+   element valid_output_4
+   {
+      datum _sortIndex
+      {
+         value = "59";
+         type = "int";
+      }
+   }
+   element valid_output_4.s1
+   {
+      datum baseAddress
+      {
+         value = "65552";
          type = "String";
       }
    }
@@ -1281,43 +1233,8 @@
    type="conduit"
    dir="end" />
  <interface
-   name="expected_result_0"
-   internal="expected_result_0.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="expected_result_1"
-   internal="expected_result_1.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="expected_result_2"
-   internal="expected_result_2.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="expected_result_3"
-   internal="expected_result_3.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="expected_result_4"
-   internal="expected_result_4.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="expected_result_5"
-   internal="expected_result_5.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="expected_result_6"
-   internal="expected_result_6.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="expected_result_7"
-   internal="expected_result_7.external_connection"
+   name="expected_output_4"
+   internal="expected_output_4.external_connection"
    type="conduit"
    dir="end" />
  <interface name="hps_io" internal="hps_0.hps_io" type="conduit" dir="end" />
@@ -1341,6 +1258,12 @@
    internal="input_sequence_3.external_connection"
    type="conduit"
    dir="end" />
+ <interface
+   name="input_sequence_4"
+   internal="input_sequence_4.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface name="mem_s2" internal="two_port_mem.s2" type="avalon" dir="end" />
  <interface name="memory" internal="hps_0.memory" type="conduit" dir="end" />
  <interface
    name="ready_to_process"
@@ -1348,6 +1271,11 @@
    type="conduit"
    dir="end" />
  <interface name="reset" internal="clk_0.clk_in_reset" type="reset" dir="end" />
+ <interface
+   name="sequences_to_process"
+   internal="sequences_to_process.external_connection"
+   type="conduit"
+   dir="end" />
  <interface
    name="start_processing_chrom"
    internal="start_processing_chrom.external_connection"
@@ -1371,6 +1299,11 @@
  <interface
    name="valid_output_3"
    internal="valid_output_3.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="valid_output_4"
+   internal="valid_output_4.external_connection"
    type="conduit"
    dir="end" />
  <module
@@ -2190,133 +2123,7 @@
   <parameter name="width" value="32" />
  </module>
  <module
-   name="expected_result_0"
-   kind="altera_avalon_pio"
-   version="16.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="expected_result_1"
-   kind="altera_avalon_pio"
-   version="16.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="expected_result_2"
-   kind="altera_avalon_pio"
-   version="16.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="expected_result_3"
-   kind="altera_avalon_pio"
-   version="16.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="expected_result_4"
-   kind="altera_avalon_pio"
-   version="16.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="expected_result_5"
-   kind="altera_avalon_pio"
-   version="16.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="expected_result_6"
-   kind="altera_avalon_pio"
-   version="16.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="expected_result_7"
+   name="expected_output_4"
    kind="altera_avalon_pio"
    version="16.1"
    enabled="1">
@@ -2936,6 +2743,24 @@
   <parameter name="width" value="32" />
  </module>
  <module
+   name="input_sequence_4"
+   kind="altera_avalon_pio"
+   version="16.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module
    name="ready_to_process"
    kind="altera_avalon_pio"
    version="16.1"
@@ -2954,6 +2779,24 @@
   <parameter name="width" value="1" />
  </module>
  <module
+   name="sequences_to_process"
+   kind="altera_avalon_pio"
+   version="16.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
+ <module
    name="start_processing_chrom"
    kind="altera_avalon_pio"
    version="16.1"
@@ -2970,6 +2813,38 @@
   <parameter name="simDoTestBenchWiring" value="false" />
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="1" />
+ </module>
+ <module
+   name="two_port_mem"
+   kind="altera_avalon_onchip_memory2"
+   version="16.1"
+   enabled="1">
+  <parameter name="allowInSystemMemoryContentEditor" value="false" />
+  <parameter name="autoInitializationFileName">$${FILENAME}_two_port_mem</parameter>
+  <parameter name="blockType" value="AUTO" />
+  <parameter name="copyInitFile" value="false" />
+  <parameter name="dataWidth" value="32" />
+  <parameter name="dataWidth2" value="32" />
+  <parameter name="deviceFamily" value="Cyclone V" />
+  <parameter name="deviceFeatures">ADDRESS_STALL 1 ADVANCED_INFO 0 ALLOWS_COMPILING_OTHER_FAMILY_IP 1 ANY_QFP 0 CELL_LEVEL_BACK_ANNOTATION_DISABLED 0 COMPILER_SUPPORT 1 DSP 0 DSP_SHIFTER_BLOCK 0 DUMP_ASM_LAB_BITS_FOR_POWER 0 EMUL 1 ENABLE_ADVANCED_IO_ANALYSIS_GUI_FEATURES 1 ENABLE_PIN_PLANNER 0 ENGINEERING_SAMPLE 0 EPCS 1 ESB 0 FAKE1 0 FAKE2 0 FAKE3 0 FAMILY_LEVEL_INSTALLATION_ONLY 0 FASTEST 0 FINAL_TIMING_MODEL 0 FITTER_USE_FALLING_EDGE_DELAY 1 FPP_COMPLETELY_PLACES_AND_ROUTES_PERIPHERY 0 GENERATE_DC_ON_CURRENT_WARNING_FOR_INTERNAL_CLAMPING_DIODE 1 HARDCOPY 0 HAS_18_BIT_MULTS 1 HAS_ACE_SUPPORT 1 HAS_ACTIVE_PARALLEL_FLASH_SUPPORT 0 HAS_ADJUSTABLE_OUTPUT_IO_TIMING_MEAS_POINT 1 HAS_ADVANCED_IO_INVERTED_CORNER 1 HAS_ADVANCED_IO_POWER_SUPPORT 1 HAS_ADVANCED_IO_TIMING_SUPPORT 1 HAS_ALM_SUPPORT 1 HAS_ATOM_AND_ROUTING_POWER_MODELED_TOGETHER 0 HAS_AUTO_DERIVE_CLOCK_UNCERTAINTY_SUPPORT 1 HAS_AUTO_FIT_SUPPORT 1 HAS_BALANCED_OPT_TECHNIQUE_SUPPORT 1 HAS_BENEFICIAL_SKEW_SUPPORT 0 HAS_BITLEVEL_DRIVE_STRENGTH_CONTROL 1 HAS_BSDL_FILE_GENERATION 1 HAS_CDB_RE_NETWORK_PRESERVATION_SUPPORT 0 HAS_CGA_SUPPORT 1 HAS_CHECK_NETLIST_SUPPORT 1 HAS_CLOCK_REGION_CHECKER_ENABLED 1 HAS_CORE_JUNCTION_TEMP_DERATING 0 HAS_CROSSTALK_SUPPORT 0 HAS_CUSTOM_REGION_SUPPORT 1 HAS_DAP_JTAG_FROM_HPS 0 HAS_DATA_DRIVEN_ACVQ_HSSI_SUPPORT 1 HAS_DDB_FDI_SUPPORT 1 HAS_DESIGN_ANALYZER_SUPPORT 1 HAS_DETAILED_IO_RAIL_POWER_MODEL 1 HAS_DETAILED_LEIM_STATIC_POWER_MODEL 0 HAS_DETAILED_LE_POWER_MODEL 1 HAS_DETAILED_ROUTING_MUX_STATIC_POWER_MODEL 0 HAS_DETAILED_THERMAL_CIRCUIT_PARAMETER_SUPPORT 1 HAS_DEVICE_MIGRATION_SUPPORT 1 HAS_DIAGONAL_MIGRATION_SUPPORT 0 HAS_EMIF_TOOLKIT_SUPPORT 1 HAS_ERROR_DETECTION_SUPPORT 1 HAS_FAMILY_VARIANT_MIGRATION_SUPPORT 0 HAS_FANOUT_FREE_NODE_SUPPORT 1 HAS_FAST_FIT_SUPPORT 1 HAS_FITTER_ECO_SUPPORT 1 HAS_FIT_NETLIST_OPT_RETIME_SUPPORT 1 HAS_FIT_NETLIST_OPT_SUPPORT 1 HAS_FORMAL_VERIFICATION_SUPPORT 0 HAS_FPGA_XCHANGE_SUPPORT 1 HAS_FSAC_LUTRAM_REGISTER_PACKING_SUPPORT 1 HAS_FULL_DAT_MIN_TIMING_SUPPORT 1 HAS_FULL_INCREMENTAL_DESIGN_SUPPORT 1 HAS_FUNCTIONAL_SIMULATION_SUPPORT 0 HAS_FUNCTIONAL_VERILOG_SIMULATION_SUPPORT 1 HAS_FUNCTIONAL_VHDL_SIMULATION_SUPPORT 1 HAS_GLITCH_FILTERING_SUPPORT 1 HAS_HARDCOPYII_SUPPORT 0 HAS_HC_READY_SUPPORT 0 HAS_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_HOLD_TIME_AVOIDANCE_ACROSS_CLOCK_SPINE_SUPPORT 1 HAS_HSPICE_WRITER_SUPPORT 1 HAS_HSSI_POWER_CALCULATOR 1 HAS_IBISO_WRITER_SUPPORT 0 HAS_ICD_DATA_IP 0 HAS_IDB_SUPPORT 1 HAS_INCREMENTAL_DAT_SUPPORT 1 HAS_INCREMENTAL_SYNTHESIS_SUPPORT 1 HAS_IO_ASSIGNMENT_ANALYSIS_SUPPORT 1 HAS_IO_DECODER 1 HAS_IO_PLACEMENT_OPTIMIZATION_SUPPORT 1 HAS_IO_PLACEMENT_USING_GEOMETRY_RULE 0 HAS_IO_PLACEMENT_USING_PHYSIC_RULE 0 HAS_IO_SMART_RECOMPILE_SUPPORT 0 HAS_JITTER_SUPPORT 1 HAS_JTAG_SLD_HUB_SUPPORT 1 HAS_LOGIC_LOCK_SUPPORT 1 HAS_MICROPROCESSOR 0 HAS_MIF_SMART_COMPILE_SUPPORT 1 HAS_MINMAX_TIMING_MODELING_SUPPORT 1 HAS_MIN_TIMING_ANALYSIS_SUPPORT 1 HAS_MUX_RESTRUCTURE_SUPPORT 1 HAS_NADDER_STYLE_CLOCKING 0 HAS_NADDER_STYLE_FF 0 HAS_NADDER_STYLE_LCELL_COMB 0 HAS_NEW_CDB_NAME_FOR_M20K_SCLR 0 HAS_NEW_HC_FLOW_SUPPORT 0 HAS_NEW_SERDES_MAX_RESOURCE_COUNT_REPORTING_SUPPORT 0 HAS_NEW_VPR_SUPPORT 1 HAS_NONSOCKET_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_NO_HARDBLOCK_PARTITION_SUPPORT 0 HAS_NO_JTAG_USERCODE_SUPPORT 0 HAS_OPERATING_SETTINGS_AND_CONDITIONS_REPORTING_SUPPORT 1 HAS_PAD_LOCATION_ASSIGNMENT_SUPPORT 0 HAS_PARTIAL_RECONFIG_SUPPORT 1 HAS_PASSIVE_PARALLEL_SUPPORT 0 HAS_PDN_MODEL_STATUS 0 HAS_PHYSICAL_DESIGN_PLANNER_SUPPORT 0 HAS_PHYSICAL_NETLIST_OUTPUT 0 HAS_PHYSICAL_ROUTING_SUPPORT 1 HAS_PIN_SPECIFIC_VOLTAGE_SUPPORT 1 HAS_PLDM_REF_SUPPORT 0 HAS_POWER_BINNING_LIMITS_DATA 1 HAS_POWER_ESTIMATION_SUPPORT 1 HAS_PRELIMINARY_CLOCK_UNCERTAINTY_NUMBERS 0 HAS_PRE_FITTER_FPP_SUPPORT 1 HAS_PRE_FITTER_LUTRAM_NETLIST_CHECKER_ENABLED 1 HAS_PVA_SUPPORT 1 HAS_QUARTUS_HIERARCHICAL_DESIGN_SUPPORT 0 HAS_RAPID_RECOMPILE_SUPPORT 1 HAS_RCF_SUPPORT 1 HAS_RCF_SUPPORT_FOR_DEBUGGING 0 HAS_RED_BLACK_SEPARATION_SUPPORT 0 HAS_RE_LEVEL_TIMING_GRAPH_SUPPORT 1 HAS_RISEFALL_DELAY_SUPPORT 1 HAS_SIGNAL_PROBE_SUPPORT 1 HAS_SIGNAL_TAP_SUPPORT 1 HAS_SIMULATOR_SUPPORT 0 HAS_SPLIT_IO_SUPPORT 1 HAS_SPLIT_LC_SUPPORT 1 HAS_STRICT_PRESERVATION_SUPPORT 1 HAS_SYNTHESIS_ON_ATOMS 1 HAS_SYNTH_FSYN_NETLIST_OPT_SUPPORT 1 HAS_SYNTH_NETLIST_OPT_RETIME_SUPPORT 0 HAS_SYNTH_NETLIST_OPT_SUPPORT 1 HAS_TCL_FITTER_SUPPORT 0 HAS_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_TEMPLATED_REGISTER_PACKING_SUPPORT 1 HAS_TIME_BORROWING_SUPPORT 0 HAS_TIMING_DRIVEN_SYNTHESIS_SUPPORT 1 HAS_TIMING_INFO_SUPPORT 1 HAS_TIMING_OPERATING_CONDITIONS 1 HAS_TIMING_SIMULATION_SUPPORT 0 HAS_TITAN_BASED_MAC_REGISTER_PACKER_SUPPORT 1 HAS_U2B2_SUPPORT 0 HAS_USER_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_USE_FITTER_INFO_SUPPORT 0 HAS_VCCPD_POWER_RAIL 1 HAS_VERTICAL_MIGRATION_SUPPORT 1 HAS_VIEWDRAW_SYMBOL_SUPPORT 0 HAS_VIO_SUPPORT 1 HAS_VIRTUAL_DEVICES 0 HAS_WYSIWYG_DFFEAS_SUPPORT 1 HAS_XIBISO2_WRITER_SUPPORT 0 HAS_XIBISO_WRITER_SUPPORT 1 IFP_USE_LEGACY_IO_CHECKER 1 INCREMENTAL_DESIGN_SUPPORTS_COMPATIBLE_CONSTRAINTS 0 INSTALLED 0 INTERNAL_POF_SUPPORT_ENABLED 0 INTERNAL_USE_ONLY 0 ISSUE_MILITARY_TEMPERATURE_WARNING 0 IS_BARE_DIE 0 IS_CONFIG_ROM 0 IS_DEFAULT_FAMILY 0 IS_FOR_INTERNAL_TESTING_ONLY 0 IS_HARDCOPY_FAMILY 0 IS_HBGA_PACKAGE 0 IS_HIGH_CURRENT_PART 0 IS_LOW_POWER_PART 0 IS_SDM_ONLY_PACKAGE 0 IS_SMI_PART 0 LOAD_BLK_TYPE_DATA_FROM_ATOM_WYS_INFO 0 LVDS_IO 1 M10K_MEMORY 1 M144K_MEMORY 0 M20K_MEMORY 0 M4K_MEMORY 0 M512_MEMORY 0 M9K_MEMORY 0 MLAB_MEMORY 1 MRAM_MEMORY 0 NOT_LISTED 0 NOT_MIGRATABLE 0 NO_FITTER_DELAY_CACHE_GENERATED 0 NO_PIN_OUT 0 NO_POF 0 NO_RPE_SUPPORT 0 NO_SUPPORT_FOR_LOGICLOCK_CONTENT_BACK_ANNOTATION 1 NO_SUPPORT_FOR_STA_CLOCK_UNCERTAINTY_CHECK 0 NO_TDC_SUPPORT 0 POSTFIT_BAK_DATABASE_EXPORT_ENABLED 1 POSTMAP_BAK_DATABASE_EXPORT_ENABLED 1 PROGRAMMER_ONLY 0 PROGRAMMER_SUPPORT 1 PVA_SUPPORTS_ONLY_SUBSET_OF_ATOMS 0 QFIT_IN_DEVELOPMENT 0 QMAP_IN_DEVELOPMENT 0 RAM_LOGICAL_NAME_CHECKING_IN_CUT_ENABLED 1 REPORTS_METASTABILITY_MTBF 1 REQUIRES_INSTALLATION_PATCH 0 REQUIRES_LIST_OF_TEMPERATURE_AND_VOLTAGE_OPERATING_CONDITIONS 1 REQUIRE_QUARTUS_HIERARCHICAL_DESIGN 0 REQUIRE_SPECIAL_HANDLING_FOR_LOCAL_LABLINE 0 RESERVES_SIGNAL_PROBE_PINS 0 RESOLVE_MAX_FANOUT_EARLY 1 RESOLVE_MAX_FANOUT_LATE 0 RESPECTS_FIXED_SIZED_LOCKED_LOCATION_LOGICLOCK 1 RESTRICTED_USER_SELECTION 0 RESTRICT_PARTIAL_RECONFIG 0 RISEFALL_SUPPORT_IS_HIDDEN 0 SHOW_HIDDEN_FAMILY_IN_PROGRAMMER 0 STRICT_TIMING_DB_CHECKS 0 SUPPORTS_ADDITIONAL_OPTIONS_FOR_UNUSED_IO 1 SUPPORTS_CRC 1 SUPPORTS_DIFFERENTIAL_AIOT_BOARD_TRACE_MODEL 1 SUPPORTS_DSP_BALANCING_BACK_ANNOTATION 0 SUPPORTS_GENERATION_OF_EARLY_POWER_ESTIMATOR_FILE 1 SUPPORTS_GLOBAL_SIGNAL_BACK_ANNOTATION 1 SUPPORTS_HIPI_RETIMING 0 SUPPORTS_LICENSE_FREE_PARTIAL_RECONFIG 0 SUPPORTS_MAC_CHAIN_OUT_ADDER 1 SUPPORTS_RAM_PACKING_BACK_ANNOTATION 0 SUPPORTS_REG_PACKING_BACK_ANNOTATION 0 SUPPORTS_SIGNALPROBE_REGISTER_PIPELINING 1 SUPPORTS_SINGLE_ENDED_AIOT_BOARD_TRACE_MODEL 1 SUPPORTS_USER_MANUAL_LOGIC_DUPLICATION 1 SUPPORTS_VID 0 TMV_RUN_CUSTOMIZABLE_VIEWER 1 TMV_RUN_INTERNAL_DETAILS 1 TMV_RUN_INTERNAL_DETAILS_ON_IO 0 TMV_RUN_INTERNAL_DETAILS_ON_IOBUF 1 TMV_RUN_INTERNAL_DETAILS_ON_LCELL 0 TMV_RUN_INTERNAL_DETAILS_ON_LRAM 0 TRANSCEIVER_3G_BLOCK 1 TRANSCEIVER_6G_BLOCK 1 USES_ACV_FOR_FLED 1 USES_ADB_FOR_BACK_ANNOTATION 1 USES_ALTERA_LNSIM 0 USES_ASIC_ROUTING_POWER_CALCULATOR 0 USES_DATA_DRIVEN_PLL_COMPUTATION_UTIL 1 USES_DEV 1 USES_ICP_FOR_ECO_FITTER 0 USES_LIBERTY_TIMING 0 USES_NETWORK_ROUTING_POWER_CALCULATOR 0 USES_PART_INFO_FOR_DISPLAYING_CORE_VOLTAGE_VALUE 0 USES_POWER_SIGNAL_ACTIVITIES 1 USES_PVAFAM2 0 USES_SECOND_GENERATION_PART_INFO 0 USES_SECOND_GENERATION_POWER_ANALYZER 0 USES_THIRD_GENERATION_TIMING_MODELS_TIS 1 USES_U2B2_TIMING_MODELS 0 USES_XML_FORMAT_FOR_EMIF_PIN_MAP_FILE 0 USE_ADVANCED_IO_POWER_BY_DEFAULT 1 USE_ADVANCED_IO_TIMING_BY_DEFAULT 1 USE_BASE_FAMILY_DDB_PATH 0 USE_OCT_AUTO_CALIBRATION 1 USE_RELAX_IO_ASSIGNMENT_RULES 0 USE_RISEFALL_ONLY 1 USE_SEPARATE_LIST_FOR_TECH_MIGRATION 0 USE_SINGLE_COMPILER_PASS_PLL_MIF_FILE_WRITER 1 USE_TITAN_IO_BASED_IO_REGISTER_PACKER_UTIL 1 USING_28NM_OR_OLDER_TIMING_METHODOLOGY 1 WYSIWYG_BUS_WIDTH_CHECKING_IN_CUT_ENABLED 1</parameter>
+  <parameter name="dualPort" value="true" />
+  <parameter name="ecc_enabled" value="false" />
+  <parameter name="enPRInitMode" value="false" />
+  <parameter name="enableDiffWidth" value="false" />
+  <parameter name="initMemContent" value="true" />
+  <parameter name="initializationFileName" value="onchip_mem.hex" />
+  <parameter name="instanceID" value="NONE" />
+  <parameter name="memorySize" value="65536" />
+  <parameter name="readDuringWriteMode" value="DONT_CARE" />
+  <parameter name="resetrequest_enabled" value="true" />
+  <parameter name="simAllowMRAMContentsFile" value="false" />
+  <parameter name="simMemInitOnlyFilename" value="0" />
+  <parameter name="singleClockOperation" value="false" />
+  <parameter name="slave1Latency" value="1" />
+  <parameter name="slave2Latency" value="1" />
+  <parameter name="useNonDefaultInitFile" value="false" />
+  <parameter name="useShallowMemBlocks" value="false" />
+  <parameter name="writable" value="true" />
  </module>
  <module
    name="valid_output_0"
@@ -3043,13 +2918,31 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="32" />
  </module>
+ <module
+   name="valid_output_4"
+   kind="altera_avalon_pio"
+   version="16.1"
+   enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="clockRate" value="50000000" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="32" />
+ </module>
  <connection
    kind="avalon"
    version="16.1"
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x03e0" />
+  <parameter name="baseAddress" value="0x000103a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3058,7 +2951,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x03d0" />
+  <parameter name="baseAddress" value="0x00010390" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3067,7 +2960,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x03c0" />
+  <parameter name="baseAddress" value="0x00010380" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3076,7 +2969,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x03b0" />
+  <parameter name="baseAddress" value="0x00010370" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3085,7 +2978,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_4.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x03a0" />
+  <parameter name="baseAddress" value="0x00010360" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3094,7 +2987,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_5.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0390" />
+  <parameter name="baseAddress" value="0x00010350" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3103,7 +2996,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_6.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0380" />
+  <parameter name="baseAddress" value="0x00010340" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3112,7 +3005,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_7.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0370" />
+  <parameter name="baseAddress" value="0x00010330" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3121,7 +3014,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_8.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0360" />
+  <parameter name="baseAddress" value="0x00010320" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3130,7 +3023,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_9.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0350" />
+  <parameter name="baseAddress" value="0x00010310" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3139,7 +3032,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_10.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0340" />
+  <parameter name="baseAddress" value="0x00010300" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3148,7 +3041,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_11.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0330" />
+  <parameter name="baseAddress" value="0x000102f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3157,7 +3050,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_12.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0320" />
+  <parameter name="baseAddress" value="0x000102e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3166,7 +3059,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_13.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0310" />
+  <parameter name="baseAddress" value="0x000102d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3175,7 +3068,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_14.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0300" />
+  <parameter name="baseAddress" value="0x000102c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3184,7 +3077,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_15.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02f0" />
+  <parameter name="baseAddress" value="0x000102b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3193,7 +3086,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_16.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02e0" />
+  <parameter name="baseAddress" value="0x000102a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3202,7 +3095,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_17.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02d0" />
+  <parameter name="baseAddress" value="0x00010290" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3211,7 +3104,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_18.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02c0" />
+  <parameter name="baseAddress" value="0x00010280" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3220,7 +3113,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_19.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02b0" />
+  <parameter name="baseAddress" value="0x00010270" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3229,7 +3122,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_20.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02a0" />
+  <parameter name="baseAddress" value="0x00010260" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3238,7 +3131,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_21.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0290" />
+  <parameter name="baseAddress" value="0x00010250" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3247,7 +3140,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_22.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0280" />
+  <parameter name="baseAddress" value="0x00010240" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3256,7 +3149,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_23.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0270" />
+  <parameter name="baseAddress" value="0x00010230" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3265,7 +3158,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_24.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0260" />
+  <parameter name="baseAddress" value="0x00010220" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3274,7 +3167,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_25.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0250" />
+  <parameter name="baseAddress" value="0x00010210" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3283,7 +3176,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_26.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0240" />
+  <parameter name="baseAddress" value="0x00010200" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3292,7 +3185,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_27.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0230" />
+  <parameter name="baseAddress" value="0x000101f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3301,7 +3194,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_28.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0220" />
+  <parameter name="baseAddress" value="0x000101e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3310,7 +3203,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_29.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0210" />
+  <parameter name="baseAddress" value="0x000101d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3319,7 +3212,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_30.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0200" />
+  <parameter name="baseAddress" value="0x000101c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3328,7 +3221,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="start_processing_chrom.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01f0" />
+  <parameter name="baseAddress" value="0x000101b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3337,7 +3230,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="done_processing_chrom.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01e0" />
+  <parameter name="baseAddress" value="0x000101a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3346,7 +3239,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="ready_to_process.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01d0" />
+  <parameter name="baseAddress" value="0x00010190" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3355,79 +3248,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="done_processing_feedback.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01c0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_0.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01b0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_1.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01a0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_2.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0190" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_3.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0180" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_4.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0170" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_5.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0160" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_6.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0150" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="16.1"
-   start="hps_0.h2f_lw_axi_master"
-   end="expected_result_7.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0140" />
+  <parameter name="baseAddress" value="0x00010180" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3436,7 +3257,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0130" />
+  <parameter name="baseAddress" value="0x00010170" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3445,7 +3266,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0120" />
+  <parameter name="baseAddress" value="0x00010160" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3454,7 +3275,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0110" />
+  <parameter name="baseAddress" value="0x00010150" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3463,7 +3284,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0100" />
+  <parameter name="baseAddress" value="0x00010140" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3472,7 +3293,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_4.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00f0" />
+  <parameter name="baseAddress" value="0x00010130" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3481,7 +3302,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_5.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00e0" />
+  <parameter name="baseAddress" value="0x00010120" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3490,7 +3311,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_6.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00d0" />
+  <parameter name="baseAddress" value="0x00010110" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3499,7 +3320,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_7.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00c0" />
+  <parameter name="baseAddress" value="0x00010100" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3508,7 +3329,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00b0" />
+  <parameter name="baseAddress" value="0x000100f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3517,7 +3338,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00a0" />
+  <parameter name="baseAddress" value="0x000100e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3526,7 +3347,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0090" />
+  <parameter name="baseAddress" value="0x000100d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3535,7 +3356,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0080" />
+  <parameter name="baseAddress" value="0x000100c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3544,7 +3365,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0070" />
+  <parameter name="baseAddress" value="0x000100b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3553,7 +3374,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0060" />
+  <parameter name="baseAddress" value="0x000100a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3562,7 +3383,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0050" />
+  <parameter name="baseAddress" value="0x00010090" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3571,7 +3392,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0040" />
+  <parameter name="baseAddress" value="0x00010080" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3580,7 +3401,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0030" />
+  <parameter name="baseAddress" value="0x00010070" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3589,7 +3410,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0020" />
+  <parameter name="baseAddress" value="0x00010060" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3598,7 +3419,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0010" />
+  <parameter name="baseAddress" value="0x00010050" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3606,6 +3427,51 @@
    version="16.1"
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_3.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010040" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="input_sequence_4.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010030" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="expected_output_4.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010020" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="valid_output_4.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010010" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="sequences_to_process.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="two_port_mem.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0000" />
   <parameter name="defaultConnection" value="false" />
@@ -3661,46 +3527,6 @@
    version="16.1"
    start="clk_0.clk"
    end="done_processing_feedback.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_0.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_1.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_2.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_3.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_4.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_5.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_6.clk" />
- <connection
-   kind="clock"
-   version="16.1"
-   start="clk_0.clk"
-   end="expected_result_7.clk" />
  <connection kind="clock" version="16.1" start="clk_0.clk" end="error_sum_0.clk" />
  <connection kind="clock" version="16.1" start="clk_0.clk" end="error_sum_1.clk" />
  <connection kind="clock" version="16.1" start="clk_0.clk" end="error_sum_2.clk" />
@@ -3769,6 +3595,28 @@
    version="16.1"
    start="clk_0.clk"
    end="valid_output_3.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="input_sequence_4.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="expected_output_4.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="valid_output_4.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="sequences_to_process.clk" />
+ <connection kind="clock" version="16.1" start="clk_0.clk" end="two_port_mem.clk1" />
+ <connection kind="clock" version="16.1" start="clk_0.clk" end="two_port_mem.clk2" />
  <connection
    kind="clock"
    version="16.1"
@@ -3963,46 +3811,6 @@
    kind="reset"
    version="16.1"
    start="hps_0.h2f_reset"
-   end="expected_result_0.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
-   end="expected_result_1.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
-   end="expected_result_2.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
-   end="expected_result_3.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
-   end="expected_result_4.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
-   end="expected_result_5.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
-   end="expected_result_6.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
-   end="expected_result_7.reset" />
- <connection
-   kind="reset"
-   version="16.1"
-   start="hps_0.h2f_reset"
    end="error_sum_0.reset" />
  <connection
    kind="reset"
@@ -4099,6 +3907,36 @@
    version="16.1"
    start="hps_0.h2f_reset"
    end="valid_output_3.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
+   end="input_sequence_4.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
+   end="expected_output_4.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
+   end="valid_output_4.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
+   end="sequences_to_process.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
+   end="two_port_mem.reset1" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
+   end="two_port_mem.reset2" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.enableEccProtection" value="FALSE" />
  <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />

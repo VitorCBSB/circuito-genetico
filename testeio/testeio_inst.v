@@ -45,14 +45,7 @@
 		.expected_output_1_export        (<connected-to-expected_output_1_export>),        //        expected_output_1.export
 		.expected_output_2_export        (<connected-to-expected_output_2_export>),        //        expected_output_2.export
 		.expected_output_3_export        (<connected-to-expected_output_3_export>),        //        expected_output_3.export
-		.expected_result_0_export        (<connected-to-expected_result_0_export>),        //        expected_result_0.export
-		.expected_result_1_export        (<connected-to-expected_result_1_export>),        //        expected_result_1.export
-		.expected_result_2_export        (<connected-to-expected_result_2_export>),        //        expected_result_2.export
-		.expected_result_3_export        (<connected-to-expected_result_3_export>),        //        expected_result_3.export
-		.expected_result_4_export        (<connected-to-expected_result_4_export>),        //        expected_result_4.export
-		.expected_result_5_export        (<connected-to-expected_result_5_export>),        //        expected_result_5.export
-		.expected_result_6_export        (<connected-to-expected_result_6_export>),        //        expected_result_6.export
-		.expected_result_7_export        (<connected-to-expected_result_7_export>),        //        expected_result_7.export
+		.expected_output_4_export        (<connected-to-expected_output_4_export>),        //        expected_output_4.export
 		.hps_io_hps_io_emac1_inst_TX_CLK (<connected-to-hps_io_hps_io_emac1_inst_TX_CLK>), //                   hps_io.hps_io_emac1_inst_TX_CLK
 		.hps_io_hps_io_emac1_inst_TXD0   (<connected-to-hps_io_hps_io_emac1_inst_TXD0>),   //                         .hps_io_emac1_inst_TXD0
 		.hps_io_hps_io_emac1_inst_TXD1   (<connected-to-hps_io_hps_io_emac1_inst_TXD1>),   //                         .hps_io_emac1_inst_TXD1
@@ -91,6 +84,7 @@
 		.input_sequence_1_export         (<connected-to-input_sequence_1_export>),         //         input_sequence_1.export
 		.input_sequence_2_export         (<connected-to-input_sequence_2_export>),         //         input_sequence_2.export
 		.input_sequence_3_export         (<connected-to-input_sequence_3_export>),         //         input_sequence_3.export
+		.input_sequence_4_export         (<connected-to-input_sequence_4_export>),         //         input_sequence_4.export
 		.memory_mem_a                    (<connected-to-memory_mem_a>),                    //                   memory.mem_a
 		.memory_mem_ba                   (<connected-to-memory_mem_ba>),                   //                         .mem_ba
 		.memory_mem_ck                   (<connected-to-memory_mem_ck>),                   //                         .mem_ck
@@ -113,6 +107,15 @@
 		.valid_output_0_export           (<connected-to-valid_output_0_export>),           //           valid_output_0.export
 		.valid_output_1_export           (<connected-to-valid_output_1_export>),           //           valid_output_1.export
 		.valid_output_2_export           (<connected-to-valid_output_2_export>),           //           valid_output_2.export
-		.valid_output_3_export           (<connected-to-valid_output_3_export>)            //           valid_output_3.export
+		.valid_output_3_export           (<connected-to-valid_output_3_export>),           //           valid_output_3.export
+		.valid_output_4_export           (<connected-to-valid_output_4_export>),           //           valid_output_4.export
+		.sequences_to_process_export     (<connected-to-sequences_to_process_export>),     //     sequences_to_process.export
+		.mem_s2_address                  (<connected-to-mem_s2_address>),                  //                   mem_s2.address
+		.mem_s2_chipselect               (<connected-to-mem_s2_chipselect>),               //                         .chipselect
+		.mem_s2_clken                    (<connected-to-mem_s2_clken>),                    //                         .clken
+		.mem_s2_write                    (<connected-to-mem_s2_write>),                    //                         .write
+		.mem_s2_readdata                 (<connected-to-mem_s2_readdata>),                 //                         .readdata
+		.mem_s2_writedata                (<connected-to-mem_s2_writedata>),                //                         .writedata
+		.mem_s2_byteenable               (<connected-to-mem_s2_byteenable>)                //                         .byteenable
 	);
 

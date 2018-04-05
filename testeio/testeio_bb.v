@@ -46,14 +46,7 @@ module testeio (
 	expected_output_1_export,
 	expected_output_2_export,
 	expected_output_3_export,
-	expected_result_0_export,
-	expected_result_1_export,
-	expected_result_2_export,
-	expected_result_3_export,
-	expected_result_4_export,
-	expected_result_5_export,
-	expected_result_6_export,
-	expected_result_7_export,
+	expected_output_4_export,
 	hps_io_hps_io_emac1_inst_TX_CLK,
 	hps_io_hps_io_emac1_inst_TXD0,
 	hps_io_hps_io_emac1_inst_TXD1,
@@ -92,6 +85,7 @@ module testeio (
 	input_sequence_1_export,
 	input_sequence_2_export,
 	input_sequence_3_export,
+	input_sequence_4_export,
 	memory_mem_a,
 	memory_mem_ba,
 	memory_mem_ck,
@@ -114,7 +108,16 @@ module testeio (
 	valid_output_0_export,
 	valid_output_1_export,
 	valid_output_2_export,
-	valid_output_3_export);	
+	valid_output_3_export,
+	valid_output_4_export,
+	sequences_to_process_export,
+	mem_s2_address,
+	mem_s2_chipselect,
+	mem_s2_clken,
+	mem_s2_write,
+	mem_s2_readdata,
+	mem_s2_writedata,
+	mem_s2_byteenable);	
 
 	output	[31:0]	chrom_seg_0_export;
 	output	[31:0]	chrom_seg_1_export;
@@ -162,14 +165,7 @@ module testeio (
 	output	[31:0]	expected_output_1_export;
 	output	[31:0]	expected_output_2_export;
 	output	[31:0]	expected_output_3_export;
-	output	[31:0]	expected_result_0_export;
-	output	[31:0]	expected_result_1_export;
-	output	[31:0]	expected_result_2_export;
-	output	[31:0]	expected_result_3_export;
-	output	[31:0]	expected_result_4_export;
-	output	[31:0]	expected_result_5_export;
-	output	[31:0]	expected_result_6_export;
-	output	[31:0]	expected_result_7_export;
+	output	[31:0]	expected_output_4_export;
 	output		hps_io_hps_io_emac1_inst_TX_CLK;
 	output		hps_io_hps_io_emac1_inst_TXD0;
 	output		hps_io_hps_io_emac1_inst_TXD1;
@@ -208,6 +204,7 @@ module testeio (
 	output	[31:0]	input_sequence_1_export;
 	output	[31:0]	input_sequence_2_export;
 	output	[31:0]	input_sequence_3_export;
+	output	[31:0]	input_sequence_4_export;
 	output	[14:0]	memory_mem_a;
 	output	[2:0]	memory_mem_ba;
 	output		memory_mem_ck;
@@ -231,4 +228,13 @@ module testeio (
 	output	[31:0]	valid_output_1_export;
 	output	[31:0]	valid_output_2_export;
 	output	[31:0]	valid_output_3_export;
+	output	[31:0]	valid_output_4_export;
+	output	[31:0]	sequences_to_process_export;
+	input	[13:0]	mem_s2_address;
+	input		mem_s2_chipselect;
+	input		mem_s2_clken;
+	input		mem_s2_write;
+	output	[31:0]	mem_s2_readdata;
+	input	[31:0]	mem_s2_writedata;
+	input	[3:0]	mem_s2_byteenable;
 endmodule

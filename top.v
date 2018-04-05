@@ -46,11 +46,11 @@ module top(
 
 wire [31:0] rawChromInput[30:0];
 wire [991:0] concatedChromInput;
-wire [31:0] rawExpectedResultInput[7:0];
 wire [7:0][31:0] errorSumOutput;
-wire [15:0][7:0] inputSequences;
-wire [15:0][7:0] expectedOutputs;
-wire [15:0][7:0] validOutputs;
+wire [255:0][7:0] inputSequences;
+wire [255:0][7:0] expectedOutputs;
+wire [255:0][7:0] validOutputs;
+wire [7:0] sequencesToProcess;
 wire [31:0] chromOutput;
 wire [15:0] chosenOutput;
 wire [7:0] outputToShow;
@@ -184,14 +184,6 @@ testeio u0 (
         .chrom_seg_28_export                 (rawChromInput[28]),             //   chrom_seg_28.export
         .chrom_seg_29_export                 (rawChromInput[29]),             //   chrom_seg_29.export
         .chrom_seg_30_export                 (rawChromInput[30]),
-		  .expected_result_0_export            (rawExpectedResultInput[0]),
-		  .expected_result_1_export            (rawExpectedResultInput[1]),
-		  .expected_result_2_export            (rawExpectedResultInput[2]),
-		  .expected_result_3_export            (rawExpectedResultInput[3]),
-		  .expected_result_4_export            (rawExpectedResultInput[4]),
-		  .expected_result_5_export            (rawExpectedResultInput[5]),
-		  .expected_result_6_export            (rawExpectedResultInput[6]),
-		  .expected_result_7_export            (rawExpectedResultInput[7]),
 		  .error_sum_0_export                  (errorSumOutput[0]),
 		  .error_sum_1_export                  (errorSumOutput[1]),
 		  .error_sum_2_export                  (errorSumOutput[2]),
@@ -204,14 +196,18 @@ testeio u0 (
 		  .input_sequence_1_export             ({ inputSequences[7], inputSequences[6], inputSequences[5], inputSequences[4] }),
 		  .input_sequence_2_export             ({ inputSequences[11], inputSequences[10], inputSequences[9], inputSequences[8] }),
 		  .input_sequence_3_export             ({ inputSequences[15], inputSequences[14], inputSequences[13], inputSequences[12] }),
+		  .input_sequence_4_export             ({ inputSequences[19], inputSequences[18], inputSequences[17], inputSequences[16] }),
 		  .expected_output_0_export            ({ expectedOutputs[3], expectedOutputs[2], expectedOutputs[1], expectedOutputs[0] }),
 		  .expected_output_1_export            ({ expectedOutputs[7], expectedOutputs[6], expectedOutputs[5], expectedOutputs[4] }),
 		  .expected_output_2_export            ({ expectedOutputs[11], expectedOutputs[10], expectedOutputs[9], expectedOutputs[8] }),
 		  .expected_output_3_export            ({ expectedOutputs[15], expectedOutputs[14], expectedOutputs[13], expectedOutputs[12] }),
+		  .expected_output_4_export            ({ expectedOutputs[19], expectedOutputs[18], expectedOutputs[17], expectedOutputs[16] }),
 		  .valid_output_0_export               ({ validOutputs[3], validOutputs[2], validOutputs[1], validOutputs[0] }),
 		  .valid_output_1_export               ({ validOutputs[7], validOutputs[6], validOutputs[5], validOutputs[4] }),
 		  .valid_output_2_export               ({ validOutputs[11], validOutputs[10], validOutputs[9], validOutputs[8] }),
 		  .valid_output_3_export               ({ validOutputs[15], validOutputs[14], validOutputs[13], validOutputs[12] }),
+		  .valid_output_4_export               ({ validOutputs[19], validOutputs[18], validOutputs[17], validOutputs[16] }),
+		  .sequences_to_process_export         (sequencesToProcess),
 		  .start_processing_chrom_export       (startProcessingChrom),   // start_processing_chrom.export
         .done_processing_chrom_export        (doneProcessingChrom),     //  done_processing_chrom.export
 		  .ready_to_process_export             (readyToProcess),
@@ -228,6 +224,7 @@ chromosomeProcessingStateMachine cpsm
 	, .iUseHardcodedInput(SW[8])
 	, .iHardStore(~KEY[0])
 	, .iClockChangeCyclesSelector(SW[7:6])
+	, .iSequencesToProcess(sequencesToProcess)
 	
 	// State machine control
 	, .iStartProcessing(startProcessingChrom)

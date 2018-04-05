@@ -1,11 +1,11 @@
 module fenotipo(
-    input [329:0] cromossomo,
-    input [1:0] chromIn,
-    output wire [0:0] chromOut
+    input [334:0] cromossomo,
+    input [0:0] chromIn,
+    output wire [1:0] chromOut
 );
 
     wire [24:0][12:0] descricao_les;
-    wire [0:0][4:0] descricao_outs;
+    wire [1:0][4:0] descricao_outs;
     
 	assign descricao_les[0] = cromossomo[12:0];
 	assign descricao_les[1] = cromossomo[25:13];
@@ -34,6 +34,7 @@ module fenotipo(
 	assign descricao_les[24] = cromossomo[324:312];
 
 	assign descricao_outs[0] = cromossomo[329:325];
+	assign descricao_outs[1] = cromossomo[334:330];
 
 genetico genetico(
     .conf_les(descricao_les),

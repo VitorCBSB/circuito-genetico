@@ -94,22 +94,8 @@ Progress: Adding expected_output_2 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_2
 Progress: Adding expected_output_3 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_3
-Progress: Adding expected_result_0 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_0
-Progress: Adding expected_result_1 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_1
-Progress: Adding expected_result_2 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_2
-Progress: Adding expected_result_3 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_3
-Progress: Adding expected_result_4 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_4
-Progress: Adding expected_result_5 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_5
-Progress: Adding expected_result_6 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_6
-Progress: Adding expected_result_7 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_result_7
+Progress: Adding expected_output_4 [altera_avalon_pio 16.1]
+Progress: Parameterizing module expected_output_4
 Progress: Adding hps_0 [altera_hps 16.1]
 Progress: Parameterizing module hps_0
 Progress: Adding input_sequence_0 [altera_avalon_pio 16.1]
@@ -120,10 +106,22 @@ Progress: Adding input_sequence_2 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_2
 Progress: Adding input_sequence_3 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_3
+Progress: Adding input_sequence_4 [altera_avalon_pio 16.1]
+Progress: Parameterizing module input_sequence_4
 Progress: Adding ready_to_process [altera_avalon_pio 16.1]
 Progress: Parameterizing module ready_to_process
 Progress: Adding start_processing_chrom [altera_avalon_pio 16.1]
 Progress: Parameterizing module start_processing_chrom
+Progress: Adding valid_output_0 [altera_avalon_pio 16.1]
+Progress: Parameterizing module valid_output_0
+Progress: Adding valid_output_1 [altera_avalon_pio 16.1]
+Progress: Parameterizing module valid_output_1
+Progress: Adding valid_output_2 [altera_avalon_pio 16.1]
+Progress: Parameterizing module valid_output_2
+Progress: Adding valid_output_3 [altera_avalon_pio 16.1]
+Progress: Parameterizing module valid_output_3
+Progress: Adding valid_output_4 [altera_avalon_pio 16.1]
+Progress: Parameterizing module valid_output_4
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
@@ -144,19 +142,19 @@ Warning: testeio.hps_0: 1 or more output clock frequencies cannot be achieved pr
 Info: testeio.ready_to_process: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
 Info: testeio: Generating testeio "testeio" for QUARTUS_SYNTH
 Info: chrom_seg_0: Starting RTL generation for module 'testeio_chrom_seg_0'
-Info: chrom_seg_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_chrom_seg_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0001_chrom_seg_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0001_chrom_seg_0_gen//testeio_chrom_seg_0_component_configuration.pl  --do_build_sim=0  ]
+Info: chrom_seg_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_chrom_seg_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0001_chrom_seg_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0001_chrom_seg_0_gen//testeio_chrom_seg_0_component_configuration.pl  --do_build_sim=0  ]
 Info: chrom_seg_0: Done RTL generation for module 'testeio_chrom_seg_0'
 Info: chrom_seg_0: "testeio" instantiated altera_avalon_pio "chrom_seg_0"
 Info: done_processing_chrom: Starting RTL generation for module 'testeio_done_processing_chrom'
-Info: done_processing_chrom:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_chrom --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0002_done_processing_chrom_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0002_done_processing_chrom_gen//testeio_done_processing_chrom_component_configuration.pl  --do_build_sim=0  ]
+Info: done_processing_chrom:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_chrom --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0002_done_processing_chrom_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0002_done_processing_chrom_gen//testeio_done_processing_chrom_component_configuration.pl  --do_build_sim=0  ]
 Info: done_processing_chrom: Done RTL generation for module 'testeio_done_processing_chrom'
 Info: done_processing_chrom: "testeio" instantiated altera_avalon_pio "done_processing_chrom"
 Info: done_processing_feedback: Starting RTL generation for module 'testeio_done_processing_feedback'
-Info: done_processing_feedback:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_feedback --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0003_done_processing_feedback_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0003_done_processing_feedback_gen//testeio_done_processing_feedback_component_configuration.pl  --do_build_sim=0  ]
+Info: done_processing_feedback:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_feedback --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0003_done_processing_feedback_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0003_done_processing_feedback_gen//testeio_done_processing_feedback_component_configuration.pl  --do_build_sim=0  ]
 Info: done_processing_feedback: Done RTL generation for module 'testeio_done_processing_feedback'
 Info: done_processing_feedback: "testeio" instantiated altera_avalon_pio "done_processing_feedback"
 Info: error_sum_0: Starting RTL generation for module 'testeio_error_sum_0'
-Info: error_sum_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_error_sum_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0004_error_sum_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7532_6425194110216354298.dir/0004_error_sum_0_gen//testeio_error_sum_0_component_configuration.pl  --do_build_sim=0  ]
+Info: error_sum_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_error_sum_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0004_error_sum_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7626_8002265551917171029.dir/0004_error_sum_0_gen//testeio_error_sum_0_component_configuration.pl  --do_build_sim=0  ]
 Info: error_sum_0: Done RTL generation for module 'testeio_error_sum_0'
 Info: error_sum_0: "testeio" instantiated altera_avalon_pio "error_sum_0"
 Info: hps_0: "Running  for module: hps_0"
@@ -223,7 +221,6 @@ Info: avalon_st_adapter_054: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_055: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_056: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_057: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_058: Inserting error_adapter: error_adapter_0
 Info: mm_interconnect_0: "testeio" instantiated altera_mm_interconnect "mm_interconnect_0"
 Info: rst_controller: "testeio" instantiated altera_reset_controller "rst_controller"
 Info: fpga_interfaces: "hps_0" instantiated altera_interface_generator "fpga_interfaces"

@@ -46,14 +46,7 @@
 			expected_output_1_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_output_2_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_output_3_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_0_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_1_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_2_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_3_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_4_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_5_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_6_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_7_export        : out   std_logic_vector(31 downto 0);                    -- export
+			expected_output_4_export        : out   std_logic_vector(31 downto 0);                    -- export
 			hps_io_hps_io_emac1_inst_TX_CLK : out   std_logic;                                        -- hps_io_emac1_inst_TX_CLK
 			hps_io_hps_io_emac1_inst_TXD0   : out   std_logic;                                        -- hps_io_emac1_inst_TXD0
 			hps_io_hps_io_emac1_inst_TXD1   : out   std_logic;                                        -- hps_io_emac1_inst_TXD1
@@ -92,6 +85,14 @@
 			input_sequence_1_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_2_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_3_export         : out   std_logic_vector(31 downto 0);                    -- export
+			input_sequence_4_export         : out   std_logic_vector(31 downto 0);                    -- export
+			mem_s2_address                  : in    std_logic_vector(13 downto 0) := (others => 'X'); -- address
+			mem_s2_chipselect               : in    std_logic                     := 'X';             -- chipselect
+			mem_s2_clken                    : in    std_logic                     := 'X';             -- clken
+			mem_s2_write                    : in    std_logic                     := 'X';             -- write
+			mem_s2_readdata                 : out   std_logic_vector(31 downto 0);                    -- readdata
+			mem_s2_writedata                : in    std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			mem_s2_byteenable               : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- byteenable
 			memory_mem_a                    : out   std_logic_vector(14 downto 0);                    -- mem_a
 			memory_mem_ba                   : out   std_logic_vector(2 downto 0);                     -- mem_ba
 			memory_mem_ck                   : out   std_logic;                                        -- mem_ck
@@ -110,11 +111,13 @@
 			memory_oct_rzqin                : in    std_logic                     := 'X';             -- oct_rzqin
 			ready_to_process_export         : in    std_logic                     := 'X';             -- export
 			reset_reset_n                   : in    std_logic                     := 'X';             -- reset_n
+			sequences_to_process_export     : out   std_logic_vector(31 downto 0);                    -- export
 			start_processing_chrom_export   : out   std_logic;                                        -- export
 			valid_output_0_export           : out   std_logic_vector(31 downto 0);                    -- export
 			valid_output_1_export           : out   std_logic_vector(31 downto 0);                    -- export
 			valid_output_2_export           : out   std_logic_vector(31 downto 0);                    -- export
-			valid_output_3_export           : out   std_logic_vector(31 downto 0)                     -- export
+			valid_output_3_export           : out   std_logic_vector(31 downto 0);                    -- export
+			valid_output_4_export           : out   std_logic_vector(31 downto 0)                     -- export
 		);
 	end component testeio;
 

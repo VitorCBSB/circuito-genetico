@@ -8,6 +8,7 @@ module chromosomeProcessingStateMachine
 	, input wire iUseHardcodedInput
 	, input wire iHardStore
 	, input wire [1:0] iClockChangeCyclesSelector
+	, input wire [7:0] iSequencesToProcess
 	
 	// State machine control
 	, input wire iStartProcessing
@@ -21,50 +22,6 @@ module chromosomeProcessingStateMachine
 	, output wire [2:0] oState
 	);
 	
-	/* Modelo semântico em Haskell
-	
-	data State = 
-    Idle
-    | Processing Int Int Bool -- current index, current clock cycle, current clock
-    | WaitingForInput Int -- current index
-    | Stalled
-    | Done
-    deriving (Show)
-    
-	maxIndex = 15
-	clockCyclesToChange = 1000
-	finalClockCycle = clockCyclesToChange - 1
-
-	step :: Bool -> Bool -> Bool -> State -> State
-	step startSignal stallSignal doneSignal state =
-		 case state of
-			  Idle
-					| startSignal -> WaitingForInput 0
-					| otherwise -> Idle
-			  WaitingForInput i -> Processing i 0 True
-			  Processing i cy cl ->
-					if cy >= finalClockCycle then
-						 if not cl then
-							  if i >= maxIndex then
-									if stallSignal then
-										 Stalled
-									else
-										 Done
-							  else
-									WaitingForInput (i + 1)
-						 else
-							  Processing i 0 False
-					else
-						 Processing i (cy + 1) cl
-			  Stalled 
-					| stallSignal -> Stalled
-					| otherwise -> Done
-			  Done
-					| doneSignal -> Idle
-					| otherwise -> Done
-
-	*/
-	
 	parameter IDLE = 3'b000, 
 				 PROCESSING = 3'b001, 
 				 DONE = 3'b010, 
@@ -77,10 +34,11 @@ module chromosomeProcessingStateMachine
 	reg [2:0] currentState = IDLE;
     
    reg [31:0] clockCycleCounter = 0;
-   reg [3:0] currentInput = 4'b0;
+   reg [7:0] currentInput = 8'b0;
 	reg [15:0] currentAddress = 0;
 	reg [7:0] currentInputFromSequence = 0;
 	reg [7:0][31:0] currentErrorSums;
+	reg [7:0][31:0] currentSamplingSum;
    
 	wire writeToMemory;
 	wire [7:0] inputToUse;
@@ -138,33 +96,50 @@ always@ (posedge iClock) begin
 	end
 	INPUT_WAIT: begin
 		clockCycleCounter <= 0;
+		currentSamplingSum[0] <= 0;
+		currentSamplingSum[1] <= 0;
+		currentSamplingSum[2] <= 0;
+		currentSamplingSum[3] <= 0;
+		currentSamplingSum[4] <= 0;
+		currentSamplingSum[5] <= 0;
+		currentSamplingSum[6] <= 0;
+		currentSamplingSum[7] <= 0;
 		currentState <= PROCESSING;
 	end
 	PROCESSING: begin
 		if (clockCycleCounter >= finalClockCycle) begin
-			if (currentInput >= 4'hF) begin
+			if (currentInput >= iSequencesToProcess) begin
 				if (iStall) begin
 					currentState <= STALLED;
 				end else begin
 					currentState <= DONE;
 				end
 			end else begin
-				currentInput <= currentInput + 4'b1;
+				currentInput <= currentInput + 8'b1;
 				currentState <= INPUT_WAIT;
 			end
+			
+			currentErrorSums[0] = currentErrorSums[0] + (currentSamplingSum[0] > 0);
+			currentErrorSums[1] = currentErrorSums[1] + (currentSamplingSum[1] > 0);
+			currentErrorSums[2] = currentErrorSums[2] + (currentSamplingSum[2] > 0);
+			currentErrorSums[3] = currentErrorSums[3] + (currentSamplingSum[3] > 0);
+			currentErrorSums[4] = currentErrorSums[4] + (currentSamplingSum[4] > 0);
+			currentErrorSums[5] = currentErrorSums[5] + (currentSamplingSum[5] > 0);
+			currentErrorSums[6] = currentErrorSums[6] + (currentSamplingSum[6] > 0);
+			currentErrorSums[7] = currentErrorSums[7] + (currentSamplingSum[7] > 0); 
 		end else begin
 			clockCycleCounter <= clockCycleCounter + 1;
 		end
 		// Soma dos erros da saída do cromossomo
 		if (clockCycleCounter >= CYCLES_TO_IGNORE) begin
-			currentErrorSums[0] = currentErrorSums[0] + ((chromosomeOutput[0] ^ iExpectedOutput[currentInput][0]) && iValidOutput[currentInput][0]);
-			currentErrorSums[1] = currentErrorSums[1] + ((chromosomeOutput[1] ^ iExpectedOutput[currentInput][1]) && iValidOutput[currentInput][1]);
-			currentErrorSums[2] = currentErrorSums[2] + ((chromosomeOutput[2] ^ iExpectedOutput[currentInput][2]) && iValidOutput[currentInput][2]);
-			currentErrorSums[3] = currentErrorSums[3] + ((chromosomeOutput[3] ^ iExpectedOutput[currentInput][3]) && iValidOutput[currentInput][3]);
-			currentErrorSums[4] = currentErrorSums[4] + ((chromosomeOutput[4] ^ iExpectedOutput[currentInput][4]) && iValidOutput[currentInput][4]);
-			currentErrorSums[5] = currentErrorSums[5] + ((chromosomeOutput[5] ^ iExpectedOutput[currentInput][5]) && iValidOutput[currentInput][5]);
-			currentErrorSums[6] = currentErrorSums[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInput][6]) && iValidOutput[currentInput][6]);
-			currentErrorSums[7] = currentErrorSums[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInput][7]) && iValidOutput[currentInput][7]); 
+			currentSamplingSum[0] = currentSamplingSum[0] + ((chromosomeOutput[0] ^ iExpectedOutput[currentInput][0]) && iValidOutput[currentInput][0]);
+			currentSamplingSum[1] = currentSamplingSum[1] + ((chromosomeOutput[1] ^ iExpectedOutput[currentInput][1]) && iValidOutput[currentInput][1]);
+			currentSamplingSum[2] = currentSamplingSum[2] + ((chromosomeOutput[2] ^ iExpectedOutput[currentInput][2]) && iValidOutput[currentInput][2]);
+			currentSamplingSum[3] = currentSamplingSum[3] + ((chromosomeOutput[3] ^ iExpectedOutput[currentInput][3]) && iValidOutput[currentInput][3]);
+			currentSamplingSum[4] = currentSamplingSum[4] + ((chromosomeOutput[4] ^ iExpectedOutput[currentInput][4]) && iValidOutput[currentInput][4]);
+			currentSamplingSum[5] = currentSamplingSum[5] + ((chromosomeOutput[5] ^ iExpectedOutput[currentInput][5]) && iValidOutput[currentInput][5]);
+			currentSamplingSum[6] = currentSamplingSum[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInput][6]) && iValidOutput[currentInput][6]);
+			currentSamplingSum[7] = currentSamplingSum[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInput][7]) && iValidOutput[currentInput][7]); 
 		end
 	end
 	STALLED: begin

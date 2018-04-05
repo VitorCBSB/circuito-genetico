@@ -46,14 +46,7 @@
 			expected_output_1_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_output_2_export        : out   std_logic_vector(31 downto 0);                    -- export
 			expected_output_3_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_0_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_1_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_2_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_3_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_4_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_5_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_6_export        : out   std_logic_vector(31 downto 0);                    -- export
-			expected_result_7_export        : out   std_logic_vector(31 downto 0);                    -- export
+			expected_output_4_export        : out   std_logic_vector(31 downto 0);                    -- export
 			hps_io_hps_io_emac1_inst_TX_CLK : out   std_logic;                                        -- hps_io_emac1_inst_TX_CLK
 			hps_io_hps_io_emac1_inst_TXD0   : out   std_logic;                                        -- hps_io_emac1_inst_TXD0
 			hps_io_hps_io_emac1_inst_TXD1   : out   std_logic;                                        -- hps_io_emac1_inst_TXD1
@@ -92,6 +85,7 @@
 			input_sequence_1_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_2_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_3_export         : out   std_logic_vector(31 downto 0);                    -- export
+			input_sequence_4_export         : out   std_logic_vector(31 downto 0);                    -- export
 			memory_mem_a                    : out   std_logic_vector(14 downto 0);                    -- mem_a
 			memory_mem_ba                   : out   std_logic_vector(2 downto 0);                     -- mem_ba
 			memory_mem_ck                   : out   std_logic;                                        -- mem_ck
@@ -114,7 +108,16 @@
 			valid_output_0_export           : out   std_logic_vector(31 downto 0);                    -- export
 			valid_output_1_export           : out   std_logic_vector(31 downto 0);                    -- export
 			valid_output_2_export           : out   std_logic_vector(31 downto 0);                    -- export
-			valid_output_3_export           : out   std_logic_vector(31 downto 0)                     -- export
+			valid_output_3_export           : out   std_logic_vector(31 downto 0);                    -- export
+			valid_output_4_export           : out   std_logic_vector(31 downto 0);                    -- export
+			sequences_to_process_export     : out   std_logic_vector(31 downto 0);                    -- export
+			mem_s2_address                  : in    std_logic_vector(13 downto 0) := (others => 'X'); -- address
+			mem_s2_chipselect               : in    std_logic                     := 'X';             -- chipselect
+			mem_s2_clken                    : in    std_logic                     := 'X';             -- clken
+			mem_s2_write                    : in    std_logic                     := 'X';             -- write
+			mem_s2_readdata                 : out   std_logic_vector(31 downto 0);                    -- readdata
+			mem_s2_writedata                : in    std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			mem_s2_byteenable               : in    std_logic_vector(3 downto 0)  := (others => 'X')  -- byteenable
 		);
 	end component testeio;
 
@@ -166,14 +169,7 @@
 			expected_output_1_export        => CONNECTED_TO_expected_output_1_export,        --        expected_output_1.export
 			expected_output_2_export        => CONNECTED_TO_expected_output_2_export,        --        expected_output_2.export
 			expected_output_3_export        => CONNECTED_TO_expected_output_3_export,        --        expected_output_3.export
-			expected_result_0_export        => CONNECTED_TO_expected_result_0_export,        --        expected_result_0.export
-			expected_result_1_export        => CONNECTED_TO_expected_result_1_export,        --        expected_result_1.export
-			expected_result_2_export        => CONNECTED_TO_expected_result_2_export,        --        expected_result_2.export
-			expected_result_3_export        => CONNECTED_TO_expected_result_3_export,        --        expected_result_3.export
-			expected_result_4_export        => CONNECTED_TO_expected_result_4_export,        --        expected_result_4.export
-			expected_result_5_export        => CONNECTED_TO_expected_result_5_export,        --        expected_result_5.export
-			expected_result_6_export        => CONNECTED_TO_expected_result_6_export,        --        expected_result_6.export
-			expected_result_7_export        => CONNECTED_TO_expected_result_7_export,        --        expected_result_7.export
+			expected_output_4_export        => CONNECTED_TO_expected_output_4_export,        --        expected_output_4.export
 			hps_io_hps_io_emac1_inst_TX_CLK => CONNECTED_TO_hps_io_hps_io_emac1_inst_TX_CLK, --                   hps_io.hps_io_emac1_inst_TX_CLK
 			hps_io_hps_io_emac1_inst_TXD0   => CONNECTED_TO_hps_io_hps_io_emac1_inst_TXD0,   --                         .hps_io_emac1_inst_TXD0
 			hps_io_hps_io_emac1_inst_TXD1   => CONNECTED_TO_hps_io_hps_io_emac1_inst_TXD1,   --                         .hps_io_emac1_inst_TXD1
@@ -212,6 +208,7 @@
 			input_sequence_1_export         => CONNECTED_TO_input_sequence_1_export,         --         input_sequence_1.export
 			input_sequence_2_export         => CONNECTED_TO_input_sequence_2_export,         --         input_sequence_2.export
 			input_sequence_3_export         => CONNECTED_TO_input_sequence_3_export,         --         input_sequence_3.export
+			input_sequence_4_export         => CONNECTED_TO_input_sequence_4_export,         --         input_sequence_4.export
 			memory_mem_a                    => CONNECTED_TO_memory_mem_a,                    --                   memory.mem_a
 			memory_mem_ba                   => CONNECTED_TO_memory_mem_ba,                   --                         .mem_ba
 			memory_mem_ck                   => CONNECTED_TO_memory_mem_ck,                   --                         .mem_ck
@@ -234,6 +231,15 @@
 			valid_output_0_export           => CONNECTED_TO_valid_output_0_export,           --           valid_output_0.export
 			valid_output_1_export           => CONNECTED_TO_valid_output_1_export,           --           valid_output_1.export
 			valid_output_2_export           => CONNECTED_TO_valid_output_2_export,           --           valid_output_2.export
-			valid_output_3_export           => CONNECTED_TO_valid_output_3_export            --           valid_output_3.export
+			valid_output_3_export           => CONNECTED_TO_valid_output_3_export,           --           valid_output_3.export
+			valid_output_4_export           => CONNECTED_TO_valid_output_4_export,           --           valid_output_4.export
+			sequences_to_process_export     => CONNECTED_TO_sequences_to_process_export,     --     sequences_to_process.export
+			mem_s2_address                  => CONNECTED_TO_mem_s2_address,                  --                   mem_s2.address
+			mem_s2_chipselect               => CONNECTED_TO_mem_s2_chipselect,               --                         .chipselect
+			mem_s2_clken                    => CONNECTED_TO_mem_s2_clken,                    --                         .clken
+			mem_s2_write                    => CONNECTED_TO_mem_s2_write,                    --                         .write
+			mem_s2_readdata                 => CONNECTED_TO_mem_s2_readdata,                 --                         .readdata
+			mem_s2_writedata                => CONNECTED_TO_mem_s2_writedata,                --                         .writedata
+			mem_s2_byteenable               => CONNECTED_TO_mem_s2_byteenable                --                         .byteenable
 		);
 
