@@ -211,7 +211,7 @@ testeio u0 (
 		  .start_processing_chrom_export       (startProcessingChrom),   // start_processing_chrom.export
         .done_processing_chrom_export        (doneProcessingChrom),     //  done_processing_chrom.export
 		  .ready_to_process_export             (readyToProcess),
-		  .done_processing_feedback_export     (doneProcessingFeedback)
+		  .done_processing_feedback_export     (doneProcessingFeedback),
 		  
 		  .mem_s2_address                      (16'b0),
 		  .mem_s2_chipselect                   (1'b1),
