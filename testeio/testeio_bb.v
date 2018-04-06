@@ -86,6 +86,13 @@ module testeio (
 	input_sequence_2_export,
 	input_sequence_3_export,
 	input_sequence_4_export,
+	mem_s2_address,
+	mem_s2_chipselect,
+	mem_s2_clken,
+	mem_s2_write,
+	mem_s2_readdata,
+	mem_s2_writedata,
+	mem_s2_byteenable,
 	memory_mem_a,
 	memory_mem_ba,
 	memory_mem_ck,
@@ -104,20 +111,13 @@ module testeio (
 	memory_oct_rzqin,
 	ready_to_process_export,
 	reset_reset_n,
+	sequences_to_process_export,
 	start_processing_chrom_export,
 	valid_output_0_export,
 	valid_output_1_export,
 	valid_output_2_export,
 	valid_output_3_export,
-	valid_output_4_export,
-	sequences_to_process_export,
-	mem_s2_address,
-	mem_s2_chipselect,
-	mem_s2_clken,
-	mem_s2_write,
-	mem_s2_readdata,
-	mem_s2_writedata,
-	mem_s2_byteenable);	
+	valid_output_4_export);	
 
 	output	[31:0]	chrom_seg_0_export;
 	output	[31:0]	chrom_seg_1_export;
@@ -205,6 +205,13 @@ module testeio (
 	output	[31:0]	input_sequence_2_export;
 	output	[31:0]	input_sequence_3_export;
 	output	[31:0]	input_sequence_4_export;
+	input	[15:0]	mem_s2_address;
+	input		mem_s2_chipselect;
+	input		mem_s2_clken;
+	input		mem_s2_write;
+	output	[31:0]	mem_s2_readdata;
+	input	[31:0]	mem_s2_writedata;
+	input	[3:0]	mem_s2_byteenable;
 	output	[14:0]	memory_mem_a;
 	output	[2:0]	memory_mem_ba;
 	output		memory_mem_ck;
@@ -223,18 +230,11 @@ module testeio (
 	input		memory_oct_rzqin;
 	input		ready_to_process_export;
 	input		reset_reset_n;
+	output	[31:0]	sequences_to_process_export;
 	output		start_processing_chrom_export;
 	output	[31:0]	valid_output_0_export;
 	output	[31:0]	valid_output_1_export;
 	output	[31:0]	valid_output_2_export;
 	output	[31:0]	valid_output_3_export;
 	output	[31:0]	valid_output_4_export;
-	output	[31:0]	sequences_to_process_export;
-	input	[13:0]	mem_s2_address;
-	input		mem_s2_chipselect;
-	input		mem_s2_clken;
-	input		mem_s2_write;
-	output	[31:0]	mem_s2_readdata;
-	input	[31:0]	mem_s2_writedata;
-	input	[3:0]	mem_s2_byteenable;
 endmodule

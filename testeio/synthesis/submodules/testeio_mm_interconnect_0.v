@@ -285,7 +285,7 @@ module testeio_mm_interconnect_0 (
 		input  wire [31:0] start_processing_chrom_s1_readdata,            //                                        .readdata
 		output wire [31:0] start_processing_chrom_s1_writedata,           //                                        .writedata
 		output wire        start_processing_chrom_s1_chipselect,          //                                        .chipselect
-		output wire [13:0] two_port_mem_s1_address,                       //                         two_port_mem_s1.address
+		output wire [15:0] two_port_mem_s1_address,                       //                         two_port_mem_s1.address
 		output wire        two_port_mem_s1_write,                         //                                        .write
 		input  wire [31:0] two_port_mem_s1_readdata,                      //                                        .readdata
 		output wire [31:0] two_port_mem_s1_writedata,                     //                                        .writedata
@@ -8835,7 +8835,7 @@ module testeio_mm_interconnect_0 (
 	);
 
 	altera_merlin_slave_translator #(
-		.AV_ADDRESS_W                   (14),
+		.AV_ADDRESS_W                   (16),
 		.AV_DATA_W                      (32),
 		.UAV_DATA_W                     (32),
 		.AV_BURSTCOUNT_W                (1),

@@ -212,6 +212,14 @@ testeio u0 (
         .done_processing_chrom_export        (doneProcessingChrom),     //  done_processing_chrom.export
 		  .ready_to_process_export             (readyToProcess),
 		  .done_processing_feedback_export     (doneProcessingFeedback)
+		  
+		  .mem_s2_address                      (16'b0),
+		  .mem_s2_chipselect                   (1'b1),
+		  .mem_s2_clken                        (1'b1),
+		  .mem_s2_write                        (1'b1),
+		  .mem_s2_readdata                     (),
+		  .mem_s2_writedata                    (32'hFAFBFCFD),
+		  .mem_s2_byteenable                   (4'b1111),
     );
 
 chromosomeProcessingStateMachine cpsm

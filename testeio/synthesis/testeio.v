@@ -90,7 +90,7 @@ module testeio (
 		output wire [31:0] input_sequence_2_export,         //         input_sequence_2.export
 		output wire [31:0] input_sequence_3_export,         //         input_sequence_3.export
 		output wire [31:0] input_sequence_4_export,         //         input_sequence_4.export
-		input  wire [13:0] mem_s2_address,                  //                   mem_s2.address
+		input  wire [15:0] mem_s2_address,                  //                   mem_s2.address
 		input  wire        mem_s2_chipselect,               //                         .chipselect
 		input  wire        mem_s2_clken,                    //                         .clken
 		input  wire        mem_s2_write,                    //                         .write
@@ -427,7 +427,7 @@ module testeio (
 	wire  [31:0] mm_interconnect_0_sequences_to_process_s1_writedata;      // mm_interconnect_0:sequences_to_process_s1_writedata -> sequences_to_process:writedata
 	wire         mm_interconnect_0_two_port_mem_s1_chipselect;             // mm_interconnect_0:two_port_mem_s1_chipselect -> two_port_mem:chipselect
 	wire  [31:0] mm_interconnect_0_two_port_mem_s1_readdata;               // two_port_mem:readdata -> mm_interconnect_0:two_port_mem_s1_readdata
-	wire  [13:0] mm_interconnect_0_two_port_mem_s1_address;                // mm_interconnect_0:two_port_mem_s1_address -> two_port_mem:address
+	wire  [15:0] mm_interconnect_0_two_port_mem_s1_address;                // mm_interconnect_0:two_port_mem_s1_address -> two_port_mem:address
 	wire   [3:0] mm_interconnect_0_two_port_mem_s1_byteenable;             // mm_interconnect_0:two_port_mem_s1_byteenable -> two_port_mem:byteenable
 	wire         mm_interconnect_0_two_port_mem_s1_write;                  // mm_interconnect_0:two_port_mem_s1_write -> two_port_mem:write
 	wire  [31:0] mm_interconnect_0_two_port_mem_s1_writedata;              // mm_interconnect_0:two_port_mem_s1_writedata -> two_port_mem:writedata

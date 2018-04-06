@@ -85,6 +85,13 @@
 		.input_sequence_2_export         (<connected-to-input_sequence_2_export>),         //         input_sequence_2.export
 		.input_sequence_3_export         (<connected-to-input_sequence_3_export>),         //         input_sequence_3.export
 		.input_sequence_4_export         (<connected-to-input_sequence_4_export>),         //         input_sequence_4.export
+		.mem_s2_address                  (<connected-to-mem_s2_address>),                  //                   mem_s2.address
+		.mem_s2_chipselect               (<connected-to-mem_s2_chipselect>),               //                         .chipselect
+		.mem_s2_clken                    (<connected-to-mem_s2_clken>),                    //                         .clken
+		.mem_s2_write                    (<connected-to-mem_s2_write>),                    //                         .write
+		.mem_s2_readdata                 (<connected-to-mem_s2_readdata>),                 //                         .readdata
+		.mem_s2_writedata                (<connected-to-mem_s2_writedata>),                //                         .writedata
+		.mem_s2_byteenable               (<connected-to-mem_s2_byteenable>),               //                         .byteenable
 		.memory_mem_a                    (<connected-to-memory_mem_a>),                    //                   memory.mem_a
 		.memory_mem_ba                   (<connected-to-memory_mem_ba>),                   //                         .mem_ba
 		.memory_mem_ck                   (<connected-to-memory_mem_ck>),                   //                         .mem_ck
@@ -103,19 +110,12 @@
 		.memory_oct_rzqin                (<connected-to-memory_oct_rzqin>),                //                         .oct_rzqin
 		.ready_to_process_export         (<connected-to-ready_to_process_export>),         //         ready_to_process.export
 		.reset_reset_n                   (<connected-to-reset_reset_n>),                   //                    reset.reset_n
+		.sequences_to_process_export     (<connected-to-sequences_to_process_export>),     //     sequences_to_process.export
 		.start_processing_chrom_export   (<connected-to-start_processing_chrom_export>),   //   start_processing_chrom.export
 		.valid_output_0_export           (<connected-to-valid_output_0_export>),           //           valid_output_0.export
 		.valid_output_1_export           (<connected-to-valid_output_1_export>),           //           valid_output_1.export
 		.valid_output_2_export           (<connected-to-valid_output_2_export>),           //           valid_output_2.export
 		.valid_output_3_export           (<connected-to-valid_output_3_export>),           //           valid_output_3.export
-		.valid_output_4_export           (<connected-to-valid_output_4_export>),           //           valid_output_4.export
-		.sequences_to_process_export     (<connected-to-sequences_to_process_export>),     //     sequences_to_process.export
-		.mem_s2_address                  (<connected-to-mem_s2_address>),                  //                   mem_s2.address
-		.mem_s2_chipselect               (<connected-to-mem_s2_chipselect>),               //                         .chipselect
-		.mem_s2_clken                    (<connected-to-mem_s2_clken>),                    //                         .clken
-		.mem_s2_write                    (<connected-to-mem_s2_write>),                    //                         .write
-		.mem_s2_readdata                 (<connected-to-mem_s2_readdata>),                 //                         .readdata
-		.mem_s2_writedata                (<connected-to-mem_s2_writedata>),                //                         .writedata
-		.mem_s2_byteenable               (<connected-to-mem_s2_byteenable>)                //                         .byteenable
+		.valid_output_4_export           (<connected-to-valid_output_4_export>)            //           valid_output_4.export
 	);
 

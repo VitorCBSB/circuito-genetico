@@ -86,7 +86,7 @@
 			input_sequence_2_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_3_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_4_export         : out   std_logic_vector(31 downto 0);                    -- export
-			mem_s2_address                  : in    std_logic_vector(13 downto 0) := (others => 'X'); -- address
+			mem_s2_address                  : in    std_logic_vector(15 downto 0) := (others => 'X'); -- address
 			mem_s2_chipselect               : in    std_logic                     := 'X';             -- chipselect
 			mem_s2_clken                    : in    std_logic                     := 'X';             -- clken
 			mem_s2_write                    : in    std_logic                     := 'X';             -- write
