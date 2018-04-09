@@ -177,7 +177,7 @@ Circuito2x2manual circ
 	( .inp(inputToUse)
 	, .out(chromosomeOutput)
 	);
-*/
+
 
 mem memModule
 	( .address(currentAddress)
@@ -186,6 +186,6 @@ mem memModule
 	, .wren(writeToMemory)
 	, .q()
 	);
-
+*/
 
 endmodule

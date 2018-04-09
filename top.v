@@ -55,6 +55,7 @@ wire [31:0] chromOutput;
 wire [15:0] chosenOutput;
 wire [7:0] outputToShow;
 wire [1:0] state;
+wire [31:0] memReadData;
 
 wire startProcessingChrom;
 wire readyToProcess;
@@ -213,11 +214,11 @@ testeio u0 (
 		  .ready_to_process_export             (readyToProcess),
 		  .done_processing_feedback_export     (doneProcessingFeedback),
 		  
-		  .mem_s2_address                      (16'b0),
+		  .mem_s2_address                      (16'b1),
 		  .mem_s2_chipselect                   (1'b1),
 		  .mem_s2_clken                        (1'b1),
-		  .mem_s2_write                        (1'b1),
-		  .mem_s2_readdata                     (),
+		  .mem_s2_write                        (1'b0),
+		  .mem_s2_readdata                     (memReadData),
 		  .mem_s2_writedata                    (32'hFAFBFCFD),
 		  .mem_s2_byteenable                   (4'b1111),
     );

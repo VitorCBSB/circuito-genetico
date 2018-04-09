@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="testeio" kind="testeio" version="1.0" fabric="QSYS">
  <!-- Format version 16.1 196 (Future versions may contain additional information.) -->
- <!-- 2018.04.05.22:35:11 -->
+ <!-- 2018.04.08.17:13:52 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1522978510</value>
+  <value>1523218431</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
