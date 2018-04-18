@@ -32,6 +32,13 @@
 			chrom_seg_8_export              : out   std_logic_vector(31 downto 0);                    -- export
 			chrom_seg_9_export              : out   std_logic_vector(31 downto 0);                    -- export
 			clk_clk                         : in    std_logic                     := 'X';             -- clk
+			correct_mem_s2_address          : in    std_logic_vector(14 downto 0) := (others => 'X'); -- address
+			correct_mem_s2_chipselect       : in    std_logic                     := 'X';             -- chipselect
+			correct_mem_s2_clken            : in    std_logic                     := 'X';             -- clken
+			correct_mem_s2_write            : in    std_logic                     := 'X';             -- write
+			correct_mem_s2_readdata         : out   std_logic_vector(31 downto 0);                    -- readdata
+			correct_mem_s2_writedata        : in    std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			correct_mem_s2_byteenable       : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- byteenable
 			done_processing_chrom_export    : in    std_logic                     := 'X';             -- export
 			done_processing_feedback_export : out   std_logic;                                        -- export
 			error_sum_0_export              : in    std_logic_vector(31 downto 0) := (others => 'X'); -- export
@@ -140,7 +147,7 @@
 			input_sequence_7_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_8_export         : out   std_logic_vector(31 downto 0);                    -- export
 			input_sequence_9_export         : out   std_logic_vector(31 downto 0);                    -- export
-			mem_s2_address                  : in    std_logic_vector(15 downto 0) := (others => 'X'); -- address
+			mem_s2_address                  : in    std_logic_vector(14 downto 0) := (others => 'X'); -- address
 			mem_s2_chipselect               : in    std_logic                     := 'X';             -- chipselect
 			mem_s2_clken                    : in    std_logic                     := 'X';             -- clken
 			mem_s2_write                    : in    std_logic                     := 'X';             -- write
@@ -236,6 +243,13 @@
 			chrom_seg_8_export              => CONNECTED_TO_chrom_seg_8_export,              --              chrom_seg_8.export
 			chrom_seg_9_export              => CONNECTED_TO_chrom_seg_9_export,              --              chrom_seg_9.export
 			clk_clk                         => CONNECTED_TO_clk_clk,                         --                      clk.clk
+			correct_mem_s2_address          => CONNECTED_TO_correct_mem_s2_address,          --           correct_mem_s2.address
+			correct_mem_s2_chipselect       => CONNECTED_TO_correct_mem_s2_chipselect,       --                         .chipselect
+			correct_mem_s2_clken            => CONNECTED_TO_correct_mem_s2_clken,            --                         .clken
+			correct_mem_s2_write            => CONNECTED_TO_correct_mem_s2_write,            --                         .write
+			correct_mem_s2_readdata         => CONNECTED_TO_correct_mem_s2_readdata,         --                         .readdata
+			correct_mem_s2_writedata        => CONNECTED_TO_correct_mem_s2_writedata,        --                         .writedata
+			correct_mem_s2_byteenable       => CONNECTED_TO_correct_mem_s2_byteenable,       --                         .byteenable
 			done_processing_chrom_export    => CONNECTED_TO_done_processing_chrom_export,    --    done_processing_chrom.export
 			done_processing_feedback_export => CONNECTED_TO_done_processing_feedback_export, -- done_processing_feedback.export
 			error_sum_0_export              => CONNECTED_TO_error_sum_0_export,              --              error_sum_0.export

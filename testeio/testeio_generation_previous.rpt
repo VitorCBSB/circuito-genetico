@@ -138,76 +138,12 @@ Progress: Adding expected_output_30 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_30
 Progress: Adding expected_output_31 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_31
-Progress: Adding expected_output_32 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_32
-Progress: Adding expected_output_33 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_33
-Progress: Adding expected_output_34 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_34
-Progress: Adding expected_output_35 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_35
-Progress: Adding expected_output_36 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_36
-Progress: Adding expected_output_37 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_37
-Progress: Adding expected_output_38 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_38
-Progress: Adding expected_output_39 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_39
 Progress: Adding expected_output_4 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_4
-Progress: Adding expected_output_40 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_40
-Progress: Adding expected_output_41 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_41
-Progress: Adding expected_output_42 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_42
-Progress: Adding expected_output_43 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_43
-Progress: Adding expected_output_44 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_44
-Progress: Adding expected_output_45 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_45
-Progress: Adding expected_output_46 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_46
-Progress: Adding expected_output_47 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_47
-Progress: Adding expected_output_48 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_48
-Progress: Adding expected_output_49 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_49
 Progress: Adding expected_output_5 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_5
-Progress: Adding expected_output_50 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_50
-Progress: Adding expected_output_51 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_51
-Progress: Adding expected_output_52 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_52
-Progress: Adding expected_output_53 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_53
-Progress: Adding expected_output_54 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_54
-Progress: Adding expected_output_55 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_55
-Progress: Adding expected_output_56 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_56
-Progress: Adding expected_output_57 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_57
-Progress: Adding expected_output_58 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_58
-Progress: Adding expected_output_59 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_59
 Progress: Adding expected_output_6 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_6
-Progress: Adding expected_output_60 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_60
-Progress: Adding expected_output_61 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_61
-Progress: Adding expected_output_62 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_62
-Progress: Adding expected_output_63 [altera_avalon_pio 16.1]
-Progress: Parameterizing module expected_output_63
 Progress: Adding expected_output_7 [altera_avalon_pio 16.1]
 Progress: Parameterizing module expected_output_7
 Progress: Adding expected_output_8 [altera_avalon_pio 16.1]
@@ -268,76 +204,12 @@ Progress: Adding input_sequence_30 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_30
 Progress: Adding input_sequence_31 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_31
-Progress: Adding input_sequence_32 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_32
-Progress: Adding input_sequence_33 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_33
-Progress: Adding input_sequence_34 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_34
-Progress: Adding input_sequence_35 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_35
-Progress: Adding input_sequence_36 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_36
-Progress: Adding input_sequence_37 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_37
-Progress: Adding input_sequence_38 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_38
-Progress: Adding input_sequence_39 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_39
 Progress: Adding input_sequence_4 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_4
-Progress: Adding input_sequence_40 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_40
-Progress: Adding input_sequence_41 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_41
-Progress: Adding input_sequence_42 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_42
-Progress: Adding input_sequence_43 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_43
-Progress: Adding input_sequence_44 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_44
-Progress: Adding input_sequence_45 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_45
-Progress: Adding input_sequence_46 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_46
-Progress: Adding input_sequence_47 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_47
-Progress: Adding input_sequence_48 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_48
-Progress: Adding input_sequence_49 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_49
 Progress: Adding input_sequence_5 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_5
-Progress: Adding input_sequence_50 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_50
-Progress: Adding input_sequence_51 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_51
-Progress: Adding input_sequence_52 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_52
-Progress: Adding input_sequence_53 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_53
-Progress: Adding input_sequence_54 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_54
-Progress: Adding input_sequence_55 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_55
-Progress: Adding input_sequence_56 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_56
-Progress: Adding input_sequence_57 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_57
-Progress: Adding input_sequence_58 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_58
-Progress: Adding input_sequence_59 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_59
 Progress: Adding input_sequence_6 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_6
-Progress: Adding input_sequence_60 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_60
-Progress: Adding input_sequence_61 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_61
-Progress: Adding input_sequence_62 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_62
-Progress: Adding input_sequence_63 [altera_avalon_pio 16.1]
-Progress: Parameterizing module input_sequence_63
 Progress: Adding input_sequence_7 [altera_avalon_pio 16.1]
 Progress: Parameterizing module input_sequence_7
 Progress: Adding input_sequence_8 [altera_avalon_pio 16.1]
@@ -352,6 +224,8 @@ Progress: Adding start_processing_chrom [altera_avalon_pio 16.1]
 Progress: Parameterizing module start_processing_chrom
 Progress: Adding two_port_mem [altera_avalon_onchip_memory2 16.1]
 Progress: Parameterizing module two_port_mem
+Progress: Adding two_port_mem_correct [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module two_port_mem_correct
 Progress: Adding valid_output_0 [altera_avalon_pio 16.1]
 Progress: Parameterizing module valid_output_0
 Progress: Adding valid_output_1 [altera_avalon_pio 16.1]
@@ -404,76 +278,12 @@ Progress: Adding valid_output_30 [altera_avalon_pio 16.1]
 Progress: Parameterizing module valid_output_30
 Progress: Adding valid_output_31 [altera_avalon_pio 16.1]
 Progress: Parameterizing module valid_output_31
-Progress: Adding valid_output_32 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_32
-Progress: Adding valid_output_33 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_33
-Progress: Adding valid_output_34 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_34
-Progress: Adding valid_output_35 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_35
-Progress: Adding valid_output_36 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_36
-Progress: Adding valid_output_37 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_37
-Progress: Adding valid_output_38 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_38
-Progress: Adding valid_output_39 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_39
 Progress: Adding valid_output_4 [altera_avalon_pio 16.1]
 Progress: Parameterizing module valid_output_4
-Progress: Adding valid_output_40 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_40
-Progress: Adding valid_output_41 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_41
-Progress: Adding valid_output_42 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_42
-Progress: Adding valid_output_43 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_43
-Progress: Adding valid_output_44 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_44
-Progress: Adding valid_output_45 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_45
-Progress: Adding valid_output_46 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_46
-Progress: Adding valid_output_47 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_47
-Progress: Adding valid_output_48 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_48
-Progress: Adding valid_output_49 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_49
 Progress: Adding valid_output_5 [altera_avalon_pio 16.1]
 Progress: Parameterizing module valid_output_5
-Progress: Adding valid_output_50 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_50
-Progress: Adding valid_output_51 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_51
-Progress: Adding valid_output_52 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_52
-Progress: Adding valid_output_53 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_53
-Progress: Adding valid_output_54 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_54
-Progress: Adding valid_output_55 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_55
-Progress: Adding valid_output_56 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_56
-Progress: Adding valid_output_57 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_57
-Progress: Adding valid_output_58 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_58
-Progress: Adding valid_output_59 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_59
 Progress: Adding valid_output_6 [altera_avalon_pio 16.1]
 Progress: Parameterizing module valid_output_6
-Progress: Adding valid_output_60 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_60
-Progress: Adding valid_output_61 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_61
-Progress: Adding valid_output_62 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_62
-Progress: Adding valid_output_63 [altera_avalon_pio 16.1]
-Progress: Parameterizing module valid_output_63
 Progress: Adding valid_output_7 [altera_avalon_pio 16.1]
 Progress: Parameterizing module valid_output_7
 Progress: Adding valid_output_8 [altera_avalon_pio 16.1]
@@ -498,22 +308,23 @@ Info: testeio.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
 Warning: testeio.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
 Warning: testeio.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
 Info: testeio.ready_to_process: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: testeio.: You have exported the interface two_port_mem_correct.s2 but not its associated reset interface.  Export the driver(s) of two_port_mem_correct.reset2
 Warning: testeio.: You have exported the interface two_port_mem.s2 but not its associated reset interface.  Export the driver(s) of two_port_mem.reset2
 Info: testeio: Generating testeio "testeio" for QUARTUS_SYNTH
 Info: chrom_seg_0: Starting RTL generation for module 'testeio_chrom_seg_0'
-Info: chrom_seg_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_chrom_seg_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0001_chrom_seg_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0001_chrom_seg_0_gen//testeio_chrom_seg_0_component_configuration.pl  --do_build_sim=0  ]
+Info: chrom_seg_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_chrom_seg_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0001_chrom_seg_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0001_chrom_seg_0_gen//testeio_chrom_seg_0_component_configuration.pl  --do_build_sim=0  ]
 Info: chrom_seg_0: Done RTL generation for module 'testeio_chrom_seg_0'
 Info: chrom_seg_0: "testeio" instantiated altera_avalon_pio "chrom_seg_0"
 Info: done_processing_chrom: Starting RTL generation for module 'testeio_done_processing_chrom'
-Info: done_processing_chrom:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_chrom --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0002_done_processing_chrom_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0002_done_processing_chrom_gen//testeio_done_processing_chrom_component_configuration.pl  --do_build_sim=0  ]
+Info: done_processing_chrom:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_chrom --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0002_done_processing_chrom_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0002_done_processing_chrom_gen//testeio_done_processing_chrom_component_configuration.pl  --do_build_sim=0  ]
 Info: done_processing_chrom: Done RTL generation for module 'testeio_done_processing_chrom'
 Info: done_processing_chrom: "testeio" instantiated altera_avalon_pio "done_processing_chrom"
 Info: done_processing_feedback: Starting RTL generation for module 'testeio_done_processing_feedback'
-Info: done_processing_feedback:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_feedback --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0003_done_processing_feedback_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0003_done_processing_feedback_gen//testeio_done_processing_feedback_component_configuration.pl  --do_build_sim=0  ]
+Info: done_processing_feedback:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_done_processing_feedback --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0003_done_processing_feedback_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0003_done_processing_feedback_gen//testeio_done_processing_feedback_component_configuration.pl  --do_build_sim=0  ]
 Info: done_processing_feedback: Done RTL generation for module 'testeio_done_processing_feedback'
 Info: done_processing_feedback: "testeio" instantiated altera_avalon_pio "done_processing_feedback"
 Info: error_sum_0: Starting RTL generation for module 'testeio_error_sum_0'
-Info: error_sum_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_error_sum_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0004_error_sum_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0004_error_sum_0_gen//testeio_error_sum_0_component_configuration.pl  --do_build_sim=0  ]
+Info: error_sum_0:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=testeio_error_sum_0 --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0004_error_sum_0_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0004_error_sum_0_gen//testeio_error_sum_0_component_configuration.pl  --do_build_sim=0  ]
 Info: error_sum_0: Done RTL generation for module 'testeio_error_sum_0'
 Info: error_sum_0: "testeio" instantiated altera_avalon_pio "error_sum_0"
 Info: hps_0: "Running  for module: hps_0"
@@ -523,9 +334,13 @@ Warning: hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_
 Warning: hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
 Info: hps_0: "testeio" instantiated altera_hps "hps_0"
 Info: two_port_mem: Starting RTL generation for module 'testeio_two_port_mem'
-Info: two_port_mem:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=testeio_two_port_mem --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0005_two_port_mem_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7631_7785110091680033777.dir/0005_two_port_mem_gen//testeio_two_port_mem_component_configuration.pl  --do_build_sim=0  ]
+Info: two_port_mem:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=testeio_two_port_mem --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0005_two_port_mem_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0005_two_port_mem_gen//testeio_two_port_mem_component_configuration.pl  --do_build_sim=0  ]
 Info: two_port_mem: Done RTL generation for module 'testeio_two_port_mem'
 Info: two_port_mem: "testeio" instantiated altera_avalon_onchip_memory2 "two_port_mem"
+Info: two_port_mem_correct: Starting RTL generation for module 'testeio_two_port_mem_correct'
+Info: two_port_mem_correct:   Generation command is [exec C:/intelfpga_lite/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/16.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/16.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=testeio_two_port_mem_correct --dir=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0006_two_port_mem_correct_gen/ --quartus_dir=C:/intelfpga_lite/16.1/quartus --verilog --config=C:/Users/VITORC~1/AppData/Local/Temp/alt7636_789755009047144795.dir/0006_two_port_mem_correct_gen//testeio_two_port_mem_correct_component_configuration.pl  --do_build_sim=0  ]
+Info: two_port_mem_correct: Done RTL generation for module 'testeio_two_port_mem_correct'
+Info: two_port_mem_correct: "testeio" instantiated altera_avalon_onchip_memory2 "two_port_mem_correct"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
@@ -668,101 +483,6 @@ Info: avalon_st_adapter_138: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_139: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_140: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_141: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_142: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_143: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_144: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_145: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_146: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_147: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_148: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_149: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_150: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_151: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_152: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_153: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_154: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_155: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_156: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_157: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_158: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_159: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_160: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_161: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_162: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_163: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_164: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_165: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_166: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_167: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_168: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_169: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_170: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_171: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_172: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_173: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_174: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_175: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_176: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_177: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_178: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_179: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_180: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_181: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_182: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_183: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_184: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_185: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_186: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_187: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_188: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_189: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_190: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_191: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_192: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_193: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_194: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_195: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_196: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_197: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_198: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_199: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_200: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_201: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_202: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_203: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_204: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_205: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_206: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_207: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_208: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_209: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_210: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_211: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_212: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_213: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_214: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_215: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_216: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_217: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_218: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_219: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_220: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_221: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_222: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_223: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_224: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_225: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_226: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_227: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_228: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_229: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_230: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_231: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_232: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_233: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_234: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_235: Inserting error_adapter: error_adapter_0
-Info: avalon_st_adapter_236: Inserting error_adapter: error_adapter_0
 Info: mm_interconnect_0: "testeio" instantiated altera_mm_interconnect "mm_interconnect_0"
 Info: rst_controller: "testeio" instantiated altera_reset_controller "rst_controller"
 Info: fpga_interfaces: "hps_0" instantiated altera_interface_generator "fpga_interfaces"
@@ -786,6 +506,6 @@ Info: Reusing file C:/intelFPGA_lite/16.1/TesteIOproj/testeio/synthesis/submodul
 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
 Info: border: "hps_io" instantiated altera_interface_generator "border"
 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
-Info: testeio: Done "testeio" with 26 modules, 84 files
+Info: testeio: Done "testeio" with 27 modules, 86 files
 Info: qsys-generate succeeded.
 Info: Finished: Create HDL design files for synthesis

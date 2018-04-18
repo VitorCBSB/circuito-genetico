@@ -44,6 +44,8 @@ module top(
 	output wire HPS_USB_STP
 );
 
+`include "parameters.sv"
+
 wire [31:0] rawChromInput[30:0];
 wire [991:0] concatedChromInput;
 wire [7:0][31:0] errorSumOutput;
@@ -55,7 +57,13 @@ wire [31:0] chromOutput;
 wire [15:0] chosenOutput;
 wire [7:0] outputToShow;
 wire [1:0] state;
+
+wire [14:0] memAddress;
+wire [14:0] correctMemAddress;
 wire [31:0] memReadData;
+wire [31:0] memWriteData;
+wire writeToMem;
+wire writeToCorrectMem;
 
 wire startProcessingChrom;
 wire readyToProcess;
@@ -296,13 +304,21 @@ testeio u0 (
 		  .ready_to_process_export             (readyToProcess),
 		  .done_processing_feedback_export     (doneProcessingFeedback),
 		  
-		  .mem_s2_address                      (16'b1),
+		  .mem_s2_address                      (memAddress),
 		  .mem_s2_chipselect                   (1'b1),
 		  .mem_s2_clken                        (1'b1),
-		  .mem_s2_write                        (state == PROCESSING),
+		  .mem_s2_write                        (writeToMem),
 		  .mem_s2_readdata                     (memReadData),
-		  .mem_s2_writedata                    (32'b0),
+		  .mem_s2_writedata                    (memWriteData),
 		  .mem_s2_byteenable                   (4'b1111),
+		  
+		  .correct_mem_s2_address              (correctMemAddress),
+		  .correct_mem_s2_chipselect           (1'b1),
+		  .correct_mem_s2_clken                (1'b1),
+		  .correct_mem_s2_write                (writeToCorrectMem),
+		  .correct_mem_s2_readdata             (),
+		  .correct_mem_s2_writedata            (memReadData),
+		  .correct_mem_s2_byteenable           (4'b1111)
     );
 
 chromosomeProcessingStateMachine cpsm
@@ -313,20 +329,24 @@ chromosomeProcessingStateMachine cpsm
 	, .iValidOutput(validOutputs)
 	, .iHardCodedInput(SW[7:0])
 	, .iUseHardcodedInput(SW[8])
-	, .iHardStore(~KEY[0])
 	, .iClockChangeCyclesSelector(SW[7:6])
 	, .iSequencesToProcess(sequencesToProcess)
 	
 	// State machine control
 	, .iStartProcessing(startProcessingChrom)
 	, .iDoneProcessingFeedback(doneProcessingFeedback)
-	, .iStall(SW[9])
 	, .oReadyToProcess(readyToProcess)
 	, .oDoneProcessing(doneProcessingChrom)
 	
 	, .oChromOutput(chromOutput)
 	, .oErrorSums(errorSumOutput)
 	, .oState(state)
+	
+	, .oMemContentToWrite(memWriteData)
+	, .oMemAddr(memAddress)
+	, .oCorrectMemAddr(correctMemAddress)
+	, .oWriteToMem(writeToMem)
+	, .oWriteToCorrectMem(writeToCorrectMem)
 	);
 	 
 endmodule

@@ -21,7 +21,7 @@
    {
       datum baseAddress
       {
-         value = "265904";
+         value = "264368";
          type = "String";
       }
    }
@@ -37,7 +37,7 @@
    {
       datum baseAddress
       {
-         value = "265888";
+         value = "264352";
          type = "String";
       }
    }
@@ -53,7 +53,7 @@
    {
       datum baseAddress
       {
-         value = "265744";
+         value = "264208";
          type = "String";
       }
    }
@@ -69,7 +69,7 @@
    {
       datum baseAddress
       {
-         value = "265728";
+         value = "264192";
          type = "String";
       }
    }
@@ -85,7 +85,7 @@
    {
       datum baseAddress
       {
-         value = "265712";
+         value = "264176";
          type = "String";
       }
    }
@@ -101,7 +101,7 @@
    {
       datum baseAddress
       {
-         value = "265696";
+         value = "264160";
          type = "String";
       }
    }
@@ -117,7 +117,7 @@
    {
       datum baseAddress
       {
-         value = "265680";
+         value = "264144";
          type = "String";
       }
    }
@@ -133,7 +133,7 @@
    {
       datum baseAddress
       {
-         value = "265664";
+         value = "264128";
          type = "String";
       }
    }
@@ -149,7 +149,7 @@
    {
       datum baseAddress
       {
-         value = "265648";
+         value = "264112";
          type = "String";
       }
    }
@@ -165,7 +165,7 @@
    {
       datum baseAddress
       {
-         value = "265632";
+         value = "264096";
          type = "String";
       }
    }
@@ -181,7 +181,7 @@
    {
       datum baseAddress
       {
-         value = "265616";
+         value = "264080";
          type = "String";
       }
    }
@@ -197,7 +197,7 @@
    {
       datum baseAddress
       {
-         value = "265600";
+         value = "264064";
          type = "String";
       }
    }
@@ -213,7 +213,7 @@
    {
       datum baseAddress
       {
-         value = "265872";
+         value = "264336";
          type = "String";
       }
    }
@@ -229,7 +229,7 @@
    {
       datum baseAddress
       {
-         value = "265584";
+         value = "264048";
          type = "String";
       }
    }
@@ -245,7 +245,7 @@
    {
       datum baseAddress
       {
-         value = "265568";
+         value = "264032";
          type = "String";
       }
    }
@@ -261,7 +261,7 @@
    {
       datum baseAddress
       {
-         value = "265552";
+         value = "264016";
          type = "String";
       }
    }
@@ -277,7 +277,7 @@
    {
       datum baseAddress
       {
-         value = "265536";
+         value = "264000";
          type = "String";
       }
    }
@@ -293,7 +293,7 @@
    {
       datum baseAddress
       {
-         value = "265520";
+         value = "263984";
          type = "String";
       }
    }
@@ -309,7 +309,7 @@
    {
       datum baseAddress
       {
-         value = "265504";
+         value = "263968";
          type = "String";
       }
    }
@@ -325,7 +325,7 @@
    {
       datum baseAddress
       {
-         value = "265488";
+         value = "263952";
          type = "String";
       }
    }
@@ -341,7 +341,7 @@
    {
       datum baseAddress
       {
-         value = "265472";
+         value = "263936";
          type = "String";
       }
    }
@@ -357,7 +357,7 @@
    {
       datum baseAddress
       {
-         value = "265456";
+         value = "263920";
          type = "String";
       }
    }
@@ -373,7 +373,7 @@
    {
       datum baseAddress
       {
-         value = "265440";
+         value = "263904";
          type = "String";
       }
    }
@@ -389,7 +389,7 @@
    {
       datum baseAddress
       {
-         value = "265856";
+         value = "264320";
          type = "String";
       }
    }
@@ -405,7 +405,7 @@
    {
       datum baseAddress
       {
-         value = "265424";
+         value = "263888";
          type = "String";
       }
    }
@@ -421,7 +421,7 @@
    {
       datum baseAddress
       {
-         value = "265840";
+         value = "264304";
          type = "String";
       }
    }
@@ -437,7 +437,7 @@
    {
       datum baseAddress
       {
-         value = "265824";
+         value = "264288";
          type = "String";
       }
    }
@@ -453,7 +453,7 @@
    {
       datum baseAddress
       {
-         value = "265808";
+         value = "264272";
          type = "String";
       }
    }
@@ -469,7 +469,7 @@
    {
       datum baseAddress
       {
-         value = "265792";
+         value = "264256";
          type = "String";
       }
    }
@@ -485,7 +485,7 @@
    {
       datum baseAddress
       {
-         value = "265776";
+         value = "264240";
          type = "String";
       }
    }
@@ -501,7 +501,7 @@
    {
       datum baseAddress
       {
-         value = "265760";
+         value = "264224";
          type = "String";
       }
    }
@@ -525,7 +525,7 @@
    {
       datum baseAddress
       {
-         value = "265392";
+         value = "263856";
          type = "String";
       }
    }
@@ -541,7 +541,7 @@
    {
       datum baseAddress
       {
-         value = "265360";
+         value = "263824";
          type = "String";
       }
    }
@@ -557,7 +557,7 @@
    {
       datum baseAddress
       {
-         value = "265344";
+         value = "263808";
          type = "String";
       }
    }
@@ -573,7 +573,7 @@
    {
       datum baseAddress
       {
-         value = "265328";
+         value = "263792";
          type = "String";
       }
    }
@@ -589,7 +589,7 @@
    {
       datum baseAddress
       {
-         value = "265312";
+         value = "263776";
          type = "String";
       }
    }
@@ -605,7 +605,7 @@
    {
       datum baseAddress
       {
-         value = "265296";
+         value = "263760";
          type = "String";
       }
    }
@@ -621,7 +621,7 @@
    {
       datum baseAddress
       {
-         value = "265280";
+         value = "263744";
          type = "String";
       }
    }
@@ -637,7 +637,7 @@
    {
       datum baseAddress
       {
-         value = "265264";
+         value = "263728";
          type = "String";
       }
    }
@@ -653,7 +653,7 @@
    {
       datum baseAddress
       {
-         value = "265248";
+         value = "263712";
          type = "String";
       }
    }
@@ -669,7 +669,7 @@
    {
       datum baseAddress
       {
-         value = "265232";
+         value = "263696";
          type = "String";
       }
    }
@@ -685,7 +685,7 @@
    {
       datum baseAddress
       {
-         value = "265152";
+         value = "263616";
          type = "String";
       }
    }
@@ -701,7 +701,7 @@
    {
       datum baseAddress
       {
-         value = "265136";
+         value = "263600";
          type = "String";
       }
    }
@@ -717,7 +717,7 @@
    {
       datum baseAddress
       {
-         value = "262992";
+         value = "262480";
          type = "String";
       }
    }
@@ -733,7 +733,7 @@
    {
       datum baseAddress
       {
-         value = "262976";
+         value = "262464";
          type = "String";
       }
    }
@@ -749,7 +749,7 @@
    {
       datum baseAddress
       {
-         value = "262960";
+         value = "262448";
          type = "String";
       }
    }
@@ -765,7 +765,7 @@
    {
       datum baseAddress
       {
-         value = "262944";
+         value = "262432";
          type = "String";
       }
    }
@@ -781,7 +781,7 @@
    {
       datum baseAddress
       {
-         value = "262928";
+         value = "262416";
          type = "String";
       }
    }
@@ -797,7 +797,7 @@
    {
       datum baseAddress
       {
-         value = "262912";
+         value = "262400";
          type = "String";
       }
    }
@@ -813,7 +813,7 @@
    {
       datum baseAddress
       {
-         value = "262896";
+         value = "262384";
          type = "String";
       }
    }
@@ -829,7 +829,7 @@
    {
       datum baseAddress
       {
-         value = "262880";
+         value = "262368";
          type = "String";
       }
    }
@@ -861,7 +861,7 @@
    {
       datum baseAddress
       {
-         value = "262864";
+         value = "262352";
          type = "String";
       }
    }
@@ -877,7 +877,7 @@
    {
       datum baseAddress
       {
-         value = "265120";
+         value = "263584";
          type = "String";
       }
    }
@@ -893,7 +893,7 @@
    {
       datum baseAddress
       {
-         value = "262848";
+         value = "262336";
          type = "String";
       }
    }
@@ -909,7 +909,7 @@
    {
       datum baseAddress
       {
-         value = "262832";
+         value = "262320";
          type = "String";
       }
    }
@@ -925,7 +925,7 @@
    {
       datum baseAddress
       {
-         value = "262816";
+         value = "262304";
          type = "String";
       }
    }
@@ -941,7 +941,7 @@
    {
       datum baseAddress
       {
-         value = "262800";
+         value = "262288";
          type = "String";
       }
    }
@@ -957,7 +957,7 @@
    {
       datum baseAddress
       {
-         value = "262784";
+         value = "262272";
          type = "String";
       }
    }
@@ -973,7 +973,7 @@
    {
       datum baseAddress
       {
-         value = "262768";
+         value = "262256";
          type = "String";
       }
    }
@@ -989,7 +989,7 @@
    {
       datum baseAddress
       {
-         value = "262752";
+         value = "262240";
          type = "String";
       }
    }
@@ -1005,7 +1005,7 @@
    {
       datum baseAddress
       {
-         value = "262736";
+         value = "262224";
          type = "String";
       }
    }
@@ -1021,7 +1021,7 @@
    {
       datum baseAddress
       {
-         value = "262720";
+         value = "262208";
          type = "String";
       }
    }
@@ -1037,7 +1037,7 @@
    {
       datum baseAddress
       {
-         value = "262704";
+         value = "262192";
          type = "String";
       }
    }
@@ -1053,7 +1053,7 @@
    {
       datum baseAddress
       {
-         value = "265104";
+         value = "263568";
          type = "String";
       }
    }
@@ -1069,7 +1069,7 @@
    {
       datum baseAddress
       {
-         value = "262688";
+         value = "262176";
          type = "String";
       }
    }
@@ -1085,7 +1085,7 @@
    {
       datum baseAddress
       {
-         value = "262672";
+         value = "262160";
          type = "String";
       }
    }
@@ -1101,7 +1101,7 @@
    {
       datum baseAddress
       {
-         value = "265008";
+         value = "263472";
          type = "String";
       }
    }
@@ -1117,7 +1117,7 @@
    {
       datum baseAddress
       {
-         value = "263072";
+         value = "262560";
          type = "String";
       }
    }
@@ -1133,7 +1133,7 @@
    {
       datum baseAddress
       {
-         value = "263056";
+         value = "262544";
          type = "String";
       }
    }
@@ -1149,7 +1149,7 @@
    {
       datum baseAddress
       {
-         value = "263040";
+         value = "262528";
          type = "String";
       }
    }
@@ -1165,7 +1165,7 @@
    {
       datum baseAddress
       {
-         value = "263024";
+         value = "262512";
          type = "String";
       }
    }
@@ -1181,7 +1181,7 @@
    {
       datum baseAddress
       {
-         value = "263008";
+         value = "262496";
          type = "String";
       }
    }
@@ -1205,7 +1205,7 @@
    {
       datum baseAddress
       {
-         value = "265216";
+         value = "263680";
          type = "String";
       }
    }
@@ -1221,7 +1221,7 @@
    {
       datum baseAddress
       {
-         value = "265200";
+         value = "263664";
          type = "String";
       }
    }
@@ -1237,7 +1237,7 @@
    {
       datum baseAddress
       {
-         value = "263920";
+         value = "262912";
          type = "String";
       }
    }
@@ -1253,7 +1253,7 @@
    {
       datum baseAddress
       {
-         value = "263904";
+         value = "262896";
          type = "String";
       }
    }
@@ -1269,7 +1269,7 @@
    {
       datum baseAddress
       {
-         value = "263888";
+         value = "262880";
          type = "String";
       }
    }
@@ -1285,7 +1285,7 @@
    {
       datum baseAddress
       {
-         value = "263872";
+         value = "262864";
          type = "String";
       }
    }
@@ -1301,7 +1301,7 @@
    {
       datum baseAddress
       {
-         value = "263856";
+         value = "262848";
          type = "String";
       }
    }
@@ -1317,7 +1317,7 @@
    {
       datum baseAddress
       {
-         value = "263840";
+         value = "262832";
          type = "String";
       }
    }
@@ -1333,7 +1333,7 @@
    {
       datum baseAddress
       {
-         value = "263824";
+         value = "262816";
          type = "String";
       }
    }
@@ -1349,7 +1349,7 @@
    {
       datum baseAddress
       {
-         value = "263808";
+         value = "262800";
          type = "String";
       }
    }
@@ -1365,7 +1365,7 @@
    {
       datum baseAddress
       {
-         value = "263792";
+         value = "262784";
          type = "String";
       }
    }
@@ -1381,7 +1381,7 @@
    {
       datum baseAddress
       {
-         value = "263776";
+         value = "262768";
          type = "String";
       }
    }
@@ -1397,7 +1397,7 @@
    {
       datum baseAddress
       {
-         value = "265184";
+         value = "263648";
          type = "String";
       }
    }
@@ -1413,7 +1413,7 @@
    {
       datum baseAddress
       {
-         value = "263760";
+         value = "262752";
          type = "String";
       }
    }
@@ -1429,7 +1429,7 @@
    {
       datum baseAddress
       {
-         value = "263744";
+         value = "262736";
          type = "String";
       }
    }
@@ -1445,7 +1445,7 @@
    {
       datum baseAddress
       {
-         value = "263728";
+         value = "262720";
          type = "String";
       }
    }
@@ -1461,7 +1461,7 @@
    {
       datum baseAddress
       {
-         value = "263712";
+         value = "262704";
          type = "String";
       }
    }
@@ -1477,7 +1477,7 @@
    {
       datum baseAddress
       {
-         value = "263696";
+         value = "262688";
          type = "String";
       }
    }
@@ -1493,7 +1493,7 @@
    {
       datum baseAddress
       {
-         value = "263680";
+         value = "262672";
          type = "String";
       }
    }
@@ -1509,7 +1509,7 @@
    {
       datum baseAddress
       {
-         value = "263664";
+         value = "262656";
          type = "String";
       }
    }
@@ -1525,7 +1525,7 @@
    {
       datum baseAddress
       {
-         value = "263648";
+         value = "262640";
          type = "String";
       }
    }
@@ -1541,7 +1541,7 @@
    {
       datum baseAddress
       {
-         value = "263632";
+         value = "262624";
          type = "String";
       }
    }
@@ -1557,7 +1557,7 @@
    {
       datum baseAddress
       {
-         value = "263616";
+         value = "262608";
          type = "String";
       }
    }
@@ -1573,7 +1573,7 @@
    {
       datum baseAddress
       {
-         value = "265168";
+         value = "263632";
          type = "String";
       }
    }
@@ -1589,7 +1589,7 @@
    {
       datum baseAddress
       {
-         value = "263600";
+         value = "262592";
          type = "String";
       }
    }
@@ -1605,7 +1605,7 @@
    {
       datum baseAddress
       {
-         value = "263584";
+         value = "262576";
          type = "String";
       }
    }
@@ -1621,7 +1621,7 @@
    {
       datum baseAddress
       {
-         value = "265024";
+         value = "263488";
          type = "String";
       }
    }
@@ -1637,7 +1637,7 @@
    {
       datum baseAddress
       {
-         value = "264000";
+         value = "262992";
          type = "String";
       }
    }
@@ -1653,7 +1653,7 @@
    {
       datum baseAddress
       {
-         value = "263984";
+         value = "262976";
          type = "String";
       }
    }
@@ -1669,7 +1669,7 @@
    {
       datum baseAddress
       {
-         value = "263968";
+         value = "262960";
          type = "String";
       }
    }
@@ -1685,7 +1685,7 @@
    {
       datum baseAddress
       {
-         value = "263952";
+         value = "262944";
          type = "String";
       }
    }
@@ -1701,7 +1701,7 @@
    {
       datum baseAddress
       {
-         value = "263936";
+         value = "262928";
          type = "String";
       }
    }
@@ -1717,7 +1717,7 @@
    {
       datum baseAddress
       {
-         value = "265376";
+         value = "263840";
          type = "String";
       }
    }
@@ -1733,7 +1733,7 @@
    {
       datum baseAddress
       {
-         value = "264976";
+         value = "263440";
          type = "String";
       }
    }
@@ -1749,7 +1749,7 @@
    {
       datum baseAddress
       {
-         value = "265408";
+         value = "263872";
          type = "String";
       }
    }
@@ -1762,6 +1762,22 @@
       }
    }
    element two_port_mem.s1
+   {
+      datum baseAddress
+      {
+         value = "131072";
+         type = "String";
+      }
+   }
+   element two_port_mem_correct
+   {
+      datum _sortIndex
+      {
+         value = "143";
+         type = "int";
+      }
+   }
+   element two_port_mem_correct.s1
    {
       datum baseAddress
       {
@@ -1781,7 +1797,7 @@
    {
       datum baseAddress
       {
-         value = "265088";
+         value = "263552";
          type = "String";
       }
    }
@@ -1797,7 +1813,7 @@
    {
       datum baseAddress
       {
-         value = "265072";
+         value = "263536";
          type = "String";
       }
    }
@@ -1813,7 +1829,7 @@
    {
       datum baseAddress
       {
-         value = "264880";
+         value = "263344";
          type = "String";
       }
    }
@@ -1829,7 +1845,7 @@
    {
       datum baseAddress
       {
-         value = "264864";
+         value = "263328";
          type = "String";
       }
    }
@@ -1845,7 +1861,7 @@
    {
       datum baseAddress
       {
-         value = "264848";
+         value = "263312";
          type = "String";
       }
    }
@@ -1861,7 +1877,7 @@
    {
       datum baseAddress
       {
-         value = "264832";
+         value = "263296";
          type = "String";
       }
    }
@@ -1877,7 +1893,7 @@
    {
       datum baseAddress
       {
-         value = "264816";
+         value = "263280";
          type = "String";
       }
    }
@@ -1893,7 +1909,7 @@
    {
       datum baseAddress
       {
-         value = "264800";
+         value = "263264";
          type = "String";
       }
    }
@@ -1909,7 +1925,7 @@
    {
       datum baseAddress
       {
-         value = "264784";
+         value = "263248";
          type = "String";
       }
    }
@@ -1925,7 +1941,7 @@
    {
       datum baseAddress
       {
-         value = "264768";
+         value = "263232";
          type = "String";
       }
    }
@@ -1941,7 +1957,7 @@
    {
       datum baseAddress
       {
-         value = "264752";
+         value = "263216";
          type = "String";
       }
    }
@@ -1957,7 +1973,7 @@
    {
       datum baseAddress
       {
-         value = "264736";
+         value = "263200";
          type = "String";
       }
    }
@@ -1973,7 +1989,7 @@
    {
       datum baseAddress
       {
-         value = "265056";
+         value = "263520";
          type = "String";
       }
    }
@@ -1989,7 +2005,7 @@
    {
       datum baseAddress
       {
-         value = "264720";
+         value = "263184";
          type = "String";
       }
    }
@@ -2005,7 +2021,7 @@
    {
       datum baseAddress
       {
-         value = "264704";
+         value = "263168";
          type = "String";
       }
    }
@@ -2021,7 +2037,7 @@
    {
       datum baseAddress
       {
-         value = "264688";
+         value = "263152";
          type = "String";
       }
    }
@@ -2037,7 +2053,7 @@
    {
       datum baseAddress
       {
-         value = "264672";
+         value = "263136";
          type = "String";
       }
    }
@@ -2053,7 +2069,7 @@
    {
       datum baseAddress
       {
-         value = "264656";
+         value = "263120";
          type = "String";
       }
    }
@@ -2069,7 +2085,7 @@
    {
       datum baseAddress
       {
-         value = "264640";
+         value = "263104";
          type = "String";
       }
    }
@@ -2085,7 +2101,7 @@
    {
       datum baseAddress
       {
-         value = "264608";
+         value = "263088";
          type = "String";
       }
    }
@@ -2101,7 +2117,7 @@
    {
       datum baseAddress
       {
-         value = "264592";
+         value = "263072";
          type = "String";
       }
    }
@@ -2117,7 +2133,7 @@
    {
       datum baseAddress
       {
-         value = "264576";
+         value = "263056";
          type = "String";
       }
    }
@@ -2133,7 +2149,7 @@
    {
       datum baseAddress
       {
-         value = "264560";
+         value = "263040";
          type = "String";
       }
    }
@@ -2149,7 +2165,7 @@
    {
       datum baseAddress
       {
-         value = "265040";
+         value = "263504";
          type = "String";
       }
    }
@@ -2165,7 +2181,7 @@
    {
       datum baseAddress
       {
-         value = "264544";
+         value = "263024";
          type = "String";
       }
    }
@@ -2181,7 +2197,7 @@
    {
       datum baseAddress
       {
-         value = "264528";
+         value = "263008";
          type = "String";
       }
    }
@@ -2197,7 +2213,7 @@
    {
       datum baseAddress
       {
-         value = "264992";
+         value = "263456";
          type = "String";
       }
    }
@@ -2213,7 +2229,7 @@
    {
       datum baseAddress
       {
-         value = "264960";
+         value = "263424";
          type = "String";
       }
    }
@@ -2229,7 +2245,7 @@
    {
       datum baseAddress
       {
-         value = "264944";
+         value = "263408";
          type = "String";
       }
    }
@@ -2245,7 +2261,7 @@
    {
       datum baseAddress
       {
-         value = "264928";
+         value = "263392";
          type = "String";
       }
    }
@@ -2261,7 +2277,7 @@
    {
       datum baseAddress
       {
-         value = "264912";
+         value = "263376";
          type = "String";
       }
    }
@@ -2277,7 +2293,7 @@
    {
       datum baseAddress
       {
-         value = "264896";
+         value = "263360";
          type = "String";
       }
    }
@@ -2458,6 +2474,11 @@
    type="conduit"
    dir="end" />
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
+ <interface
+   name="correct_mem_s2"
+   internal="two_port_mem_correct.s2"
+   type="avalon"
+   dir="end" />
  <interface
    name="done_processing_chrom"
    internal="done_processing_chrom.external_connection"
@@ -5507,7 +5528,39 @@
   <parameter name="initMemContent" value="true" />
   <parameter name="initializationFileName" value="onchip_mem.hex" />
   <parameter name="instanceID" value="NONE" />
-  <parameter name="memorySize" value="262144" />
+  <parameter name="memorySize" value="131072" />
+  <parameter name="readDuringWriteMode" value="DONT_CARE" />
+  <parameter name="resetrequest_enabled" value="true" />
+  <parameter name="simAllowMRAMContentsFile" value="false" />
+  <parameter name="simMemInitOnlyFilename" value="0" />
+  <parameter name="singleClockOperation" value="false" />
+  <parameter name="slave1Latency" value="1" />
+  <parameter name="slave2Latency" value="1" />
+  <parameter name="useNonDefaultInitFile" value="false" />
+  <parameter name="useShallowMemBlocks" value="false" />
+  <parameter name="writable" value="true" />
+ </module>
+ <module
+   name="two_port_mem_correct"
+   kind="altera_avalon_onchip_memory2"
+   version="16.1"
+   enabled="1">
+  <parameter name="allowInSystemMemoryContentEditor" value="false" />
+  <parameter name="autoInitializationFileName">$${FILENAME}_two_port_mem_correct</parameter>
+  <parameter name="blockType" value="AUTO" />
+  <parameter name="copyInitFile" value="false" />
+  <parameter name="dataWidth" value="32" />
+  <parameter name="dataWidth2" value="32" />
+  <parameter name="deviceFamily" value="Cyclone V" />
+  <parameter name="deviceFeatures">ADDRESS_STALL 1 ADVANCED_INFO 0 ALLOWS_COMPILING_OTHER_FAMILY_IP 1 ANY_QFP 0 CELL_LEVEL_BACK_ANNOTATION_DISABLED 0 COMPILER_SUPPORT 1 DSP 0 DSP_SHIFTER_BLOCK 0 DUMP_ASM_LAB_BITS_FOR_POWER 0 EMUL 1 ENABLE_ADVANCED_IO_ANALYSIS_GUI_FEATURES 1 ENABLE_PIN_PLANNER 0 ENGINEERING_SAMPLE 0 EPCS 1 ESB 0 FAKE1 0 FAKE2 0 FAKE3 0 FAMILY_LEVEL_INSTALLATION_ONLY 0 FASTEST 0 FINAL_TIMING_MODEL 0 FITTER_USE_FALLING_EDGE_DELAY 1 FPP_COMPLETELY_PLACES_AND_ROUTES_PERIPHERY 0 GENERATE_DC_ON_CURRENT_WARNING_FOR_INTERNAL_CLAMPING_DIODE 1 HARDCOPY 0 HAS_18_BIT_MULTS 1 HAS_ACE_SUPPORT 1 HAS_ACTIVE_PARALLEL_FLASH_SUPPORT 0 HAS_ADJUSTABLE_OUTPUT_IO_TIMING_MEAS_POINT 1 HAS_ADVANCED_IO_INVERTED_CORNER 1 HAS_ADVANCED_IO_POWER_SUPPORT 1 HAS_ADVANCED_IO_TIMING_SUPPORT 1 HAS_ALM_SUPPORT 1 HAS_ATOM_AND_ROUTING_POWER_MODELED_TOGETHER 0 HAS_AUTO_DERIVE_CLOCK_UNCERTAINTY_SUPPORT 1 HAS_AUTO_FIT_SUPPORT 1 HAS_BALANCED_OPT_TECHNIQUE_SUPPORT 1 HAS_BENEFICIAL_SKEW_SUPPORT 0 HAS_BITLEVEL_DRIVE_STRENGTH_CONTROL 1 HAS_BSDL_FILE_GENERATION 1 HAS_CDB_RE_NETWORK_PRESERVATION_SUPPORT 0 HAS_CGA_SUPPORT 1 HAS_CHECK_NETLIST_SUPPORT 1 HAS_CLOCK_REGION_CHECKER_ENABLED 1 HAS_CORE_JUNCTION_TEMP_DERATING 0 HAS_CROSSTALK_SUPPORT 0 HAS_CUSTOM_REGION_SUPPORT 1 HAS_DAP_JTAG_FROM_HPS 0 HAS_DATA_DRIVEN_ACVQ_HSSI_SUPPORT 1 HAS_DDB_FDI_SUPPORT 1 HAS_DESIGN_ANALYZER_SUPPORT 1 HAS_DETAILED_IO_RAIL_POWER_MODEL 1 HAS_DETAILED_LEIM_STATIC_POWER_MODEL 0 HAS_DETAILED_LE_POWER_MODEL 1 HAS_DETAILED_ROUTING_MUX_STATIC_POWER_MODEL 0 HAS_DETAILED_THERMAL_CIRCUIT_PARAMETER_SUPPORT 1 HAS_DEVICE_MIGRATION_SUPPORT 1 HAS_DIAGONAL_MIGRATION_SUPPORT 0 HAS_EMIF_TOOLKIT_SUPPORT 1 HAS_ERROR_DETECTION_SUPPORT 1 HAS_FAMILY_VARIANT_MIGRATION_SUPPORT 0 HAS_FANOUT_FREE_NODE_SUPPORT 1 HAS_FAST_FIT_SUPPORT 1 HAS_FITTER_ECO_SUPPORT 1 HAS_FIT_NETLIST_OPT_RETIME_SUPPORT 1 HAS_FIT_NETLIST_OPT_SUPPORT 1 HAS_FORMAL_VERIFICATION_SUPPORT 0 HAS_FPGA_XCHANGE_SUPPORT 1 HAS_FSAC_LUTRAM_REGISTER_PACKING_SUPPORT 1 HAS_FULL_DAT_MIN_TIMING_SUPPORT 1 HAS_FULL_INCREMENTAL_DESIGN_SUPPORT 1 HAS_FUNCTIONAL_SIMULATION_SUPPORT 0 HAS_FUNCTIONAL_VERILOG_SIMULATION_SUPPORT 1 HAS_FUNCTIONAL_VHDL_SIMULATION_SUPPORT 1 HAS_GLITCH_FILTERING_SUPPORT 1 HAS_HARDCOPYII_SUPPORT 0 HAS_HC_READY_SUPPORT 0 HAS_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_HOLD_TIME_AVOIDANCE_ACROSS_CLOCK_SPINE_SUPPORT 1 HAS_HSPICE_WRITER_SUPPORT 1 HAS_HSSI_POWER_CALCULATOR 1 HAS_IBISO_WRITER_SUPPORT 0 HAS_ICD_DATA_IP 0 HAS_IDB_SUPPORT 1 HAS_INCREMENTAL_DAT_SUPPORT 1 HAS_INCREMENTAL_SYNTHESIS_SUPPORT 1 HAS_IO_ASSIGNMENT_ANALYSIS_SUPPORT 1 HAS_IO_DECODER 1 HAS_IO_PLACEMENT_OPTIMIZATION_SUPPORT 1 HAS_IO_PLACEMENT_USING_GEOMETRY_RULE 0 HAS_IO_PLACEMENT_USING_PHYSIC_RULE 0 HAS_IO_SMART_RECOMPILE_SUPPORT 0 HAS_JITTER_SUPPORT 1 HAS_JTAG_SLD_HUB_SUPPORT 1 HAS_LOGIC_LOCK_SUPPORT 1 HAS_MICROPROCESSOR 0 HAS_MIF_SMART_COMPILE_SUPPORT 1 HAS_MINMAX_TIMING_MODELING_SUPPORT 1 HAS_MIN_TIMING_ANALYSIS_SUPPORT 1 HAS_MUX_RESTRUCTURE_SUPPORT 1 HAS_NADDER_STYLE_CLOCKING 0 HAS_NADDER_STYLE_FF 0 HAS_NADDER_STYLE_LCELL_COMB 0 HAS_NEW_CDB_NAME_FOR_M20K_SCLR 0 HAS_NEW_HC_FLOW_SUPPORT 0 HAS_NEW_SERDES_MAX_RESOURCE_COUNT_REPORTING_SUPPORT 0 HAS_NEW_VPR_SUPPORT 1 HAS_NONSOCKET_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_NO_HARDBLOCK_PARTITION_SUPPORT 0 HAS_NO_JTAG_USERCODE_SUPPORT 0 HAS_OPERATING_SETTINGS_AND_CONDITIONS_REPORTING_SUPPORT 1 HAS_PAD_LOCATION_ASSIGNMENT_SUPPORT 0 HAS_PARTIAL_RECONFIG_SUPPORT 1 HAS_PASSIVE_PARALLEL_SUPPORT 0 HAS_PDN_MODEL_STATUS 0 HAS_PHYSICAL_DESIGN_PLANNER_SUPPORT 0 HAS_PHYSICAL_NETLIST_OUTPUT 0 HAS_PHYSICAL_ROUTING_SUPPORT 1 HAS_PIN_SPECIFIC_VOLTAGE_SUPPORT 1 HAS_PLDM_REF_SUPPORT 0 HAS_POWER_BINNING_LIMITS_DATA 1 HAS_POWER_ESTIMATION_SUPPORT 1 HAS_PRELIMINARY_CLOCK_UNCERTAINTY_NUMBERS 0 HAS_PRE_FITTER_FPP_SUPPORT 1 HAS_PRE_FITTER_LUTRAM_NETLIST_CHECKER_ENABLED 1 HAS_PVA_SUPPORT 1 HAS_QUARTUS_HIERARCHICAL_DESIGN_SUPPORT 0 HAS_RAPID_RECOMPILE_SUPPORT 1 HAS_RCF_SUPPORT 1 HAS_RCF_SUPPORT_FOR_DEBUGGING 0 HAS_RED_BLACK_SEPARATION_SUPPORT 0 HAS_RE_LEVEL_TIMING_GRAPH_SUPPORT 1 HAS_RISEFALL_DELAY_SUPPORT 1 HAS_SIGNAL_PROBE_SUPPORT 1 HAS_SIGNAL_TAP_SUPPORT 1 HAS_SIMULATOR_SUPPORT 0 HAS_SPLIT_IO_SUPPORT 1 HAS_SPLIT_LC_SUPPORT 1 HAS_STRICT_PRESERVATION_SUPPORT 1 HAS_SYNTHESIS_ON_ATOMS 1 HAS_SYNTH_FSYN_NETLIST_OPT_SUPPORT 1 HAS_SYNTH_NETLIST_OPT_RETIME_SUPPORT 0 HAS_SYNTH_NETLIST_OPT_SUPPORT 1 HAS_TCL_FITTER_SUPPORT 0 HAS_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_TEMPLATED_REGISTER_PACKING_SUPPORT 1 HAS_TIME_BORROWING_SUPPORT 0 HAS_TIMING_DRIVEN_SYNTHESIS_SUPPORT 1 HAS_TIMING_INFO_SUPPORT 1 HAS_TIMING_OPERATING_CONDITIONS 1 HAS_TIMING_SIMULATION_SUPPORT 0 HAS_TITAN_BASED_MAC_REGISTER_PACKER_SUPPORT 1 HAS_U2B2_SUPPORT 0 HAS_USER_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_USE_FITTER_INFO_SUPPORT 0 HAS_VCCPD_POWER_RAIL 1 HAS_VERTICAL_MIGRATION_SUPPORT 1 HAS_VIEWDRAW_SYMBOL_SUPPORT 0 HAS_VIO_SUPPORT 1 HAS_VIRTUAL_DEVICES 0 HAS_WYSIWYG_DFFEAS_SUPPORT 1 HAS_XIBISO2_WRITER_SUPPORT 0 HAS_XIBISO_WRITER_SUPPORT 1 IFP_USE_LEGACY_IO_CHECKER 1 INCREMENTAL_DESIGN_SUPPORTS_COMPATIBLE_CONSTRAINTS 0 INSTALLED 0 INTERNAL_POF_SUPPORT_ENABLED 0 INTERNAL_USE_ONLY 0 ISSUE_MILITARY_TEMPERATURE_WARNING 0 IS_BARE_DIE 0 IS_CONFIG_ROM 0 IS_DEFAULT_FAMILY 0 IS_FOR_INTERNAL_TESTING_ONLY 0 IS_HARDCOPY_FAMILY 0 IS_HBGA_PACKAGE 0 IS_HIGH_CURRENT_PART 0 IS_LOW_POWER_PART 0 IS_SDM_ONLY_PACKAGE 0 IS_SMI_PART 0 LOAD_BLK_TYPE_DATA_FROM_ATOM_WYS_INFO 0 LVDS_IO 1 M10K_MEMORY 1 M144K_MEMORY 0 M20K_MEMORY 0 M4K_MEMORY 0 M512_MEMORY 0 M9K_MEMORY 0 MLAB_MEMORY 1 MRAM_MEMORY 0 NOT_LISTED 0 NOT_MIGRATABLE 0 NO_FITTER_DELAY_CACHE_GENERATED 0 NO_PIN_OUT 0 NO_POF 0 NO_RPE_SUPPORT 0 NO_SUPPORT_FOR_LOGICLOCK_CONTENT_BACK_ANNOTATION 1 NO_SUPPORT_FOR_STA_CLOCK_UNCERTAINTY_CHECK 0 NO_TDC_SUPPORT 0 POSTFIT_BAK_DATABASE_EXPORT_ENABLED 1 POSTMAP_BAK_DATABASE_EXPORT_ENABLED 1 PROGRAMMER_ONLY 0 PROGRAMMER_SUPPORT 1 PVA_SUPPORTS_ONLY_SUBSET_OF_ATOMS 0 QFIT_IN_DEVELOPMENT 0 QMAP_IN_DEVELOPMENT 0 RAM_LOGICAL_NAME_CHECKING_IN_CUT_ENABLED 1 REPORTS_METASTABILITY_MTBF 1 REQUIRES_INSTALLATION_PATCH 0 REQUIRES_LIST_OF_TEMPERATURE_AND_VOLTAGE_OPERATING_CONDITIONS 1 REQUIRE_QUARTUS_HIERARCHICAL_DESIGN 0 REQUIRE_SPECIAL_HANDLING_FOR_LOCAL_LABLINE 0 RESERVES_SIGNAL_PROBE_PINS 0 RESOLVE_MAX_FANOUT_EARLY 1 RESOLVE_MAX_FANOUT_LATE 0 RESPECTS_FIXED_SIZED_LOCKED_LOCATION_LOGICLOCK 1 RESTRICTED_USER_SELECTION 0 RESTRICT_PARTIAL_RECONFIG 0 RISEFALL_SUPPORT_IS_HIDDEN 0 SHOW_HIDDEN_FAMILY_IN_PROGRAMMER 0 STRICT_TIMING_DB_CHECKS 0 SUPPORTS_ADDITIONAL_OPTIONS_FOR_UNUSED_IO 1 SUPPORTS_CRC 1 SUPPORTS_DIFFERENTIAL_AIOT_BOARD_TRACE_MODEL 1 SUPPORTS_DSP_BALANCING_BACK_ANNOTATION 0 SUPPORTS_GENERATION_OF_EARLY_POWER_ESTIMATOR_FILE 1 SUPPORTS_GLOBAL_SIGNAL_BACK_ANNOTATION 1 SUPPORTS_HIPI_RETIMING 0 SUPPORTS_LICENSE_FREE_PARTIAL_RECONFIG 0 SUPPORTS_MAC_CHAIN_OUT_ADDER 1 SUPPORTS_RAM_PACKING_BACK_ANNOTATION 0 SUPPORTS_REG_PACKING_BACK_ANNOTATION 0 SUPPORTS_SIGNALPROBE_REGISTER_PIPELINING 1 SUPPORTS_SINGLE_ENDED_AIOT_BOARD_TRACE_MODEL 1 SUPPORTS_USER_MANUAL_LOGIC_DUPLICATION 1 SUPPORTS_VID 0 TMV_RUN_CUSTOMIZABLE_VIEWER 1 TMV_RUN_INTERNAL_DETAILS 1 TMV_RUN_INTERNAL_DETAILS_ON_IO 0 TMV_RUN_INTERNAL_DETAILS_ON_IOBUF 1 TMV_RUN_INTERNAL_DETAILS_ON_LCELL 0 TMV_RUN_INTERNAL_DETAILS_ON_LRAM 0 TRANSCEIVER_3G_BLOCK 1 TRANSCEIVER_6G_BLOCK 1 USES_ACV_FOR_FLED 1 USES_ADB_FOR_BACK_ANNOTATION 1 USES_ALTERA_LNSIM 0 USES_ASIC_ROUTING_POWER_CALCULATOR 0 USES_DATA_DRIVEN_PLL_COMPUTATION_UTIL 1 USES_DEV 1 USES_ICP_FOR_ECO_FITTER 0 USES_LIBERTY_TIMING 0 USES_NETWORK_ROUTING_POWER_CALCULATOR 0 USES_PART_INFO_FOR_DISPLAYING_CORE_VOLTAGE_VALUE 0 USES_POWER_SIGNAL_ACTIVITIES 1 USES_PVAFAM2 0 USES_SECOND_GENERATION_PART_INFO 0 USES_SECOND_GENERATION_POWER_ANALYZER 0 USES_THIRD_GENERATION_TIMING_MODELS_TIS 1 USES_U2B2_TIMING_MODELS 0 USES_XML_FORMAT_FOR_EMIF_PIN_MAP_FILE 0 USE_ADVANCED_IO_POWER_BY_DEFAULT 1 USE_ADVANCED_IO_TIMING_BY_DEFAULT 1 USE_BASE_FAMILY_DDB_PATH 0 USE_OCT_AUTO_CALIBRATION 1 USE_RELAX_IO_ASSIGNMENT_RULES 0 USE_RISEFALL_ONLY 1 USE_SEPARATE_LIST_FOR_TECH_MIGRATION 0 USE_SINGLE_COMPILER_PASS_PLL_MIF_FILE_WRITER 1 USE_TITAN_IO_BASED_IO_REGISTER_PACKER_UTIL 1 USING_28NM_OR_OLDER_TIMING_METHODOLOGY 1 WYSIWYG_BUS_WIDTH_CHECKING_IN_CUT_ENABLED 1</parameter>
+  <parameter name="dualPort" value="true" />
+  <parameter name="ecc_enabled" value="false" />
+  <parameter name="enPRInitMode" value="false" />
+  <parameter name="enableDiffWidth" value="false" />
+  <parameter name="initMemContent" value="true" />
+  <parameter name="initializationFileName" value="onchip_mem.hex" />
+  <parameter name="instanceID" value="NONE" />
+  <parameter name="memorySize" value="131072" />
   <parameter name="readDuringWriteMode" value="DONT_CARE" />
   <parameter name="resetrequest_enabled" value="true" />
   <parameter name="simAllowMRAMContentsFile" value="false" />
@@ -6101,7 +6154,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040eb0" />
+  <parameter name="baseAddress" value="0x000408b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6110,7 +6163,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ea0" />
+  <parameter name="baseAddress" value="0x000408a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6119,7 +6172,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e90" />
+  <parameter name="baseAddress" value="0x00040890" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6128,7 +6181,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e80" />
+  <parameter name="baseAddress" value="0x00040880" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6137,7 +6190,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_4.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e70" />
+  <parameter name="baseAddress" value="0x00040870" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6146,7 +6199,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_5.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e60" />
+  <parameter name="baseAddress" value="0x00040860" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6155,7 +6208,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_6.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e50" />
+  <parameter name="baseAddress" value="0x00040850" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6164,7 +6217,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_7.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e40" />
+  <parameter name="baseAddress" value="0x00040840" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6173,7 +6226,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_8.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e30" />
+  <parameter name="baseAddress" value="0x00040830" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6182,7 +6235,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_9.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e20" />
+  <parameter name="baseAddress" value="0x00040820" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6191,7 +6244,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_10.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e10" />
+  <parameter name="baseAddress" value="0x00040810" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6200,7 +6253,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_11.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040e00" />
+  <parameter name="baseAddress" value="0x00040800" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6209,7 +6262,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_12.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040df0" />
+  <parameter name="baseAddress" value="0x000407f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6218,7 +6271,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_13.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040de0" />
+  <parameter name="baseAddress" value="0x000407e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6227,7 +6280,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_14.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040dd0" />
+  <parameter name="baseAddress" value="0x000407d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6236,7 +6289,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_15.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040dc0" />
+  <parameter name="baseAddress" value="0x000407c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6245,7 +6298,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_16.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040db0" />
+  <parameter name="baseAddress" value="0x000407b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6254,7 +6307,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_17.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040da0" />
+  <parameter name="baseAddress" value="0x000407a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6263,7 +6316,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_18.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d90" />
+  <parameter name="baseAddress" value="0x00040790" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6272,7 +6325,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_19.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d80" />
+  <parameter name="baseAddress" value="0x00040780" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6281,7 +6334,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_20.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d70" />
+  <parameter name="baseAddress" value="0x00040770" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6290,7 +6343,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_21.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d60" />
+  <parameter name="baseAddress" value="0x00040760" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6299,7 +6352,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_22.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d50" />
+  <parameter name="baseAddress" value="0x00040750" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6308,7 +6361,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_23.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d40" />
+  <parameter name="baseAddress" value="0x00040740" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6317,7 +6370,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_24.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d30" />
+  <parameter name="baseAddress" value="0x00040730" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6326,7 +6379,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_25.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d20" />
+  <parameter name="baseAddress" value="0x00040720" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6335,7 +6388,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_26.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d10" />
+  <parameter name="baseAddress" value="0x00040710" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6344,7 +6397,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_27.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040d00" />
+  <parameter name="baseAddress" value="0x00040700" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6353,7 +6406,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_28.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040cf0" />
+  <parameter name="baseAddress" value="0x000406f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6362,7 +6415,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_29.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ce0" />
+  <parameter name="baseAddress" value="0x000406e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6371,7 +6424,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="chrom_seg_30.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040cd0" />
+  <parameter name="baseAddress" value="0x000406d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6380,7 +6433,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="start_processing_chrom.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040cc0" />
+  <parameter name="baseAddress" value="0x000406c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6389,7 +6442,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="done_processing_chrom.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040cb0" />
+  <parameter name="baseAddress" value="0x000406b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6398,7 +6451,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="ready_to_process.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ca0" />
+  <parameter name="baseAddress" value="0x000406a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6407,7 +6460,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="done_processing_feedback.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c90" />
+  <parameter name="baseAddress" value="0x00040690" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6416,7 +6469,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c80" />
+  <parameter name="baseAddress" value="0x00040680" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6425,7 +6478,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c70" />
+  <parameter name="baseAddress" value="0x00040670" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6434,7 +6487,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c60" />
+  <parameter name="baseAddress" value="0x00040660" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6443,7 +6496,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c50" />
+  <parameter name="baseAddress" value="0x00040650" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6452,7 +6505,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_4.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c40" />
+  <parameter name="baseAddress" value="0x00040640" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6461,7 +6514,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_5.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c30" />
+  <parameter name="baseAddress" value="0x00040630" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6470,7 +6523,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_6.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c20" />
+  <parameter name="baseAddress" value="0x00040620" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6479,7 +6532,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="error_sum_7.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c10" />
+  <parameter name="baseAddress" value="0x00040610" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6488,7 +6541,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040c00" />
+  <parameter name="baseAddress" value="0x00040600" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6497,7 +6550,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040bf0" />
+  <parameter name="baseAddress" value="0x000405f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6506,7 +6559,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040be0" />
+  <parameter name="baseAddress" value="0x000405e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6515,7 +6568,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040bd0" />
+  <parameter name="baseAddress" value="0x000405d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6524,7 +6577,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040bc0" />
+  <parameter name="baseAddress" value="0x000405c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6533,7 +6586,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040bb0" />
+  <parameter name="baseAddress" value="0x000405b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6542,7 +6595,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ba0" />
+  <parameter name="baseAddress" value="0x000405a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6551,7 +6604,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b90" />
+  <parameter name="baseAddress" value="0x00040590" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6560,7 +6613,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_0.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b80" />
+  <parameter name="baseAddress" value="0x00040580" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6569,7 +6622,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b70" />
+  <parameter name="baseAddress" value="0x00040570" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6578,7 +6631,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b60" />
+  <parameter name="baseAddress" value="0x00040560" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6587,7 +6640,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_3.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b50" />
+  <parameter name="baseAddress" value="0x00040550" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6596,7 +6649,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_4.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b40" />
+  <parameter name="baseAddress" value="0x00040540" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6605,7 +6658,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_4.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b30" />
+  <parameter name="baseAddress" value="0x00040530" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6614,7 +6667,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_4.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b20" />
+  <parameter name="baseAddress" value="0x00040520" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6623,7 +6676,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="sequences_to_process.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b10" />
+  <parameter name="baseAddress" value="0x00040510" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6632,7 +6685,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="two_port_mem.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="baseAddress" value="0x00020000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6641,7 +6694,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_5.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040b00" />
+  <parameter name="baseAddress" value="0x00040500" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6650,7 +6703,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_6.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040af0" />
+  <parameter name="baseAddress" value="0x000404f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6659,7 +6712,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_7.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ae0" />
+  <parameter name="baseAddress" value="0x000404e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6668,7 +6721,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_8.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ad0" />
+  <parameter name="baseAddress" value="0x000404d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6677,7 +6730,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_9.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ac0" />
+  <parameter name="baseAddress" value="0x000404c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6686,7 +6739,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_10.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040ab0" />
+  <parameter name="baseAddress" value="0x000404b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6695,7 +6748,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_11.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040aa0" />
+  <parameter name="baseAddress" value="0x000404a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6704,7 +6757,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_12.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a90" />
+  <parameter name="baseAddress" value="0x00040490" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6713,7 +6766,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_13.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a80" />
+  <parameter name="baseAddress" value="0x00040480" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6722,7 +6775,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_14.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a70" />
+  <parameter name="baseAddress" value="0x00040470" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6731,7 +6784,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_15.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a60" />
+  <parameter name="baseAddress" value="0x00040460" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6740,7 +6793,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_16.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a50" />
+  <parameter name="baseAddress" value="0x00040450" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6749,7 +6802,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_17.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a40" />
+  <parameter name="baseAddress" value="0x00040440" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6758,7 +6811,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_18.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a30" />
+  <parameter name="baseAddress" value="0x00040430" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6767,7 +6820,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_19.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a20" />
+  <parameter name="baseAddress" value="0x00040420" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6776,7 +6829,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_20.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a10" />
+  <parameter name="baseAddress" value="0x00040410" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6785,7 +6838,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_21.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040a00" />
+  <parameter name="baseAddress" value="0x00040400" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6794,7 +6847,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_22.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000409f0" />
+  <parameter name="baseAddress" value="0x000403f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6803,7 +6856,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_23.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000409e0" />
+  <parameter name="baseAddress" value="0x000403e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6812,7 +6865,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_24.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000409d0" />
+  <parameter name="baseAddress" value="0x000403d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6821,7 +6874,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_25.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000409c0" />
+  <parameter name="baseAddress" value="0x000403c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6830,7 +6883,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_26.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000409a0" />
+  <parameter name="baseAddress" value="0x000403b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6839,7 +6892,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_27.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040990" />
+  <parameter name="baseAddress" value="0x000403a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6848,7 +6901,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_28.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040980" />
+  <parameter name="baseAddress" value="0x00040390" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6857,7 +6910,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_29.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040970" />
+  <parameter name="baseAddress" value="0x00040380" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6866,7 +6919,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_30.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040960" />
+  <parameter name="baseAddress" value="0x00040370" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6875,7 +6928,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="valid_output_31.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040950" />
+  <parameter name="baseAddress" value="0x00040360" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6884,7 +6937,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_5.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040740" />
+  <parameter name="baseAddress" value="0x00040350" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6893,7 +6946,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_6.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040730" />
+  <parameter name="baseAddress" value="0x00040340" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6902,7 +6955,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_7.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040720" />
+  <parameter name="baseAddress" value="0x00040330" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6911,7 +6964,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_8.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040710" />
+  <parameter name="baseAddress" value="0x00040320" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6920,7 +6973,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_9.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040700" />
+  <parameter name="baseAddress" value="0x00040310" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6929,7 +6982,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_10.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000406f0" />
+  <parameter name="baseAddress" value="0x00040300" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6938,7 +6991,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_11.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000406e0" />
+  <parameter name="baseAddress" value="0x000402f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6947,7 +7000,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_12.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000406d0" />
+  <parameter name="baseAddress" value="0x000402e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6956,7 +7009,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_13.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000406c0" />
+  <parameter name="baseAddress" value="0x000402d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6965,7 +7018,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_14.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000406b0" />
+  <parameter name="baseAddress" value="0x000402c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6974,7 +7027,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_15.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000406a0" />
+  <parameter name="baseAddress" value="0x000402b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6983,7 +7036,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_16.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040690" />
+  <parameter name="baseAddress" value="0x000402a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -6992,7 +7045,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_17.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040680" />
+  <parameter name="baseAddress" value="0x00040290" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7001,7 +7054,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_18.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040670" />
+  <parameter name="baseAddress" value="0x00040280" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7010,7 +7063,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_19.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040660" />
+  <parameter name="baseAddress" value="0x00040270" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7019,7 +7072,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_20.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040650" />
+  <parameter name="baseAddress" value="0x00040260" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7028,7 +7081,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_21.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040640" />
+  <parameter name="baseAddress" value="0x00040250" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7037,7 +7090,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_22.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040630" />
+  <parameter name="baseAddress" value="0x00040240" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7046,7 +7099,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_23.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040620" />
+  <parameter name="baseAddress" value="0x00040230" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7055,7 +7108,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_24.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040610" />
+  <parameter name="baseAddress" value="0x00040220" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7064,7 +7117,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_25.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040600" />
+  <parameter name="baseAddress" value="0x00040210" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7073,7 +7126,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_26.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000405f0" />
+  <parameter name="baseAddress" value="0x00040200" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7082,7 +7135,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_27.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000405e0" />
+  <parameter name="baseAddress" value="0x000401f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7091,7 +7144,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_28.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000405d0" />
+  <parameter name="baseAddress" value="0x000401e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7100,7 +7153,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_29.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000405c0" />
+  <parameter name="baseAddress" value="0x000401d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7109,7 +7162,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_30.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000405b0" />
+  <parameter name="baseAddress" value="0x000401c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7118,7 +7171,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="input_sequence_31.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000405a0" />
+  <parameter name="baseAddress" value="0x000401b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7127,7 +7180,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_5.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000403a0" />
+  <parameter name="baseAddress" value="0x000401a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7136,7 +7189,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_6.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040390" />
+  <parameter name="baseAddress" value="0x00040190" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7145,7 +7198,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_7.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040380" />
+  <parameter name="baseAddress" value="0x00040180" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7154,7 +7207,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_8.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040370" />
+  <parameter name="baseAddress" value="0x00040170" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7163,7 +7216,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_9.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040360" />
+  <parameter name="baseAddress" value="0x00040160" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7172,7 +7225,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_10.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040350" />
+  <parameter name="baseAddress" value="0x00040150" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7181,7 +7234,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_11.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040340" />
+  <parameter name="baseAddress" value="0x00040140" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7190,7 +7243,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_12.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040330" />
+  <parameter name="baseAddress" value="0x00040130" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7199,7 +7252,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_13.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040320" />
+  <parameter name="baseAddress" value="0x00040120" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7208,7 +7261,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_14.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040310" />
+  <parameter name="baseAddress" value="0x00040110" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7217,7 +7270,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_15.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040300" />
+  <parameter name="baseAddress" value="0x00040100" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7226,7 +7279,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_16.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000402f0" />
+  <parameter name="baseAddress" value="0x000400f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7235,7 +7288,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_17.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000402e0" />
+  <parameter name="baseAddress" value="0x000400e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7244,7 +7297,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_19.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000402d0" />
+  <parameter name="baseAddress" value="0x000400d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7253,7 +7306,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_20.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000402c0" />
+  <parameter name="baseAddress" value="0x000400c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7262,7 +7315,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_21.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000402b0" />
+  <parameter name="baseAddress" value="0x000400b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7271,7 +7324,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_22.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x000402a0" />
+  <parameter name="baseAddress" value="0x000400a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7280,7 +7333,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_23.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040290" />
+  <parameter name="baseAddress" value="0x00040090" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7289,7 +7342,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_24.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040280" />
+  <parameter name="baseAddress" value="0x00040080" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7298,7 +7351,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_25.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040270" />
+  <parameter name="baseAddress" value="0x00040070" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7307,7 +7360,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_26.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040260" />
+  <parameter name="baseAddress" value="0x00040060" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7316,7 +7369,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_27.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040250" />
+  <parameter name="baseAddress" value="0x00040050" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7325,7 +7378,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_28.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040240" />
+  <parameter name="baseAddress" value="0x00040040" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7334,7 +7387,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_29.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040230" />
+  <parameter name="baseAddress" value="0x00040030" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7343,7 +7396,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_30.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040220" />
+  <parameter name="baseAddress" value="0x00040020" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7352,7 +7405,7 @@
    start="hps_0.h2f_lw_axi_master"
    end="expected_output_31.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00040210" />
+  <parameter name="baseAddress" value="0x00040010" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -7362,6 +7415,15 @@
    end="expected_output_18.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00040000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="hps_0.h2f_lw_axi_master"
+   end="two_port_mem_correct.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="16.1" start="clk_0.clk" end="chrom_seg_0.clk" />
@@ -7909,7 +7971,17 @@
    start="clk_0.clk"
    end="expected_output_31.clk" />
  <connection kind="clock" version="16.1" start="clk_0.clk" end="two_port_mem.clk1" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="two_port_mem_correct.clk1" />
  <connection kind="clock" version="16.1" start="clk_0.clk" end="two_port_mem.clk2" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="two_port_mem_correct.clk2" />
  <connection
    kind="clock"
    version="16.1"
@@ -8634,7 +8706,17 @@
    kind="reset"
    version="16.1"
    start="hps_0.h2f_reset"
+   end="two_port_mem_correct.reset1" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
    end="two_port_mem.reset2" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="hps_0.h2f_reset"
+   end="two_port_mem_correct.reset2" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.enableEccProtection" value="FALSE" />
  <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />

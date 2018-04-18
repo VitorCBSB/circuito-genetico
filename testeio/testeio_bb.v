@@ -32,6 +32,13 @@ module testeio (
 	chrom_seg_8_export,
 	chrom_seg_9_export,
 	clk_clk,
+	correct_mem_s2_address,
+	correct_mem_s2_chipselect,
+	correct_mem_s2_clken,
+	correct_mem_s2_write,
+	correct_mem_s2_readdata,
+	correct_mem_s2_writedata,
+	correct_mem_s2_byteenable,
 	done_processing_chrom_export,
 	done_processing_feedback_export,
 	error_sum_0_export,
@@ -232,6 +239,13 @@ module testeio (
 	output	[31:0]	chrom_seg_8_export;
 	output	[31:0]	chrom_seg_9_export;
 	input		clk_clk;
+	input	[14:0]	correct_mem_s2_address;
+	input		correct_mem_s2_chipselect;
+	input		correct_mem_s2_clken;
+	input		correct_mem_s2_write;
+	output	[31:0]	correct_mem_s2_readdata;
+	input	[31:0]	correct_mem_s2_writedata;
+	input	[3:0]	correct_mem_s2_byteenable;
 	input		done_processing_chrom_export;
 	output		done_processing_feedback_export;
 	input	[31:0]	error_sum_0_export;
@@ -340,7 +354,7 @@ module testeio (
 	output	[31:0]	input_sequence_7_export;
 	output	[31:0]	input_sequence_8_export;
 	output	[31:0]	input_sequence_9_export;
-	input	[15:0]	mem_s2_address;
+	input	[14:0]	mem_s2_address;
 	input		mem_s2_chipselect;
 	input		mem_s2_clken;
 	input		mem_s2_write;

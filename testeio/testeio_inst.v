@@ -31,6 +31,13 @@
 		.chrom_seg_8_export              (<connected-to-chrom_seg_8_export>),              //              chrom_seg_8.export
 		.chrom_seg_9_export              (<connected-to-chrom_seg_9_export>),              //              chrom_seg_9.export
 		.clk_clk                         (<connected-to-clk_clk>),                         //                      clk.clk
+		.correct_mem_s2_address          (<connected-to-correct_mem_s2_address>),          //           correct_mem_s2.address
+		.correct_mem_s2_chipselect       (<connected-to-correct_mem_s2_chipselect>),       //                         .chipselect
+		.correct_mem_s2_clken            (<connected-to-correct_mem_s2_clken>),            //                         .clken
+		.correct_mem_s2_write            (<connected-to-correct_mem_s2_write>),            //                         .write
+		.correct_mem_s2_readdata         (<connected-to-correct_mem_s2_readdata>),         //                         .readdata
+		.correct_mem_s2_writedata        (<connected-to-correct_mem_s2_writedata>),        //                         .writedata
+		.correct_mem_s2_byteenable       (<connected-to-correct_mem_s2_byteenable>),       //                         .byteenable
 		.done_processing_chrom_export    (<connected-to-done_processing_chrom_export>),    //    done_processing_chrom.export
 		.done_processing_feedback_export (<connected-to-done_processing_feedback_export>), // done_processing_feedback.export
 		.error_sum_0_export              (<connected-to-error_sum_0_export>),              //              error_sum_0.export

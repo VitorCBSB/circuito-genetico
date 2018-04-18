@@ -1,33 +1,32 @@
 module chromosomeProcessingStateMachine
 	( input wire iClock
 	, input wire [991:0] iConcatedChromDescription
-	, input wire [15:0][7:0] iInputSequence
-	, input wire [15:0][7:0] iExpectedOutput
-	, input wire [15:0][7:0] iValidOutput
+	, input wire [127:0][7:0] iInputSequence
+	, input wire [127:0][7:0] iExpectedOutput
+	, input wire [127:0][7:0] iValidOutput
 	, input wire [7:0] iHardCodedInput
 	, input wire iUseHardcodedInput
-	, input wire iHardStore
 	, input wire [1:0] iClockChangeCyclesSelector
 	, input wire [7:0] iSequencesToProcess
 	
 	// State machine control
 	, input wire iStartProcessing
 	, input wire iDoneProcessingFeedback
-	, input wire iStall
 	, output wire oReadyToProcess
 	, output wire oDoneProcessing
 	
 	, output wire [31:0] oChromOutput
 	, output wire [7:0][31:0] oErrorSums
 	, output wire [2:0] oState
+	
+	, output wire [31:0] oMemContentToWrite
+	, output wire [14:0] oMemAddr
+	, output wire [14:0] oCorrectMemAddr
+	, output wire oWriteToMem
+	, output wire oWriteToCorrectMem
 	);
 	
-	parameter IDLE = 3'b000, 
-				 PROCESSING = 3'b001, 
-				 DONE = 3'b010, 
-				 STALLED = 3'b011,
-				 INPUT_WAIT = 3'b100,
-				 ZEROING_VRC = 3'b101;
+   `include "parameters.sv"
 	
 	parameter CYCLES_TO_IGNORE = 5;
 	
@@ -35,12 +34,12 @@ module chromosomeProcessingStateMachine
     
    reg [31:0] clockCycleCounter = 0;
    reg [7:0] currentInput = 8'b0;
-	reg [15:0] currentAddress = 0;
 	reg [7:0] currentInputFromSequence = 0;
 	reg [7:0][31:0] currentErrorSums;
 	reg [7:0][31:0] currentSamplingSum;
+	reg [14:0] currentMemAddress;
+	reg [14:0] currentCorrectMemAddress;
    
-	wire writeToMemory;
 	wire [7:0] inputToUse;
 	integer clockChangeCycles;
 	integer finalClockCycle;
@@ -60,6 +59,20 @@ assign oState = currentState;
 
 assign oErrorSums = currentErrorSums;
 
+assign oWriteToMem = currentState == PROCESSING;
+
+assign oWriteToCorrectMem = currentState == TRANSFER;
+
+assign oMemAddr = currentMemAddress;
+
+assign oCorrectMemAddr = currentCorrectMemAddress;
+
+assign oMemContentToWrite = { inputToUse
+									 , currentInput
+									 , iExpectedOutput[currentInput]
+									 , chromosomeOutput[7:0] 
+									 };
+
 assign clockChangeCycles = 
 		iClockChangeCyclesSelector == 2'b00 ? 100 :
 		iClockChangeCyclesSelector == 2'b01 ? 500 :
@@ -68,14 +81,15 @@ assign clockChangeCycles =
 
 assign finalClockCycle = clockChangeCycles - 1;
 
-assign writeToMemory = currentState == PROCESSING || iHardStore;
-
 always@ (posedge iClock) begin
 	currentInput <= currentInput;
 	clockCycleCounter <= clockCycleCounter;
 	currentState <= currentState;
 	currentInputFromSequence <= iInputSequence[currentInput];
 	currentErrorSums <= currentErrorSums;
+	currentMemAddress <= currentMemAddress;
+	currentCorrectMemAddress <= currentMemAddress; // lags behind memAddr by 1.
+	
 	case (currentState)
 	IDLE: begin
 		if (iStartProcessing) begin
@@ -104,16 +118,13 @@ always@ (posedge iClock) begin
 		currentSamplingSum[5] <= 0;
 		currentSamplingSum[6] <= 0;
 		currentSamplingSum[7] <= 0;
+		currentMemAddress <= 15'b0;
 		currentState <= PROCESSING;
 	end
 	PROCESSING: begin
 		if (clockCycleCounter >= finalClockCycle) begin
 			if (currentInput >= iSequencesToProcess) begin
-				if (iStall) begin
-					currentState <= STALLED;
-				end else begin
-					currentState <= DONE;
-				end
+				currentState <= CHECK_TRANSFER;
 			end else begin
 				currentInput <= currentInput + 8'b1;
 				currentState <= INPUT_WAIT;
@@ -126,7 +137,9 @@ always@ (posedge iClock) begin
 			currentErrorSums[4] = currentErrorSums[4] + (currentSamplingSum[4] > 0);
 			currentErrorSums[5] = currentErrorSums[5] + (currentSamplingSum[5] > 0);
 			currentErrorSums[6] = currentErrorSums[6] + (currentSamplingSum[6] > 0);
-			currentErrorSums[7] = currentErrorSums[7] + (currentSamplingSum[7] > 0); 
+			currentErrorSums[7] = currentErrorSums[7] + (currentSamplingSum[7] > 0);
+			
+			currentMemAddress <= currentMemAddress + 15'b1;
 		end else begin
 			clockCycleCounter <= clockCycleCounter + 1;
 		end
@@ -142,8 +155,29 @@ always@ (posedge iClock) begin
 			currentSamplingSum[7] = currentSamplingSum[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInput][7]) && iValidOutput[currentInput][7]); 
 		end
 	end
-	STALLED: begin
-		if (!iStall) begin
+	SETUP_TRANSFER: begin
+		currentState <= TRANSFER;
+		currentMemAddress <= currentMemAddress + 15'b1;
+	end
+	TRANSFER: begin
+		if (currentCorrectMemAddress == 15'h7FFF) begin
+			currentState <= DONE;
+		end else begin
+			currentMemAddress <= currentMemAddress + 15'b1;
+		end
+	end
+	CHECK_TRANSFER: begin
+		if ((currentErrorSums[0]
+			+ currentErrorSums[1]
+			+ currentErrorSums[2]
+			+ currentErrorSums[3]
+			+ currentErrorSums[4]
+			+ currentErrorSums[5]
+			+ currentErrorSums[6]
+			+ currentErrorSums[7]) == 31'b0) begin
+			currentMemAddress <= 15'b0;
+			currentState <= SETUP_TRANSFER;
+		end else begin
 			currentState <= DONE;
 		end
 	end
@@ -154,12 +188,6 @@ always@ (posedge iClock) begin
 	end
 	endcase
 	
-	currentAddress <= currentAddress;
-	if (writeToMemory) begin
-		currentAddress <= currentAddress + 16'b1;
-	end else if (currentState != STALLED && currentState != INPUT_WAIT) begin
-		currentAddress <= 16'b0;
-	end
 end
 
 assign inputToUse = iUseHardcodedInput ? iHardCodedInput : { currentInputFromSequence };
