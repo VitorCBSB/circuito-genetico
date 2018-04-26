@@ -42,7 +42,6 @@ module chromosomeProcessingStateMachine
    
 	wire [7:0] inputToUse;
 	integer clockChangeCycles;
-	integer finalClockCycle;
 
 	wire [31:0] chromosomeOutput;
 	wire [991:0] chromDesc;
@@ -79,8 +78,6 @@ assign clockChangeCycles =
 		iClockChangeCyclesSelector == 2'b10 ? 1000 :
 		2000;
 
-assign finalClockCycle = clockChangeCycles - 1;
-
 always@ (posedge iClock) begin
 	currentInput <= currentInput;
 	clockCycleCounter <= clockCycleCounter;
@@ -106,6 +103,7 @@ always@ (posedge iClock) begin
 		end
 	end
 	ZEROING_VRC: begin
+		currentMemAddress <= 15'b0;
 		currentState <= INPUT_WAIT;
 	end
 	INPUT_WAIT: begin
@@ -118,12 +116,11 @@ always@ (posedge iClock) begin
 		currentSamplingSum[5] <= 0;
 		currentSamplingSum[6] <= 0;
 		currentSamplingSum[7] <= 0;
-		currentMemAddress <= 15'b0;
 		currentState <= PROCESSING;
 	end
 	PROCESSING: begin
-		if (clockCycleCounter >= finalClockCycle) begin
-			if (currentInput >= iSequencesToProcess) begin
+		if (clockCycleCounter >= (clockChangeCycles - 1)) begin
+			if (currentInput >= (iSequencesToProcess - 1)) begin
 				currentState <= CHECK_TRANSFER;
 			end else begin
 				currentInput <= currentInput + 8'b1;
@@ -138,8 +135,6 @@ always@ (posedge iClock) begin
 			currentErrorSums[5] = currentErrorSums[5] + (currentSamplingSum[5] > 0);
 			currentErrorSums[6] = currentErrorSums[6] + (currentSamplingSum[6] > 0);
 			currentErrorSums[7] = currentErrorSums[7] + (currentSamplingSum[7] > 0);
-			
-			currentMemAddress <= currentMemAddress + 15'b1;
 		end else begin
 			clockCycleCounter <= clockCycleCounter + 1;
 		end
@@ -154,6 +149,7 @@ always@ (posedge iClock) begin
 			currentSamplingSum[6] = currentSamplingSum[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInput][6]) && iValidOutput[currentInput][6]);
 			currentSamplingSum[7] = currentSamplingSum[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInput][7]) && iValidOutput[currentInput][7]); 
 		end
+		currentMemAddress <= currentMemAddress + 15'b1;
 	end
 	SETUP_TRANSFER: begin
 		currentState <= TRANSFER;

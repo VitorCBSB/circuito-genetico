@@ -44,8 +44,6 @@ module top(
 	output wire HPS_USB_STP
 );
 
-`include "parameters.sv"
-
 wire [31:0] rawChromInput[30:0];
 wire [991:0] concatedChromInput;
 wire [7:0][31:0] errorSumOutput;
