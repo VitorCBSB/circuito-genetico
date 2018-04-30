@@ -57,24 +57,8 @@ module testeio (
 	expected_output_13_export,
 	expected_output_14_export,
 	expected_output_15_export,
-	expected_output_16_export,
-	expected_output_17_export,
-	expected_output_18_export,
-	expected_output_19_export,
 	expected_output_2_export,
-	expected_output_20_export,
-	expected_output_21_export,
-	expected_output_22_export,
-	expected_output_23_export,
-	expected_output_24_export,
-	expected_output_25_export,
-	expected_output_26_export,
-	expected_output_27_export,
-	expected_output_28_export,
-	expected_output_29_export,
 	expected_output_3_export,
-	expected_output_30_export,
-	expected_output_31_export,
 	expected_output_4_export,
 	expected_output_5_export,
 	expected_output_6_export,
@@ -123,24 +107,8 @@ module testeio (
 	input_sequence_13_export,
 	input_sequence_14_export,
 	input_sequence_15_export,
-	input_sequence_16_export,
-	input_sequence_17_export,
-	input_sequence_18_export,
-	input_sequence_19_export,
 	input_sequence_2_export,
-	input_sequence_20_export,
-	input_sequence_21_export,
-	input_sequence_22_export,
-	input_sequence_23_export,
-	input_sequence_24_export,
-	input_sequence_25_export,
-	input_sequence_26_export,
-	input_sequence_27_export,
-	input_sequence_28_export,
-	input_sequence_29_export,
 	input_sequence_3_export,
-	input_sequence_30_export,
-	input_sequence_31_export,
 	input_sequence_4_export,
 	input_sequence_5_export,
 	input_sequence_6_export,
@@ -182,24 +150,8 @@ module testeio (
 	valid_output_13_export,
 	valid_output_14_export,
 	valid_output_15_export,
-	valid_output_16_export,
-	valid_output_17_export,
-	valid_output_18_export,
-	valid_output_19_export,
 	valid_output_2_export,
-	valid_output_20_export,
-	valid_output_21_export,
-	valid_output_22_export,
-	valid_output_23_export,
-	valid_output_24_export,
-	valid_output_25_export,
-	valid_output_26_export,
-	valid_output_27_export,
-	valid_output_28_export,
-	valid_output_29_export,
 	valid_output_3_export,
-	valid_output_30_export,
-	valid_output_31_export,
 	valid_output_4_export,
 	valid_output_5_export,
 	valid_output_6_export,
@@ -264,24 +216,8 @@ module testeio (
 	output	[31:0]	expected_output_13_export;
 	output	[31:0]	expected_output_14_export;
 	output	[31:0]	expected_output_15_export;
-	output	[31:0]	expected_output_16_export;
-	output	[31:0]	expected_output_17_export;
-	output	[31:0]	expected_output_18_export;
-	output	[31:0]	expected_output_19_export;
 	output	[31:0]	expected_output_2_export;
-	output	[31:0]	expected_output_20_export;
-	output	[31:0]	expected_output_21_export;
-	output	[31:0]	expected_output_22_export;
-	output	[31:0]	expected_output_23_export;
-	output	[31:0]	expected_output_24_export;
-	output	[31:0]	expected_output_25_export;
-	output	[31:0]	expected_output_26_export;
-	output	[31:0]	expected_output_27_export;
-	output	[31:0]	expected_output_28_export;
-	output	[31:0]	expected_output_29_export;
 	output	[31:0]	expected_output_3_export;
-	output	[31:0]	expected_output_30_export;
-	output	[31:0]	expected_output_31_export;
 	output	[31:0]	expected_output_4_export;
 	output	[31:0]	expected_output_5_export;
 	output	[31:0]	expected_output_6_export;
@@ -330,24 +266,8 @@ module testeio (
 	output	[31:0]	input_sequence_13_export;
 	output	[31:0]	input_sequence_14_export;
 	output	[31:0]	input_sequence_15_export;
-	output	[31:0]	input_sequence_16_export;
-	output	[31:0]	input_sequence_17_export;
-	output	[31:0]	input_sequence_18_export;
-	output	[31:0]	input_sequence_19_export;
 	output	[31:0]	input_sequence_2_export;
-	output	[31:0]	input_sequence_20_export;
-	output	[31:0]	input_sequence_21_export;
-	output	[31:0]	input_sequence_22_export;
-	output	[31:0]	input_sequence_23_export;
-	output	[31:0]	input_sequence_24_export;
-	output	[31:0]	input_sequence_25_export;
-	output	[31:0]	input_sequence_26_export;
-	output	[31:0]	input_sequence_27_export;
-	output	[31:0]	input_sequence_28_export;
-	output	[31:0]	input_sequence_29_export;
 	output	[31:0]	input_sequence_3_export;
-	output	[31:0]	input_sequence_30_export;
-	output	[31:0]	input_sequence_31_export;
 	output	[31:0]	input_sequence_4_export;
 	output	[31:0]	input_sequence_5_export;
 	output	[31:0]	input_sequence_6_export;
@@ -389,24 +309,8 @@ module testeio (
 	output	[31:0]	valid_output_13_export;
 	output	[31:0]	valid_output_14_export;
 	output	[31:0]	valid_output_15_export;
-	output	[31:0]	valid_output_16_export;
-	output	[31:0]	valid_output_17_export;
-	output	[31:0]	valid_output_18_export;
-	output	[31:0]	valid_output_19_export;
 	output	[31:0]	valid_output_2_export;
-	output	[31:0]	valid_output_20_export;
-	output	[31:0]	valid_output_21_export;
-	output	[31:0]	valid_output_22_export;
-	output	[31:0]	valid_output_23_export;
-	output	[31:0]	valid_output_24_export;
-	output	[31:0]	valid_output_25_export;
-	output	[31:0]	valid_output_26_export;
-	output	[31:0]	valid_output_27_export;
-	output	[31:0]	valid_output_28_export;
-	output	[31:0]	valid_output_29_export;
 	output	[31:0]	valid_output_3_export;
-	output	[31:0]	valid_output_30_export;
-	output	[31:0]	valid_output_31_export;
 	output	[31:0]	valid_output_4_export;
 	output	[31:0]	valid_output_5_export;
 	output	[31:0]	valid_output_6_export;

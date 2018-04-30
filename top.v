@@ -47,9 +47,9 @@ module top(
 wire [31:0] rawChromInput[30:0];
 wire [991:0] concatedChromInput;
 wire [7:0][31:0] errorSumOutput;
-wire [127:0][7:0] inputSequences;
-wire [127:0][7:0] expectedOutputs;
-wire [127:0][7:0] validOutputs;
+wire [63:0][7:0] inputSequences;
+wire [63:0][7:0] expectedOutputs;
+wire [63:0][7:0] validOutputs;
 wire [7:0] sequencesToProcess;
 wire [31:0] chromOutput;
 wire [15:0] chosenOutput;
@@ -216,22 +216,6 @@ testeio u0 (
 		  .input_sequence_13_export				({ inputSequences[55], inputSequences[54], inputSequences[53], inputSequences[52] }),
 		  .input_sequence_14_export				({ inputSequences[59], inputSequences[58], inputSequences[57], inputSequences[56] }),
 		  .input_sequence_15_export				({ inputSequences[63], inputSequences[62], inputSequences[61], inputSequences[60] }),
-		  .input_sequence_16_export				({ inputSequences[67], inputSequences[66], inputSequences[65], inputSequences[64] }),
-		  .input_sequence_17_export				({ inputSequences[71], inputSequences[70], inputSequences[69], inputSequences[68] }),
-		  .input_sequence_18_export				({ inputSequences[75], inputSequences[74], inputSequences[73], inputSequences[72] }),
-		  .input_sequence_19_export				({ inputSequences[79], inputSequences[78], inputSequences[77], inputSequences[76] }),
-		  .input_sequence_20_export				({ inputSequences[83], inputSequences[82], inputSequences[81], inputSequences[80] }),
-		  .input_sequence_21_export				({ inputSequences[87], inputSequences[86], inputSequences[85], inputSequences[84] }),
-		  .input_sequence_22_export				({ inputSequences[91], inputSequences[90], inputSequences[89], inputSequences[88] }),
-		  .input_sequence_23_export				({ inputSequences[95], inputSequences[94], inputSequences[93], inputSequences[92] }),
-		  .input_sequence_24_export				({ inputSequences[99], inputSequences[98], inputSequences[97], inputSequences[96] }),
-		  .input_sequence_25_export				({ inputSequences[103], inputSequences[102], inputSequences[101], inputSequences[100] }),
-		  .input_sequence_26_export				({ inputSequences[107], inputSequences[106], inputSequences[105], inputSequences[104] }),
-		  .input_sequence_27_export				({ inputSequences[111], inputSequences[110], inputSequences[109], inputSequences[108] }),
-		  .input_sequence_28_export				({ inputSequences[115], inputSequences[114], inputSequences[113], inputSequences[112] }),
-		  .input_sequence_29_export				({ inputSequences[119], inputSequences[118], inputSequences[117], inputSequences[116] }),
-		  .input_sequence_30_export				({ inputSequences[123], inputSequences[122], inputSequences[121], inputSequences[120] }),
-		  .input_sequence_31_export				({ inputSequences[127], inputSequences[126], inputSequences[125], inputSequences[124] }),
 		  .expected_output_0_export				({ expectedOutputs[3], expectedOutputs[2], expectedOutputs[1], expectedOutputs[0] }),
 		  .expected_output_1_export				({ expectedOutputs[7], expectedOutputs[6], expectedOutputs[5], expectedOutputs[4] }),
 		  .expected_output_2_export				({ expectedOutputs[11], expectedOutputs[10], expectedOutputs[9], expectedOutputs[8] }),
@@ -248,22 +232,6 @@ testeio u0 (
 		  .expected_output_13_export				({ expectedOutputs[55], expectedOutputs[54], expectedOutputs[53], expectedOutputs[52] }),
 		  .expected_output_14_export				({ expectedOutputs[59], expectedOutputs[58], expectedOutputs[57], expectedOutputs[56] }),
 		  .expected_output_15_export				({ expectedOutputs[63], expectedOutputs[62], expectedOutputs[61], expectedOutputs[60] }),
-		  .expected_output_16_export				({ expectedOutputs[67], expectedOutputs[66], expectedOutputs[65], expectedOutputs[64] }),
-		  .expected_output_17_export				({ expectedOutputs[71], expectedOutputs[70], expectedOutputs[69], expectedOutputs[68] }),
-		  .expected_output_18_export				({ expectedOutputs[75], expectedOutputs[74], expectedOutputs[73], expectedOutputs[72] }),
-		  .expected_output_19_export				({ expectedOutputs[79], expectedOutputs[78], expectedOutputs[77], expectedOutputs[76] }),
-		  .expected_output_20_export				({ expectedOutputs[83], expectedOutputs[82], expectedOutputs[81], expectedOutputs[80] }),
-		  .expected_output_21_export				({ expectedOutputs[87], expectedOutputs[86], expectedOutputs[85], expectedOutputs[84] }),
-		  .expected_output_22_export				({ expectedOutputs[91], expectedOutputs[90], expectedOutputs[89], expectedOutputs[88] }),
-		  .expected_output_23_export				({ expectedOutputs[95], expectedOutputs[94], expectedOutputs[93], expectedOutputs[92] }),
-		  .expected_output_24_export				({ expectedOutputs[99], expectedOutputs[98], expectedOutputs[97], expectedOutputs[96] }),
-		  .expected_output_25_export				({ expectedOutputs[103], expectedOutputs[102], expectedOutputs[101], expectedOutputs[100] }),
-		  .expected_output_26_export				({ expectedOutputs[107], expectedOutputs[106], expectedOutputs[105], expectedOutputs[104] }),
-		  .expected_output_27_export				({ expectedOutputs[111], expectedOutputs[110], expectedOutputs[109], expectedOutputs[108] }),
-		  .expected_output_28_export				({ expectedOutputs[115], expectedOutputs[114], expectedOutputs[113], expectedOutputs[112] }),
-		  .expected_output_29_export				({ expectedOutputs[119], expectedOutputs[118], expectedOutputs[117], expectedOutputs[116] }),
-		  .expected_output_30_export				({ expectedOutputs[123], expectedOutputs[122], expectedOutputs[121], expectedOutputs[120] }),
-		  .expected_output_31_export				({ expectedOutputs[127], expectedOutputs[126], expectedOutputs[125], expectedOutputs[124] }),
 		  .valid_output_0_export					({validOutputs[3], validOutputs[2], validOutputs[1], validOutputs[0] }),
 		  .valid_output_1_export					({validOutputs[7], validOutputs[6], validOutputs[5], validOutputs[4] }),
 		  .valid_output_2_export					({validOutputs[11], validOutputs[10], validOutputs[9], validOutputs[8] }),
@@ -280,22 +248,6 @@ testeio u0 (
 		  .valid_output_13_export					({validOutputs[55], validOutputs[54], validOutputs[53], validOutputs[52] }),
 		  .valid_output_14_export					({validOutputs[59], validOutputs[58], validOutputs[57], validOutputs[56] }),
 		  .valid_output_15_export					({validOutputs[63], validOutputs[62], validOutputs[61], validOutputs[60] }),
-		  .valid_output_16_export					({validOutputs[67], validOutputs[66], validOutputs[65], validOutputs[64] }),
-		  .valid_output_17_export					({validOutputs[71], validOutputs[70], validOutputs[69], validOutputs[68] }),
-		  .valid_output_18_export					({validOutputs[75], validOutputs[74], validOutputs[73], validOutputs[72] }),
-		  .valid_output_19_export					({validOutputs[79], validOutputs[78], validOutputs[77], validOutputs[76] }),
-		  .valid_output_20_export					({validOutputs[83], validOutputs[82], validOutputs[81], validOutputs[80] }),
-		  .valid_output_21_export					({validOutputs[87], validOutputs[86], validOutputs[85], validOutputs[84] }),
-		  .valid_output_22_export					({validOutputs[91], validOutputs[90], validOutputs[89], validOutputs[88] }),
-		  .valid_output_23_export					({validOutputs[95], validOutputs[94], validOutputs[93], validOutputs[92] }),
-		  .valid_output_24_export					({validOutputs[99], validOutputs[98], validOutputs[97], validOutputs[96] }),
-		  .valid_output_25_export					({validOutputs[103], validOutputs[102], validOutputs[101], validOutputs[100] }),
-		  .valid_output_26_export					({validOutputs[107], validOutputs[106], validOutputs[105], validOutputs[104] }),
-		  .valid_output_27_export					({validOutputs[111], validOutputs[110], validOutputs[109], validOutputs[108] }),
-		  .valid_output_28_export					({validOutputs[115], validOutputs[114], validOutputs[113], validOutputs[112] }),
-		  .valid_output_29_export					({validOutputs[119], validOutputs[118], validOutputs[117], validOutputs[116] }),
-		  .valid_output_30_export					({validOutputs[123], validOutputs[122], validOutputs[121], validOutputs[120] }),
-		  .valid_output_31_export					({validOutputs[127], validOutputs[126], validOutputs[125], validOutputs[124] }),
 		  .sequences_to_process_export         (sequencesToProcess),
 		  .start_processing_chrom_export       (startProcessingChrom),   // start_processing_chrom.export
         .done_processing_chrom_export        (doneProcessingChrom),     //  done_processing_chrom.export
