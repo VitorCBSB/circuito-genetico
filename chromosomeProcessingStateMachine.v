@@ -39,6 +39,7 @@ module chromosomeProcessingStateMachine
 	reg [7:0][31:0] currentSamplingSum;
 	reg [14:0] currentMemAddress;
 	reg [14:0] currentCorrectMemAddress;
+	integer currentRetry;
    
 	wire [7:0] inputToUse;
 	integer clockChangeCycles;
@@ -86,6 +87,7 @@ always@ (posedge iClock) begin
 	currentErrorSums <= currentErrorSums;
 	currentMemAddress <= currentMemAddress;
 	currentCorrectMemAddress <= currentMemAddress; // lags behind memAddr by 1.
+	currentRetry <= currentRetry;
 	
 	case (currentState)
 	IDLE: begin
@@ -100,6 +102,7 @@ always@ (posedge iClock) begin
 			currentErrorSums[6] <= 0;
 			currentErrorSums[7] <= 0;
 			currentState <= ZEROING_VRC;
+			currentRetry <= 0;
 		end
 	end
 	ZEROING_VRC: begin
@@ -171,8 +174,14 @@ always@ (posedge iClock) begin
 			+ currentErrorSums[5]
 			+ currentErrorSums[6]
 			+ currentErrorSums[7]) == 31'b0) begin
-			currentMemAddress <= 15'b0;
-			currentState <= SETUP_TRANSFER;
+			if (currentRetry >= NUM_RETRIES) begin
+				currentMemAddress <= 15'b0;
+				currentState <= SETUP_TRANSFER;
+			end else begin
+				currentRetry <= currentRetry + 1;
+				currentInput <= 0;
+				currentState <= ZEROING_VRC;
+			end
 		end else begin
 			currentState <= DONE;
 		end
