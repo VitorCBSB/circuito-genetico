@@ -28,22 +28,18 @@ module chromosomeProcessingStateMachine
 	
    `include "parameters.sv"
 	
-	parameter CYCLES_TO_IGNORE = 5;
-	
 	reg [2:0] currentState = IDLE;
     
    reg [31:0] clockCycleCounter = 0;
-   reg [7:0] currentInput = 8'b0;
-	reg [7:0] currentInputFromSequence = 0;
+   reg [7:0] currentInputIndex = 8'b0;
+	reg [7:0] currentInput = 0;
 	reg [7:0][31:0] currentErrorSums;
 	reg [7:0][31:0] currentSamplingSum;
 	reg [14:0] currentMemAddress;
 	reg [14:0] currentCorrectMemAddress;
 	integer currentRetry;
    
-	wire [7:0] inputToUse;
-	integer clockChangeCycles;
-
+	wire [31:0] clockChangeCycles;
 	wire [31:0] chromosomeOutput;
 	wire [991:0] chromDesc;
 
@@ -67,9 +63,9 @@ assign oMemAddr = currentMemAddress;
 
 assign oCorrectMemAddr = currentCorrectMemAddress;
 
-assign oMemContentToWrite = { inputToUse
-									 , currentInput
-									 , iExpectedOutput[currentInput]
+assign oMemContentToWrite = { currentInput
+									 , currentInputIndex
+									 , iExpectedOutput[currentInputIndex]
 									 , chromosomeOutput[7:0] 
 									 };
 
@@ -80,11 +76,12 @@ assign clockChangeCycles =
 		2000;
 
 always@ (posedge iClock) begin
-	currentInput <= currentInput;
+	currentInputIndex <= currentInputIndex;
 	clockCycleCounter <= clockCycleCounter;
 	currentState <= currentState;
-	currentInputFromSequence <= iInputSequence[currentInput];
+	currentInput <= iUseHardcodedInput ? iHardCodedInput : { iInputSequence[currentInputIndex] };
 	currentErrorSums <= currentErrorSums;
+	currentSamplingSum <= currentSamplingSum;
 	currentMemAddress <= currentMemAddress;
 	currentCorrectMemAddress <= currentMemAddress; // lags behind memAddr by 1.
 	currentRetry <= currentRetry;
@@ -92,7 +89,7 @@ always@ (posedge iClock) begin
 	case (currentState)
 	IDLE: begin
 		if (iStartProcessing) begin
-			currentInput <= 0;
+			currentInputIndex <= 0;
 			currentErrorSums[0] <= 0;
 			currentErrorSums[1] <= 0;
 			currentErrorSums[2] <= 0;
@@ -123,10 +120,10 @@ always@ (posedge iClock) begin
 	end
 	PROCESSING: begin
 		if (clockCycleCounter >= (clockChangeCycles - 1)) begin
-			if (currentInput >= (iSequencesToProcess - 1)) begin
+			if (currentInputIndex >= (iSequencesToProcess - 1)) begin
 				currentState <= CHECK_TRANSFER;
 			end else begin
-				currentInput <= currentInput + 8'b1;
+				currentInputIndex <= currentInputIndex + 8'b1;
 				currentState <= INPUT_WAIT;
 			end
 			
@@ -143,14 +140,14 @@ always@ (posedge iClock) begin
 		end
 		// Soma dos erros da saída do cromossomo
 		if (clockCycleCounter >= CYCLES_TO_IGNORE) begin
-			currentSamplingSum[0] = currentSamplingSum[0] + ((chromosomeOutput[0] ^ iExpectedOutput[currentInput][0]) && iValidOutput[currentInput][0]);
-			currentSamplingSum[1] = currentSamplingSum[1] + ((chromosomeOutput[1] ^ iExpectedOutput[currentInput][1]) && iValidOutput[currentInput][1]);
-			currentSamplingSum[2] = currentSamplingSum[2] + ((chromosomeOutput[2] ^ iExpectedOutput[currentInput][2]) && iValidOutput[currentInput][2]);
-			currentSamplingSum[3] = currentSamplingSum[3] + ((chromosomeOutput[3] ^ iExpectedOutput[currentInput][3]) && iValidOutput[currentInput][3]);
-			currentSamplingSum[4] = currentSamplingSum[4] + ((chromosomeOutput[4] ^ iExpectedOutput[currentInput][4]) && iValidOutput[currentInput][4]);
-			currentSamplingSum[5] = currentSamplingSum[5] + ((chromosomeOutput[5] ^ iExpectedOutput[currentInput][5]) && iValidOutput[currentInput][5]);
-			currentSamplingSum[6] = currentSamplingSum[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInput][6]) && iValidOutput[currentInput][6]);
-			currentSamplingSum[7] = currentSamplingSum[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInput][7]) && iValidOutput[currentInput][7]); 
+			currentSamplingSum[0] = currentSamplingSum[0] + ((chromosomeOutput[0] ^ iExpectedOutput[currentInputIndex][0]) && iValidOutput[currentInput][0]);
+			currentSamplingSum[1] = currentSamplingSum[1] + ((chromosomeOutput[1] ^ iExpectedOutput[currentInputIndex][1]) && iValidOutput[currentInput][1]);
+			currentSamplingSum[2] = currentSamplingSum[2] + ((chromosomeOutput[2] ^ iExpectedOutput[currentInputIndex][2]) && iValidOutput[currentInput][2]);
+			currentSamplingSum[3] = currentSamplingSum[3] + ((chromosomeOutput[3] ^ iExpectedOutput[currentInputIndex][3]) && iValidOutput[currentInput][3]);
+			currentSamplingSum[4] = currentSamplingSum[4] + ((chromosomeOutput[4] ^ iExpectedOutput[currentInputIndex][4]) && iValidOutput[currentInput][4]);
+			currentSamplingSum[5] = currentSamplingSum[5] + ((chromosomeOutput[5] ^ iExpectedOutput[currentInputIndex][5]) && iValidOutput[currentInput][5]);
+			currentSamplingSum[6] = currentSamplingSum[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInputIndex][6]) && iValidOutput[currentInput][6]);
+			currentSamplingSum[7] = currentSamplingSum[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInputIndex][7]) && iValidOutput[currentInput][7]); 
 		end
 		currentMemAddress <= currentMemAddress + 15'b1;
 	end
@@ -179,8 +176,9 @@ always@ (posedge iClock) begin
 				currentState <= SETUP_TRANSFER;
 			end else begin
 				currentRetry <= currentRetry + 1;
-				currentInput <= 0;
-				currentState <= ZEROING_VRC;
+				currentMemAddress <= 15'b0;
+				currentInputIndex <= 0;
+				currentState <= INPUT_WAIT;
 			end
 		end else begin
 			currentState <= DONE;
@@ -195,12 +193,11 @@ always@ (posedge iClock) begin
 	
 end
 
-assign inputToUse = iUseHardcodedInput ? iHardCodedInput : { currentInputFromSequence };
 assign chromDesc = currentState == ZEROING_VRC ? 992'b0 : iConcatedChromDescription;
 
 fenotipo fenotipo 
 	( .cromossomo(chromDesc)
-	, .chromIn(inputToUse)
+	, .chromIn(currentInput)
 	, .chromOut(chromosomeOutput)
 	);
 

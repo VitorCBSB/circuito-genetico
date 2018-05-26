@@ -11,4 +11,7 @@ parameter TRANSFER_ST_IDLE = 2'b00,
 			 TRANSFER_ST_SETUP = 2'b01,
 			 TRANSFER_ST_TRANSFER = 2'b10;
 			 
-parameter NUM_RETRIES = 10;
+parameter NUM_RETRIES = 10000;
+
+parameter CYCLES_TO_IGNORE = 5;
+
