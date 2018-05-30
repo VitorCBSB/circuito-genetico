@@ -79,7 +79,7 @@ always@ (posedge iClock) begin
 	currentInputIndex <= currentInputIndex;
 	clockCycleCounter <= clockCycleCounter;
 	currentState <= currentState;
-	currentInput <= iUseHardcodedInput ? iHardCodedInput : { iInputSequence[currentInputIndex] };
+	currentInput <= iUseHardcodedInput ? iHardCodedInput : iInputSequence[currentInputIndex];
 	currentErrorSums <= currentErrorSums;
 	currentSamplingSum <= currentSamplingSum;
 	currentMemAddress <= currentMemAddress;
@@ -136,19 +136,20 @@ always@ (posedge iClock) begin
 			currentErrorSums[6] = currentErrorSums[6] + (currentSamplingSum[6] > 0);
 			currentErrorSums[7] = currentErrorSums[7] + (currentSamplingSum[7] > 0);
 		end else begin
+			// Soma dos erros da saída do cromossomo
+			if (clockCycleCounter >= CYCLES_TO_IGNORE) begin
+				currentSamplingSum[0] = currentSamplingSum[0] + ((chromosomeOutput[0] ^ iExpectedOutput[currentInputIndex][0]) && iValidOutput[currentInput][0]);
+				currentSamplingSum[1] = currentSamplingSum[1] + ((chromosomeOutput[1] ^ iExpectedOutput[currentInputIndex][1]) && iValidOutput[currentInput][1]);
+				currentSamplingSum[2] = currentSamplingSum[2] + ((chromosomeOutput[2] ^ iExpectedOutput[currentInputIndex][2]) && iValidOutput[currentInput][2]);
+				currentSamplingSum[3] = currentSamplingSum[3] + ((chromosomeOutput[3] ^ iExpectedOutput[currentInputIndex][3]) && iValidOutput[currentInput][3]);
+				currentSamplingSum[4] = currentSamplingSum[4] + ((chromosomeOutput[4] ^ iExpectedOutput[currentInputIndex][4]) && iValidOutput[currentInput][4]);
+				currentSamplingSum[5] = currentSamplingSum[5] + ((chromosomeOutput[5] ^ iExpectedOutput[currentInputIndex][5]) && iValidOutput[currentInput][5]);
+				currentSamplingSum[6] = currentSamplingSum[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInputIndex][6]) && iValidOutput[currentInput][6]);
+				currentSamplingSum[7] = currentSamplingSum[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInputIndex][7]) && iValidOutput[currentInput][7]); 
+			end
 			clockCycleCounter <= clockCycleCounter + 1;
 		end
-		// Soma dos erros da saída do cromossomo
-		if (clockCycleCounter >= CYCLES_TO_IGNORE) begin
-			currentSamplingSum[0] = currentSamplingSum[0] + ((chromosomeOutput[0] ^ iExpectedOutput[currentInputIndex][0]) && iValidOutput[currentInput][0]);
-			currentSamplingSum[1] = currentSamplingSum[1] + ((chromosomeOutput[1] ^ iExpectedOutput[currentInputIndex][1]) && iValidOutput[currentInput][1]);
-			currentSamplingSum[2] = currentSamplingSum[2] + ((chromosomeOutput[2] ^ iExpectedOutput[currentInputIndex][2]) && iValidOutput[currentInput][2]);
-			currentSamplingSum[3] = currentSamplingSum[3] + ((chromosomeOutput[3] ^ iExpectedOutput[currentInputIndex][3]) && iValidOutput[currentInput][3]);
-			currentSamplingSum[4] = currentSamplingSum[4] + ((chromosomeOutput[4] ^ iExpectedOutput[currentInputIndex][4]) && iValidOutput[currentInput][4]);
-			currentSamplingSum[5] = currentSamplingSum[5] + ((chromosomeOutput[5] ^ iExpectedOutput[currentInputIndex][5]) && iValidOutput[currentInput][5]);
-			currentSamplingSum[6] = currentSamplingSum[6] + ((chromosomeOutput[6] ^ iExpectedOutput[currentInputIndex][6]) && iValidOutput[currentInput][6]);
-			currentSamplingSum[7] = currentSamplingSum[7] + ((chromosomeOutput[7] ^ iExpectedOutput[currentInputIndex][7]) && iValidOutput[currentInput][7]); 
-		end
+		
 		currentMemAddress <= currentMemAddress + 15'b1;
 	end
 	SETUP_TRANSFER: begin
