@@ -279,6 +279,8 @@ chromosomeProcessingStateMachine cpsm
 	, .iValidOutput(validOutputs)
 	, .iHardCodedInput(SW[7:0])
 	, .iUseHardcodedInput(SW[8])
+	, .iUseLastManualInput(SW[9])
+	, .iLastRepetitionManualInput(~KEY[0])
 	, .iClockChangeCyclesSelector(SW[7:6])
 	, .iSequencesToProcess(sequencesToProcess)
 	

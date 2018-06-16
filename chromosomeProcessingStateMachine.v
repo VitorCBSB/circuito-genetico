@@ -6,6 +6,8 @@ module chromosomeProcessingStateMachine
 	, input wire [63:0][7:0] iValidOutput
 	, input wire [7:0] iHardCodedInput
 	, input wire iUseHardcodedInput
+	, input wire iUseLastManualInput
+	, input wire iLastRepetitionManualInput
 	, input wire [1:0] iClockChangeCyclesSelector
 	, input wire [7:0] iSequencesToProcess
 	
@@ -37,6 +39,8 @@ module chromosomeProcessingStateMachine
 	reg [7:0][31:0] currentSamplingSum;
 	reg [14:0] currentMemAddress;
 	reg [14:0] currentCorrectMemAddress;
+	reg manual;
+	reg lastManualRepetitionInput;
 	integer currentRetry;
    
 	wire [31:0] clockChangeCycles;
@@ -85,6 +89,8 @@ always@ (posedge iClock) begin
 	currentMemAddress <= currentMemAddress;
 	currentCorrectMemAddress <= currentMemAddress; // lags behind memAddr by 1.
 	currentRetry <= currentRetry;
+	lastManualRepetitionInput <= iLastRepetitionManualInput;
+	manual <= manual;
 	
 	case (currentState)
 	IDLE: begin
@@ -100,6 +106,7 @@ always@ (posedge iClock) begin
 			currentErrorSums[7] <= 0;
 			currentState <= ZEROING_VRC;
 			currentRetry <= 0;
+			manual <= 0;
 		end
 	end
 	ZEROING_VRC: begin
@@ -107,16 +114,18 @@ always@ (posedge iClock) begin
 		currentState <= INPUT_WAIT;
 	end
 	INPUT_WAIT: begin
-		clockCycleCounter <= 0;
-		currentSamplingSum[0] <= 0;
-		currentSamplingSum[1] <= 0;
-		currentSamplingSum[2] <= 0;
-		currentSamplingSum[3] <= 0;
-		currentSamplingSum[4] <= 0;
-		currentSamplingSum[5] <= 0;
-		currentSamplingSum[6] <= 0;
-		currentSamplingSum[7] <= 0;
-		currentState <= PROCESSING;
+		if (~manual || iLastRepetitionManualInput == 1'b1 && lastManualRepetitionInput == 1'b0) begin
+			clockCycleCounter <= 0;
+			currentSamplingSum[0] <= 0;
+			currentSamplingSum[1] <= 0;
+			currentSamplingSum[2] <= 0;
+			currentSamplingSum[3] <= 0;
+			currentSamplingSum[4] <= 0;
+			currentSamplingSum[5] <= 0;
+			currentSamplingSum[6] <= 0;
+			currentSamplingSum[7] <= 0;
+			currentState <= PROCESSING;
+		end
 	end
 	PROCESSING: begin
 		if (clockCycleCounter >= (clockChangeCycles - 1)) begin
@@ -175,6 +184,12 @@ always@ (posedge iClock) begin
 			if (currentRetry >= NUM_RETRIES) begin
 				currentMemAddress <= 15'b0;
 				currentState <= SETUP_TRANSFER;
+			end else if (currentRetry >= NUM_RETRIES - 1 && iUseLastManualInput) begin
+				currentRetry <= currentRetry + 1;
+				currentMemAddress <= 15'b0;
+				currentInputIndex <= 0;
+				manual <= 1;
+				currentState <= INPUT_WAIT;
 			end else begin
 				currentRetry <= currentRetry + 1;
 				currentMemAddress <= 15'b0;
